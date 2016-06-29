@@ -1,0 +1,78 @@
+FAIR Principles Living Document (as of 29th June 2016)
+
+To be Findable:
+F1. (meta)data are assigned a globally unique and persistent identifier
+F2. data are described with rich metadata (defined by R1 below)
+F3. metadata clearly and explicitly include the identifier of the data it describes
+F4. (meta)data are registered or indexed in a searchable resource
+To be Accessible:
+A1.  (meta)data are retrievable by their identifier using a standardized communications protocol
+A1.1 the protocol is open, free, and universally implementable
+A1.2 the protocol allows for an authentication and authorization procedure, where necessary
+A2. metadata are accessible, even when the data are no longer available
+To be Interoperable:
+I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
+I2. (meta)data use vocabularies that follow FAIR principles
+I3. (meta)data include qualified references to other (meta)data
+To be Reusable:
+R1. meta(data) are richly described with  a plurality of accurate and relevant attributes
+R1.1. (meta)data are released with a clear and accessible data usage license
+R1.2. (meta)data are associated with detailed provenance
+R1.3. (meta)data meet domain-relevant community standards
+ 
+Rationale: 
+F1.
+F2.
+F3.  The reason for this sub-principle is to achieve 'symmetry' between the data and the metadata.  It should be possible to find the metadata for any given data item by doing a look-up of the identifier for that data item.  Therefore, the metadata must explicitly contain the identifier for the data it describes.
+F4.
+
+ 
+
+ 
+
+A1.
+
+ 
+
+A1.1
+
+ 
+
+A1.2 
+
+ 
+
+A2.
+
+ 
+
+ 
+
+I1.
+
+ 
+
+I2.  That the vocabularies used should be FAIR.  This is seemingly a circular reference; however it is intended to convey the idea that, if the terms you are using to describe your data/metadata are not themselves findable, accessible, and reusable, then the (meta)data you are describing with those terms cannot be FAIR either.
+
+ 
+
+I3.
+
+ 
+
+ 
+
+R1 "meta(data) are richly described with  a plurality of accurate and relevant attributes" We use the term "plurality" to convey that the author of the meta(data) should strive for generosity; they should use as many attributes as possible, and should not limit themselves to only attributes that would support a specific downstream usage. In fact, the author should not attempt to define the possible downstream usages, but rather should provide as many attributes as possible, beyond those required for their anticipated downstream use.
+
+ 
+
+R1.1  Usage licensing is an important issue, and there should be no ambiguity around the terms of re-use.  Certainly, if you introduce ambiguity by not providing a license, you might expect your data to not be reused (particularly by commercial entities).  When using one of the more standard licenses, achieving machine-readability is possible by referring to one of the licenses in http://purl.org/NET/rdflicense
+
+ 
+
+R1.2  Detailed provenance includes not only citation information, but also how the data/metadata was generated, using what algorithm (and version), on what data resources, what species, what platform, etc.  
+
+ 
+
+R1.3  Adhere to community standards.  In addition to adhering to the principle of rich metadata to support accurate reuse and citation, FAIR data also requires that you adhere to community standards - for example, Minimal Information models and/or formats.  These standards and formats are generally going to be well-tooled for your users, which simplifies re-use.  These standard data models may or may not include elements for rich metadata, as required by R1.2.  In cases where this metadata is not a part of the community standard/format, then these attributes should be included in the metadata.
+
