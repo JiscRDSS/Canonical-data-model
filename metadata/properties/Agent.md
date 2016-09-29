@@ -1,10 +1,10 @@
-##Agent
+#Agent
 
-##### Agent Name
-#####Agent identifier
-#####Agent identifier scheme
-#####Agent Role
-#####Agent affiliation
+* ####Agent Name
+* ####Agent identifier
+* ####Agent identifier scheme
+* ####Agent Role
+* ####Agent affiliation
 
 
 ###URI
