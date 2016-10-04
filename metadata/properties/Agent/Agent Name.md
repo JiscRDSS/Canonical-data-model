@@ -4,9 +4,11 @@
 
 ### Definition
 
-The given name of the Agent, be 
+The given name of the Agent.
 
 ### Value
+
+Text
 
 ### Format
 **String (255)**
@@ -17,7 +19,7 @@ The given name of the Agent, be
 
 ### Occurrence
 
-**1-n**
+1-*
 
 ### Example
 
@@ -29,7 +31,7 @@ Term | Schema
 -------------|--------------
 
 
-Comment
+### Comment
 
 Enter mappings by adding the equivalent term first, then a pipe |, then the schema or profile (including version) from which it has mapped e.g.
 
