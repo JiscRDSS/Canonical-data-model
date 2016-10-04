@@ -21,7 +21,11 @@ The given name of the Agent, be
 
 Example
 
-Mapping
+### Mapping
+
+Term | Schema
+-----|-------
+
 
 Comment
 
