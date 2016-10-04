@@ -19,16 +19,18 @@ The given name of the Agent, be
 
 **1-n**
 
-Example
+### Example
+
+Joanne Smith
 
 ### Mapping
 
 Term | Schema
------|-------
+-------------|--------------
 
 
 Comment
 
-Enter mappings by adding the equivalent term first, then a hyphen, then the schema or profile (including version) from which it has mapped e.g.
+Enter mappings by adding the equivalent term first, then a pipe |, then the schema or profile (including version) from which it has mapped e.g.
 
-AgentName - PREMIS 3.0
+AgentName | PREMIS 3.0
