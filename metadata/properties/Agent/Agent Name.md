@@ -1,26 +1,30 @@
 
-## Label
+### Label
 **Agent Name**
 
-## Definition
+### Definition
 
 The given name of the Agent, be 
 
-Value
+### Value
 
-Format
-String (255)
+### Format
+**String (255)**
 
-Obligation
+### Obligation
 
-MANDATORY
+**Mandatory**
 
-Occurrence
+### Occurrence
 
-1-n
+**1-n**
 
 Example
 
 Mapping
 
 Comment
+
+Enter mappings by adding the equivalent term first, then a hyphen, then the schema or profile (including version) from which it has mapped e.g.
+
+AgentName - PREMIS 3.0
