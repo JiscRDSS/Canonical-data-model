@@ -1,6 +1,6 @@
 #Agent
 
-* [Agent Name]
+* [Agent Name](https://github.com/jiscresearch/sharedService/blob/master/metadata/properties/Agent/Agent%20Name.md)
 * Agent identifier
 * Agent identifier scheme
 * Agent Role
