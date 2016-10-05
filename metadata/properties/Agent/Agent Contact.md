@@ -3,7 +3,7 @@
 
 * [Agent Contact Email](#Agent-Contact-Email)
 * [Agent Contact Address](#Agent-Contact-Address)
-* [Agent Contact Telephone](#Agent-Contact-Telephone)
+* [Agent Contact Telephone](https://github.com/jiscresearch/sharedService/blob/master/metadata/properties/Agent/Agent%20Contact.md#agent-contact-telephone)
 
 ##Agent Contact Email
 
