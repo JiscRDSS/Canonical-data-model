@@ -1,5 +1,4 @@
 
-### Label
 ## **Agent Name**
 
 ### Definition
