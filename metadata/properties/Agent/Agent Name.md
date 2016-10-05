@@ -18,7 +18,7 @@ Text
 
 ### Occurrence
 
-1-*
+**Non-repeatable**
 
 ### Example
 
