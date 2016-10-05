@@ -1,9 +1,9 @@
 
 # Agent Contact
 
-* [Agent Contact Email] (#Agent-Contact-Email)
-* [Agent Contact Address] (#Agent-Contact-Address)
-* [Agent Contact Telephone] (#Agent-Contact-Telephone)
+* [Agent Contact Email](#Agent-Contact-Email)
+* [Agent Contact Address](#Agent-Contact-Address)
+* [Agent Contact Telephone](#Agent-Contact-Telephone)
 
 ##Agent Contact Email
 
