@@ -1,19 +1,20 @@
 
-##Agent identifier scheme
+##Agent affiliation
 
 ###Description
-The scheme/domain to which the identifier belongs.
+Group, department, faculty or organisation to which the Agent is attached.
 ###Derivation
-
+CRIS (Pure)
 ###Obligation	
-Mandatory if Agent identifier is populated.
+Optional
 ###Occurence	
-Non-repeatable
+Repeatable
 ###Content	
 Text
-###Example / CV value
-ORCID
+###Example
+Department of Geography, University College London
 ###Min. Quality threshold
 CV lookup?
-###Populated from (Data Model)	
+
 ###Rating
+Gold
