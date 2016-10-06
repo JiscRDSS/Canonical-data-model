@@ -8,12 +8,19 @@
 ##Agent Contact Email
 
 ### Description
+Email address for the person named as Agent.
 ### Derivation
+Common.
 ### Obligation	
-### Occurence	
+Recommended
+### Occurence
+Non-repeatable
 ### Example	
+joanne.smith@institution.ac.uk
 ### Minimum Quality threshold	
+Valid email address
 ### Rating
+Bronze
 ### Mapping
 Term | Schema
 -------------|--------------
@@ -21,12 +28,22 @@ Term | Schema
 
 ##Agent Contact Address
 ### Description
+Address for person named as Agent
 ### Derivation
+Common.
 ### Obligation	
+Recommended
 ### Occurence	
-### Example	
+Non-repeatable
+### Example
+123 Acer Drive
+Town
+County
+AB1 2CD
 ### Minimum Quality threshold	
+Lookup(?) on House number / Postcode?
 ### Rating
+Bronze
 ### Mapping
 Term | Schema
 -------------|--------------
@@ -34,12 +51,19 @@ Term | Schema
 
 ##Agent Contact Telephone
 ### Description
+Telephone number(s) for Agent. 
 ### Derivation
-### Obligation	
+Common.
+### Obligation
+Recommended
 ### Occurence	
+Repeatable
 ### Example	
-### Minimum Quality threshold	
+01234 567890
+### Minimum Quality threshold
+Number string with dialling code?
 ### Rating
+Bronze
 ### Mapping
 Term | Schema
 -------------|--------------
