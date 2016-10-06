@@ -1,5 +1,5 @@
 
-#[Description](https://github.com/jiscresearch/sharedService/blob/master/metadata/properties/Description/description.md#title) (Rec)
+#[Description](#description) (Rec)
 #[Description type](#title-type) (O)
 
 ##Description
