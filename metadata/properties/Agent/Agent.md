@@ -20,5 +20,5 @@ Please note that Agent as expressed here is not equivlant to premis:Agent as use
 Mandatory
 
 ##Occurrence
-Non-repeatable
+Repeatable
 
