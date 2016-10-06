@@ -31,7 +31,7 @@ Mandatory.
 ###Occurence	
 Non-repeatable
 ###Content	
-Controlled Vocabulary
+[Controlled Vocabulary](#controlled-vocabulary-terms)
 ###Example / CV value
 ORCID
 ###Min. Quality threshold
