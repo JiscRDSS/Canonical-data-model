@@ -1,5 +1,5 @@
 #[Title](#title-1)
-#Title type
+#[Title type](#title-type-1)
 
 ##Title
 ###Description
@@ -31,7 +31,7 @@ Mandatory.
 ###Occurence	
 Non-repeatable
 ###Content	
-Text
+Controlled Vocabulary
 ###Example / CV value
 ORCID
 ###Min. Quality threshold
