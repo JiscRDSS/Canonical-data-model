@@ -1,6 +1,6 @@
 
 #[Description](#description) (Rec)
-#[Description type](#title-type) (O)
+#[Description type](#description-type) (O)
 
 ##Description
 
@@ -22,7 +22,7 @@ Word lookup
 Bronze
 
 
-##Decription type
+##Description type
 
 ###Description
 The type of description being given
