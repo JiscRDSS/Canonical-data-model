@@ -1,4 +1,4 @@
-#[Title](#title-1) (M)
+#[Title](#title) (M)
 #[Title type](#title-type) (O)
 
 ##Title
