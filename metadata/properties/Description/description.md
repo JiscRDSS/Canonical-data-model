@@ -1,8 +1,9 @@
 
-#[Description](#title-type) (Rec)
+#[Description](https://github.com/jiscresearch/sharedService/blob/master/metadata/properties/Description/description.md#title) (Rec)
 #[Description type](#title-type) (O)
 
-##Title
+##Description
+
 ###Description
 Text summary explaining the dataset / object.
 ###Derivation
