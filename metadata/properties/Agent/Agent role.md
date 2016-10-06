@@ -18,6 +18,5 @@ Validation list (dropdown?)
 
 ##Controlled Vocabulary Terms
 
-Role | Description 
-
----- | ----------- 
+Role | Description
+-----|------------
