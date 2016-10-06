@@ -1,5 +1,5 @@
 #[Title](#title-1) (M)
-#[Title type](#title-type-1) (O)
+#[Title type](#title-type) (O)
 
 ##Title
 ###Description
