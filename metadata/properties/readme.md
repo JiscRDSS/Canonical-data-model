@@ -1,4 +1,4 @@
-#This folder contains information about the various metadata fields named in the Data Model.
+##This folder contains information about the various metadata fields named in the Data Model.
 
 ##The format of this information is as follows:
 
@@ -16,6 +16,8 @@ A representative value for the field.
 The validation for the field content.
 ###Rating
 This is a special banding for the value of the the contribution of the field to the main metadata record.
+
+##*Controlled Vocabulary Terms*
 
 
 
