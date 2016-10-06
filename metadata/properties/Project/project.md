@@ -5,7 +5,13 @@
 ###Project name
 ###Project description
 ###Project data contact
-###Project funder (needs own page for split ID, name etc. from Rioxx)
+###Project funder (needs own page for split FunderID, name etc. from Rioxx)
+###Project start date
+###Project end date
+###Project call reference (i.e. funder code)
+###Bid deadline
+###Risk assessment
+###Project ethics review
 
 
 ##
