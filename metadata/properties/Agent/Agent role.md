@@ -18,6 +18,6 @@ Validation list (dropdown?)
 
 ##Controlled Vocabulary Terms
 
-Role | Description | Usage | Origin
+Role | Description 
 
----- | ----------- | ----- | ------
+---- | ----------- 
