@@ -3,8 +3,8 @@
 
 
 ###[Funder name](#funder-name-1)
-###Funder ID
-###Funder project ID
+###[Funder ID](#funder-id-1)
+###[Funder project ID](funder-project-id-1)
 
 ##Funder name
 
