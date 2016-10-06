@@ -17,3 +17,7 @@ Validation list (dropdown?)
 ###Rating
 
 ##Controlled Vocabulary Terms
+
+Role | Description | Usage | Origin
+
+--- | --- | --- | --- 
