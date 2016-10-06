@@ -10,14 +10,10 @@ Mandatory
 Repeatable
 ###Content
 Controlled Vocabulary 
-http:URI 
 ###Example / CV value
-
+ProjectLeader
 ###Min. Quality threshold	
-Resolvable URI
-###Populated from (Data Model)	
+Validation list (dropdown?)
 ###Rating
-
-
 
 ##Controlled Vocabulary Terms
