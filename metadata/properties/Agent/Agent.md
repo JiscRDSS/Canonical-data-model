@@ -4,7 +4,7 @@
 * Agent identifier
 * Agent identifier scheme
 * Agent Role
-* Agent affiliation
+* [Agent affiliation](https://github.com/jiscresearch/sharedService/blob/master/metadata/properties/Agent/Agent%20affiliation.md)
 * [Agent contact] (https://github.com/jiscresearch/sharedService/edit/master/metadata/properties/Agent/Agent%20Contact.md)
 
 ##Description
