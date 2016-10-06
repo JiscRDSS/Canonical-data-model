@@ -45,3 +45,10 @@ Gold
 
 Term | Origin
 -----|-------
+
+Main Title | Datacite
+Alternative Title | Datacite
+Subtitle | Datacite
+Translated Title | Datacite
+
+
