@@ -7,43 +7,12 @@
 * Agent affiliation
 * [Agent contact] (https://github.com/jiscresearch/sharedService/edit/master/metadata/properties/Agent/Agent%20Contact.md)
 
-Description
+##Description
 
 Agent is the collection of properties which define a person entity involved with the research project. These properties contain identifiers and require the definition of relationships between the agent and other entities.
 
+##Derivation
+Agent is a conflation of the creator and contributor fields from the Datacite schema. This, hopefully, removes the primacy of creation or authorship and allows any relationship (permitted in vocabulary) to be expressed between Agent and any other entity. 
 
-### Agent Name
-###URI
-
-###Label
-
-Definition
-
-Subproperty of
-
-
-A larger property or class to which the property belongs.
-Agents
-
-Equivalent propertyagentAffili
-
-These are where the values from other schema are entered.
-
-Domain
-
-Range
-
-Obligation
-
-Occurrence
-
-e.g. Required (Minimum: 1, Maximum: 1)
-
-Example
-
-A typical value as it would appear according to the
-
-An example of the
-
-CommentAgent
+Please note that Agent as expressed here is not equivlant to premis:Agent as used in the PREMIS schema.
 
