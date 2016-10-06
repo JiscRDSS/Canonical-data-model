@@ -3,7 +3,7 @@
 
 ##Title
 ###Description
-Identifier associated with agent.
+First title given to the entity.
 ###Derivation
 Datacite.
 ###Obligation	
@@ -11,19 +11,20 @@ Mandatory
 ###Occurence	
 Repeatable
 ###Content 
-http:URI 
-###Example / CV value
-http://orcid.org/0000-0001-5352-4666
+Text
+###Example
+Aerial survey data of Brent Knoll camp
+
 ###Min. Quality threshold	
-Resolvable URI
-###Populated from (Data Model)	
+Word lookup	
 ###Rating
+Bronze
 
 
 ##Title type
 
 ###Description
-The scheme/domain to which the identifier belongs.
+To specify additional titles associated with the dataset.
 ###Derivation
 Datacite
 ###Obligation	
@@ -32,12 +33,12 @@ Mandatory.
 Non-repeatable
 ###Content	
 [Controlled Vocabulary](#controlled-vocabulary-terms)
-###Example / CV value
-ORCID
+###CV value
+MainTitle
 ###Min. Quality threshold
-CV lookup?
-###Populated from (Data Model)	
+CV term used	
 ###Rating
+Gold
 
 
 ##Controlled Vocabulary Terms
