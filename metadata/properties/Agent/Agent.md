@@ -16,3 +16,9 @@ Agent is a conflation of the creator and contributor fields from the [Datacite](
 
 Please note that Agent as expressed here is not equivlant to premis:Agent as used in the [PREMIS](http://www.loc.gov/standards/premis/v3/) schema.
 
+##Obligation
+Mandatory
+
+##Occurrence
+Non-repeatable
+
