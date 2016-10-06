@@ -18,11 +18,9 @@ Validation list (dropdown?)
 
 ##Controlled Vocabulary Terms
 
-Role | Description | Usage | Origin
------|-------------|-------|-------
-ContactPerson | Person with knowledge of how to
-access, troubleshoot, or otherwise
-field issues related to the resource |
+Role | Origin
+-----|-------------
+ContactPerson | Datacite
 DataCollector |
 DataCurator
 DataManager
