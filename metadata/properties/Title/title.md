@@ -43,8 +43,8 @@ Gold
 
 ##Controlled Vocabulary Terms
 
-Term | Origin
------|-------
+Term title | Origin
+-----------|--------
 
 Main Title | Datacite
 Alternative Title | Datacite
