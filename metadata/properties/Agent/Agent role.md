@@ -8,6 +8,7 @@ Datacite.
 Mandatory
 ###Occurence	
 Repeatable
+###Content
 Controlled Vocabulary 
 http:URI 
 ###Example / CV value
@@ -19,4 +20,4 @@ Resolvable URI
 
 
 
-Controlled Vocabulary Terms
+##Controlled Vocabulary Terms
