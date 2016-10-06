@@ -7,48 +7,40 @@
 
 ##Agent Contact Email
 
-### Value
-
-Text
-
-### Format
-**String (255)**
-
+### Description
+### Derivation
+### Obligation	
+### Occurence	
+### Example	
+### Minimum Quality threshold	
+### Rating
 ### Mapping
-
 Term | Schema
 -------------|--------------
-
 ### Comment
 
 ##Agent Contact Address
-
-### Value
-
-Text
-
-### Format
-**String (255)**
-
+### Description
+### Derivation
+### Obligation	
+### Occurence	
+### Example	
+### Minimum Quality threshold	
+### Rating
 ### Mapping
-
 Term | Schema
 -------------|--------------
-
 ### Comment
 
 ##Agent Contact Telephone
-
-### Value
-
-Text
-
-### Format
-**String (255)**
-
+### Description
+### Derivation
+### Obligation	
+### Occurence	
+### Example	
+### Minimum Quality threshold	
+### Rating
 ### Mapping
-
 Term | Schema
 -------------|--------------
-
 ### Comment
