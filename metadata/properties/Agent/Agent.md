@@ -14,5 +14,5 @@ Agent is the collection of properties which define a person entity involved with
 ##Derivation
 Agent is a conflation of the creator and contributor fields from the Datacite schema. This, hopefully, removes the primacy of creation or authorship and allows any relationship (permitted in vocabulary) to be expressed between Agent and any other entity. 
 
-Please note that Agent as expressed here is not equivlant to premis:Agent as used in the PREMIS schema.
+Please note that Agent as expressed here is not equivlant to premis:Agent as used in the [PREMIS](http://www.loc.gov/standards/premis/v3/) schema.
 
