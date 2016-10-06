@@ -45,7 +45,6 @@ Gold
 
 Term title | Origin
 -------------------------|-----------
-
 Main Title | Datacite
 Alternative Title | Datacite
 Subtitle | Datacite
