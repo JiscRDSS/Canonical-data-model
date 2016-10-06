@@ -1,41 +1,40 @@
 
-#[Description](#title) (M)
+#[Description](#title-type) (Rec)
 #[Description type](#title-type) (O)
 
 ##Title
 ###Description
-First title given to the entity.
+Text summary explaining the dataset / object.
 ###Derivation
 Datacite.
 ###Obligation	
-Mandatory
+Recommended
 ###Occurence	
 Repeatable
 ###Content 
 Text
 ###Example
-Aerial survey data of Brent Knoll camp
-
+DJI Phantom 3 Standard with 2.7K Camera and 3-Axis Gimbal
 ###Min. Quality threshold	
 Word lookup	
 ###Rating
 Bronze
 
 
-##Title type
+##Decription type
 
 ###Description
-To specify additional titles associated with the dataset.
+The type of description being given
 ###Derivation
 Datacite
 ###Obligation	
-Mandatory.
+Optional
 ###Occurence	
 Non-repeatable
 ###Content	
 [Controlled Vocabulary](#controlled-vocabulary-terms)
 ###CV value
-MainTitle
+TechnicalInformation
 ###Min. Quality threshold
 CV term used	
 ###Rating
