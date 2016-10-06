@@ -21,22 +21,23 @@ Validation list (dropdown?)
 Role | Origin
 -----|-------------
 ContactPerson | Datacite
-DataCollector |
-DataCurator
-DataManager
-Distributor
-Editor
-HostingInstitution
-Producer
-ProjectLeader
-ProjectManager
-ProjectMember
-RegistrationAgency
-RegistrationAuthority
-RelatedPerson
-Researcher
-ResearchGroup
-RightsHolder
-Sponsor
-Supervisor
-WorkPackag
+DataCollector | Datacite
+DataCurator | Datacite
+DataManager | Datacite
+Distributor | Datacite
+Editor | Datacite
+HostingInstitution | Datacite
+Producer | Datacite
+ProjectLeader | Datacite
+ProjectManager | Datacite
+ProjectMember | Datacite
+RegistrationAgency | Datacite
+RegistrationAuthority | Datacite
+RelatedPerson | Datacite
+Researcher | Datacite
+ResearchGroup | Datacite
+RightsHolder | Datacite
+Sponsor | Datacite
+Supervisor | Datacite
+WorkPackageLeader | Datacite
+Other | Datacite
