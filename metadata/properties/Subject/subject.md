@@ -1,7 +1,7 @@
 #Subject
 
-###[Subject name](#subject-name)
-###[Subject scheme](#subject-scheme)
+###[Subject name](#subject-name-1)
+###[Subject scheme](#subject-scheme-1)
 ###Subject scheme identifier
 
 
