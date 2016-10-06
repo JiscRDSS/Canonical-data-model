@@ -1,8 +1,8 @@
 #Agent
 
 * [Agent Name](https://github.com/jiscresearch/sharedService/blob/master/metadata/properties/Agent/Agent%20Name.md)
-* Agent identifier
-* Agent identifier scheme
+* [Agent identifier](https://github.com/jiscresearch/sharedService/blob/master/metadata/properties/Agent/Agent%20Identifier.md)
+* [Agent identifier scheme](https://github.com/jiscresearch/sharedService/blob/master/metadata/properties/Agent/Agent%20Identifier.md#agent-identifier-scheme)
 * Agent Role
 * [Agent affiliation](https://github.com/jiscresearch/sharedService/blob/master/metadata/properties/Agent/Agent%20affiliation.md)
 * [Agent contact] (https://github.com/jiscresearch/sharedService/edit/master/metadata/properties/Agent/Agent%20Contact.md)
