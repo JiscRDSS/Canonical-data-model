@@ -9,7 +9,7 @@ Mandatory
 ###Occurence	
 Repeatable
 ###Content
-[Controlled Vocabulary](md#controlled-vocabulary-terms)
+[Controlled Vocabulary](#controlled-vocabulary-terms)
 ###Example / CV value
 ProjectLeader
 ###Min. Quality threshold	
