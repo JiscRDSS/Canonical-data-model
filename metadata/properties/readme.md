@@ -1,40 +1,21 @@
-# Property Tables
+#This folder contains information about the various metadata fields named in the Data Model.
 
+##The format of this information is as follows:
 
-
-URI
-
-Label
-
-Definition
-
-**Subproperty of**
-
-A larger property or class to which the property belongs.
-
-**Equivalent property**
-
-These are where the values from other schema are entered.
-
-Domain
-
-Range
-
-Obligation & Occurrence
- 
-e.g. Required (Minimum: 1, Maximum: 1)
- 
-
-Example
-
-A typical value as it would appear according to the 
- 
-An example of the 
- 
-
-Comment
-   
-
+###Description
+A brief outline of what the field is for.
+###Derivation
+If the field is derived from an existing schema, the source is named.
+###Obligation	
+The requirement that the field is present,
+###Occurence	
+Repeatability of the field.
+###Content	Example / CV value	
+A representative value for the field.
+###Min. Quality threshold	
+The validation for the field content.
+###Rating
+This is a special banding for the value of the the contribution of the field to the main metadata record.
 
 
 
