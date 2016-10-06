@@ -46,10 +46,11 @@ Gold
 
 Term title | Origin
 -------------------------|-----------
-Main Title | Datacite
-Alternative Title | Datacite
-Subtitle | Datacite
-Translated Title | Datacite
+Abstract | Datacite
+Methods | Datacite
+Series Information | Datacite
+Table of Contents | Datacite
+Technical Information | Datacite
 
 
 
