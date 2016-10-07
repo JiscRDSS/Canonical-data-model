@@ -5,6 +5,7 @@ Repeatable.
 
 ###[Funder name](#funder-name-1)
 ###[Funder ID](#funder-id-1)
+###[Funder type](#funder-type-1)
 ###[Funder project ID](#funder-project-id-1)
 
 ------------
@@ -50,6 +51,28 @@ http:URI
 http://dx.doi.org/10.13039/501100000266
 ###Min. Quality threshold	
 Resolvable URI	
+###Rating
+Silver
+
+------------
+
+##Funder type
+
+###Description
+A persistent identifier for funder.
+ 
+###Derivation
+Crossref
+###Obligation	
+ 
+###Occurence	
+ 
+###Content 
+Controlled vocabulary
+###Example / CV value
+ 
+###Min. Quality threshold	
+ 
 ###Rating
 Silver
 
