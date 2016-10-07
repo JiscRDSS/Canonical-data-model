@@ -1,5 +1,5 @@
 #Project funder 
-Repeatable
+Repeatable.
 
 ------------
 
