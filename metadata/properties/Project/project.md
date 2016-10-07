@@ -5,7 +5,7 @@
 ###Project name
 ###Project description
 ###Project data contact
-###Project funder (needs own page for split FunderID, name etc. from Rioxx)
+###[Project funder](https://github.com/jiscresearch/sharedService/blob/master/metadata/properties/Project/project%20funder.md)
 ###Project start date
 ###Project end date
 ###Project call reference (i.e. funder code)
