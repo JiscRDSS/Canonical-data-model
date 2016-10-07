@@ -1,4 +1,8 @@
 #File
+###Description
+Properties associated with files
+
+------------
 
 ###[File Name](#file-name-1)
 ###[File size](#file-size-1)
@@ -11,6 +15,8 @@
 ###[Date Modified](#date-modified-1) 
 ###[PUID](#puid-1)
 ###[File Use](#file-use-1)
+
+------------
 
 ##File Name
 ###Description
