@@ -16,10 +16,9 @@ xsd:string
 ###Example
 yul-269695.OBJ.pdf
 ###Mapping
-------------
-nfo:fileName
-premis:hasOriginalName
 
+nfo:fileName | premis:hasOriginalName
+------------
 
 ##File size 
 ###Description
