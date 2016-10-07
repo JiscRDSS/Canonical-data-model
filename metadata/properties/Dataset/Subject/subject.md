@@ -1,6 +1,7 @@
 #Subject
 
 ###[Subject name](#subject-name-1)
+###[Subject identifier](#subject-identifier-1)
 ###[Subject scheme](#subject-scheme-1)
 ###[Subject scheme identifier](h#subject-scheme-identifier-1)
 ###Obligation
@@ -19,8 +20,27 @@ Optional
 ###Occurence	
 Non-repeatable
 ###Content 
+text
+###Example
+History
+###Min. Quality threshold	
+ 	
+###Rating
+
+##Subject identifier
+
+###Description
  
-###Example / CV value
+###Derivation
+ 
+###Obligation	
+ 
+###Occurence	
+ 
+###Content 
+http:URI
+###Example
+http://id.loc.gov/authorities/subjects/sh85061212
  
 ###Min. Quality threshold	
  	
@@ -40,7 +60,7 @@ Non-repeatable
 ###Content 
  
 ###Example / CV value
- 
+Library of Congress subject headings
 ###Min. Quality threshold	
  	
 ###Rating
@@ -58,8 +78,8 @@ Non-repeatable
  
 ###Content 
  
-###Example / CV value
- 
+###Example
+http://id.loc.gov/authorities/subjects
 ###Min. Quality threshold	
  	
 ###Rating
