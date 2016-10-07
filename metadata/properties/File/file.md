@@ -1,6 +1,16 @@
 #File
 
 ###[File Name](#file-name-1)
+###[File size](#file-size-1)
+###[Label](#label-1)
+###[Date Created](#date-created-1)
+###[File Hash](#file-hash-1)
+###[MD5 checksum](#md5-cheksum-1)
+###[File Format Type](#file-format-type-1)
+###[Has Mime Type](#has-mime-type-1)  
+###[Date Modified](#date-modified-1) 
+###[PUID](#puid-1)
+###[File Use](#file-use-1)
 
 ##File Name
 ###Description
@@ -67,7 +77,7 @@ Optional
 ###Occurence	
 Non-repeatable
 ###Content 
-ISO8601
+ISO8601 dateTime
 ###Example
 2013-11-29T13:56:46-04:00
 
@@ -194,7 +204,7 @@ Optional
 Non-repeatable
 
 ###Content 
-ISO8601
+ISO8601 dateTime
 ###Example
 2013-11-29T13:56:46-04:00
 
