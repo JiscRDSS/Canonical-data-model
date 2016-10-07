@@ -9,9 +9,11 @@
 ##Funder name
 
 ###Description
+canonical name of funder
  
 ###Derivation
- 
+Rioxx
+
 ###Obligation	
  
 ###Occurence	
