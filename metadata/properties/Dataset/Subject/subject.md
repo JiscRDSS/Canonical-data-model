@@ -16,7 +16,7 @@ The term given to classify the object/dataset by subject.
 ###Derivation
 From subject classification schemas. 
 ###Obligation	
-Optional
+Mandatory if subject is present.
 ###Occurence	
 Non-repeatable
 ###Content 
@@ -24,7 +24,7 @@ text
 ###Example
 History
 ###Min. Quality threshold	
- 	
+
 ###Rating
 
 ##Subject identifier
