@@ -2,8 +2,8 @@ This folder contains information about the Agent entity and its properties. This
 
 The class has three sub-classes:
 
-**Person**(
-**Organisation**(
-+**[Equipment](#/jiscresearch/sharedService/tree/master/metadata/properties/Agent/Equipment)**
+* **[Person](#/jiscresearch/sharedService/tree/master/metadata/properties/Agent/Person)**
+* **[Organisation](#/jiscresearch/sharedService/tree/master/metadata/properties/Agent/Organisation)**
+* **[Equipment](#/jiscresearch/sharedService/tree/master/metadata/properties/Agent/Equipment)**
 
 
