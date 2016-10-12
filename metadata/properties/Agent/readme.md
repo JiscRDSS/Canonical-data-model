@@ -4,6 +4,6 @@ The class has three sub-classes:
 
 **Person**(
 **Organisation**(
-**[Equipment]**(#/jiscresearch/sharedService/tree/master/metadata/properties/Agent/Equipment)
+**[Equipment](#/jiscresearch/sharedService/tree/master/metadata/properties/Agent/Equipment)**
 
 
