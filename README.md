@@ -1,8 +1,4 @@
-# sharedService
+# Metadata documentation store
 
-**Hello world.**
+This is where the *fun* begins.
 
-### heading
-
-
-Hello there
