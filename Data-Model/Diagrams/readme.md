@@ -23,11 +23,11 @@ Dataset
 
 Material assets
 
-Person
-Organisation
-Storage
-Material
-Equipment
+- Person
+- Organisation
+- Storage
+- Material
+- Equipment
 
 Information assets
 
