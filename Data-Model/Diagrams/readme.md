@@ -16,12 +16,12 @@ As part of the the Research Data Shared Service, I was asked to devise a data mo
 
 ##Classes, values, properties 
 
-Research objects
+**Research objects**
 
 Dataset
 
 
-Material assets
+**Material assets**
 
 - Person
 - Organisation
@@ -29,5 +29,5 @@ Material assets
 - Material
 - Equipment
 
-Information assets
+**Information assets**
 
