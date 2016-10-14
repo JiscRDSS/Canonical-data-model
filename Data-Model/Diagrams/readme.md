@@ -16,7 +16,7 @@ The original metadata framework arose from the work I did on the Jisc UK Researc
 ###Schemas and models consulted
 
 This data model was heavily influenced by the DataMED DATS (work of the BD2K project in the USA.
-The iterative and important attribution of standards is an essential part of any life sciences data model. Although the RDSS seeks a more generic route, I considered it important to use standards where possible and for the allocation of those to be captured and reultiised for future dataset publication. The DATS work seeks to find a data equivalent for the JATS (Journal Artcile Tag Suite) standard of markup. 
+The iterative and important attribution of standards is an essential part of any life sciences data model. Although the RDSS seeks a more generic route, I considered it important to use standards where possible and for the allocation of those to be captured and reultiised for future dataset publication. The DATS work seeks to find a data equivalent for the [JATS](http://www.niso.org/apps/group_public/download.php/15933/z39_96-2015.pdf) (Journal Artcile Tag Suite) standard of markup. 
 
 ##Classes, values, properties 
 
