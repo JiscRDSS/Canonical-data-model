@@ -9,18 +9,27 @@ As part of the the Research Data Shared Service, I was asked to devise a data mo
 
 The original metadata framework arose from the work I did on the Jisc UK Research Data Discovery Service. Although the main focus of the fields described in this work covered Findability, there were other elements considered such as licencing and access. The FAIR principles were important aspirational beacons during the development work, although it generally understood that some elements of the principles are currently more developed than others.
 
-##Description
-
-
-
 ###Schemas and models consulted
 
 This data model was heavily influenced by the DataMED DATS (work of the BD2K project in the USA.
 The iterative and important attribution of standards is an essential part of any life sciences data model. Although the RDSS seeks a more generic route, I considered it important to use standards where possible and for the allocation of those to be captured and reultiised for future dataset publication. The DATS work seeks to find a data equivalent for the [JATS](http://www.niso.org/apps/group_public/download.php/15933/z39_96-2015.pdf) (Journal Article Tag Suite) standard of markup. 
 
-PCDM
+**PCDM**
 
-Preservation models - PREMIS and PROV-O
+**Preservation models** - PREMIS and PROV-O
+
+**Jisc metadata standards**
+
+Currently, the RDSS data model, although linked to the publication output that might be linked to the dataset, does not have a comprehensive development of this section. This is due to future work that will be dedicated to joining up with the work that has laready been done on tehcnology such as RIOXX and the publications router. Where metadata has been acceissible, I have implemented the fields.
+
+RIOXX
+
+(Aligned to OpenAIRE)
+
+Equipment.data
+
+
+##Description
 
 ##Classes, values, properties 
 
