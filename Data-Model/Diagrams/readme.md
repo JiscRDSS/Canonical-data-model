@@ -9,7 +9,7 @@ Links and additional information are being added to this document over time.
 
 As part of the the Research Data Shared Service, I was asked to devise a data model which could be understood to underpin the processes for which the Shared Service project seeks to provide an infrastructure. Metadata requirements from across this landscape were considered - current Research Information Systems, repositories etc. The idea was to simplify these processes into activities that a researcher performs with the desire to capture metadata around these processes. Capture at the point of creation and the use of persistent identifiers were both strong drivers in this model and are reflected in the architecture. Key requirements such as integration of research objects (publications, datasets and software) and the avoidance of re-keying information (details pulled through PiDs, automatic creation and transit of metadata from DMPs and equipment) are central to the design. To this end, the Project entity is also an important part of the model. This is an intellectual asset that centralises many of the material and non-material processes across the time frame of the project (generating collection level data and metadata).
 
-The original metadata framework arose from the work I did on the Jisc UK Research Data Discovery Service. Although the main focus of the fields described in this work covered Findability, there were other elements considered such as licencing and access. The FAIR principles were important aspirational beacons during the development work, although it generally understood that some elements of the principles are currently more developed than others.
+The original metadata framework arose from the work I did on the Jisc UK Research Data Discovery Service. Although the main focus of the fields described in this work covered Findability, there were other elements considered such as licencing and access. The FAIR principles were important aspirational beacons during the development work, although it generally understood that some elements of the principles are currently more developed than others. The [UKRDDS profile (v1.1)](https://docs.google.com/document/d/1lGQoj8ji8xSGZlTWU1VzK8XyIczu5MDVnwxfJATIbd8/edit?usp=sharing) is mapped to Dublin Core, MODS, Datacite (3.1 & 4), ADS, GEMINI2.2, DDI2.5, CERIF and schema.org. More mappings are underway.
 
 ###Schemas and models consulted
 
@@ -34,13 +34,16 @@ One of the appealing aspects of PROV-O was the pre-exisiting [mapping](https://w
 
 The managed metadata folder for Preservation will be populated over the coming weeks. 
 
+**CRIS**
+
+The [CERIF](http://www.eurocris.org/ontologies/cerif/1.3/#) ontology was very important in understanding the central role of the project within the data model and influenced the inclusion of FOAF relational attributes for Person and Organisation. The Project entity in the 
+
 **Jisc metadata standards**
 
 Currently, the RDSS data model, although linked to the publication output that might be linked to the dataset, does not have a comprehensive development of this section. This is due to future work that will be dedicated to joining up with the work that has laready been done on tehcnology such as RIOXX and the publications router. Where metadata has been accessible, I have implemented the fields.
 
 [RIOXX](http://www.rioxx.net/profiles/v2-0-final/)
-A REF compliance checker that relies on relatively few metadata fields to describe a publication. 
-(Aligned to OpenAIRE)
+A REF compliance checker that relies on relatively few metadata fields to describe a publication. RIOXX is aligned to OpenAIRE and Research Excellence Framework submission metadata)
 
 [Equipment.data](http://equipment.data.ac.uk/uniquip)
 A rich metadata set that allows pieces of experimental equipment to be identified individually.
@@ -66,5 +69,5 @@ A rich metadata set that allows pieces of experimental equipment to be identifie
 
 **Information assets**
 
-- Project
+- [Project](https://github.com/JiscRDSS/Metadata/tree/master/properties/Project) 
 - 
