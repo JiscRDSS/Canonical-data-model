@@ -3,7 +3,7 @@
 ###Description
 The scheme/domain to which the identifier belongs.
 ###Derivation
-
+Datacite 3.1
 ###Obligation	
 Mandatory if Person identifier is populated.
 ###Occurence	
