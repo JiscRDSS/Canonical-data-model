@@ -1,4 +1,4 @@
-##Agent identifier
+##Person identifier
 
 ###Description
 Identifier associated with agent.
@@ -18,28 +18,5 @@ Resolvable URI
 ###Rating
 
 
-##Agent identifier scheme
 
-###Description
-The scheme/domain to which the identifier belongs.
-###Derivation
-
-###Obligation	
-Mandatory if Agent identifier is populated.
-###Occurence	
-Non-repeatable
-###Content	
-Text
-###Example / CV value
-ORCID
-###Min. Quality threshold
-CV lookup?
-###Populated from (Data Model)	
-###Rating
-
-
-##Identifier Table
-
-Scheme | Domain | Example
------------- | ------------- | ---------------
 
