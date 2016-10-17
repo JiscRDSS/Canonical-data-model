@@ -1,7 +1,7 @@
-##Agent Role
+##Person Role
 
 ###Description
-The role of the agent to the stated entity.
+The role of the person to the related entity.
 ###Derivation
 Datacite.
 ###Obligation	
