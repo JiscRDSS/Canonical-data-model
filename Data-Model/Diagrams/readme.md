@@ -3,6 +3,8 @@
 
 The data model file in this folder can be viewed using [StarUML](http://staruml.io/).
 
+Links and additional information are being added to this document over time. 
+
 ##Background
 
 As part of the the Research Data Shared Service, I was asked to devise a data model which could be understood to underpin the processes for which the Shared Service project seeks to provide an infrastructure. Metadata requirements from across this landscape were considered - current Research Information Systems, repositories etc. The idea was to simplify these processes into activities that a researcher performs with the desire to capture metadata around these processes. Capture at the point of creation and the use of persistent identifiers were both strong drivers in this model and are reflected in the architecture. Key requirements such as integration of research objects (publications, datasets and software) and the avoidance of re-keying information (details pulled through PiDs, automatic creation and transit of metadata from DMPs and equipment) are central to the design. To this end, the Project entity is also an important part of the model. This is an intellectual asset that centralises many of the material and non-material processes across the time frame of the project (generating collection level data and metadata).
@@ -14,13 +16,26 @@ The original metadata framework arose from the work I did on the Jisc UK Researc
 This data model was heavily influenced by the DataMED DATS (work of the BD2K project in the USA.
 The iterative and important attribution of standards is an essential part of any life sciences data model. Although the RDSS seeks a more generic route, I considered it important to use standards where possible and for the allocation of those to be captured and reultiised for future dataset publication. The DATS work seeks to find a data equivalent for the [JATS](http://www.niso.org/apps/group_public/download.php/15933/z39_96-2015.pdf) (Journal Article Tag Suite) standard of markup. 
 
-**PCDM**
+**[PCDM](https://github.com/duraspace/pcdm/wiki)**
 
-**Preservation models** - PREMIS and PROV-O
+
+
+**Preservation models** - 
+
+[PREMIS](http://www.loc.gov/standards/premis/v3/)
+An evaluation of PREMIS metadata fields required was made from the work of [Kirsty Lee](https://twitter.com/thebitgardener), digital archvivst at the University of Edinburgh. The dataset captured for her[blog post](http://libraryblogs.is.ed.ac.uk/bitsandpieces/2016/01/13/archivematica-youre-the-one-that-i-want/) on evaluating Archivematica for PREMIS metadata was used as the base point for creating a [diagram](https://github.com/jiscresearch/sharedService/blob/master/metadata/Preservation%20data%20model%20image.png) for expected preservation metadata. This deals with fields only, not the workflow.
+
+[PROV-O](https://www.w3.org/TR/2013/REC-prov-dm-20130430/)
+
+PROV-O was consulted as an alternative to PREMIS and was found to be compatible with the entities in the Data Model as it is. The main point of reference was the [Agents and Responsibility Overview](https://www.w3.org/TR/2013/REC-prov-dm-20130430/#figure-component3) which identifies Person, Organisation and Software as the primary agents. As with PREMIS, the relevant set of activity metadata will have to built up from the implementation case. This can be expanded upon as user requirements demand.
+
+One of the appealing aspects of PROV-O was the pre-exisiting [mapping](https://www.w3.org/TR/2013/NOTE-prov-dc-20130430/#list_of_direct_terms_props) to Dublin Core, offering a simple (although structured) approach to the metadata.
+
+The managed metadata folder for Preservation will be populated over the coming weeks. 
 
 **Jisc metadata standards**
 
-Currently, the RDSS data model, although linked to the publication output that might be linked to the dataset, does not have a comprehensive development of this section. This is due to future work that will be dedicated to joining up with the work that has laready been done on tehcnology such as RIOXX and the publications router. Where metadata has been acceissible, I have implemented the fields.
+Currently, the RDSS data model, although linked to the publication output that might be linked to the dataset, does not have a comprehensive development of this section. This is due to future work that will be dedicated to joining up with the work that has laready been done on tehcnology such as RIOXX and the publications router. Where metadata has been accessible, I have implemented the fields.
 
 [RIOXX](http://www.rioxx.net/profiles/v2-0-final/)
 
