@@ -1,9 +1,9 @@
 
-## **Agent Name**
+## **Person Name**
 
 ### Definition
 
-The given name of the Agent.
+The given name of the person.
 
 ### Value
 
