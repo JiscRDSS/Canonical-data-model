@@ -2,8 +2,8 @@
 # Person Contact
 
 * [Person Contact Email](#person-contact-email)
-* [Person Contact Address](https://github.com/jiscresearch/sharedService/blob/master/metadata/properties/Agent/Agent%20Contact.md#agent-contact-address)
-* [Person Contact Telephone](https://github.com/jiscresearch/sharedService/blob/master/metadata/properties/Agent/Agent%20Contact.md#agent-contact-telephone)
+* [Person Contact Address](#person-contact-address)
+* [Person Contact Telephone](#person-contact-telephone)
 
 ##Person Contact Email
 
