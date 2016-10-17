@@ -13,12 +13,12 @@ The original metadata framework arose from the work I did on the Jisc UK Researc
 
 ###Schemas and models consulted
 
-This data model was heavily influenced by the DataMED DATS (work of the BD2K project in the USA.
-The iterative and important attribution of standards is an essential part of any life sciences data model. Although the RDSS seeks a more generic route, I considered it important to use standards where possible and for the allocation of those to be captured and reultiised for future dataset publication. The DATS work seeks to find a data equivalent for the [JATS](http://www.niso.org/apps/group_public/download.php/15933/z39_96-2015.pdf) (Journal Article Tag Suite) standard of markup. 
+This data model was heavily influenced by the DataMED [DATS](https://docs.google.com/document/d/1hVcYRleE6-dFfn7qbF9Bv1Ohs1kTF6a8OwWUvoZlDto/edit#) (work of the [BD2K](https://datascience.nih.gov/bd2k) project in the USA.
+The iterative and important attribution of standards is an essential part of any life sciences data model. Although the RDSS seeks a more generic route, I considered it important to use standards where possible and for the allocation of those to be captured and reultiised for future dataset publication. The DATS work seeks to find a data equivalent for the [JATS](http://www.niso.org/apps/group_public/download.php/15933/z39_96-2015.pdf) (Journal Article Tag Suite) standard of markup. It is also mapped to [schema.org](http://schema.org/) 
 
 **[PCDM](https://github.com/duraspace/pcdm/wiki)**
 
-
+The Portland Common Data Model was very important when making desicions about the level to which metadata could be attributed. This was a key discussion area in the Research Data Discovery Service project and the PCDM was critical in resolving issues about the file level to which metadata could sensibly be attributed. The three level model that the PCDM offers, ranging from bitstream and access metadata at file level up to descriptive metadata at a higher complexity level (such as file set and collection, which can both stand in for dataset) sits alongside the the Project and dataset instances in the RDSS model.
 
 **Preservation models** - 
 
