@@ -1,5 +1,5 @@
 
-# Person Contact
+# Organisation Contact
 
 * [Organisation Contact Email](#organisation-contact-email)
 * [Organisation Contact Address](#organisation-contact-address)
