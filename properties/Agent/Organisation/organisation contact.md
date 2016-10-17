@@ -26,7 +26,7 @@ Term | Schema
 -------------|--------------
 ### Comment
 
-##Organisation Address
+##Organisation contact address
 ### Description
 Address for organisation.
 ### Derivation
