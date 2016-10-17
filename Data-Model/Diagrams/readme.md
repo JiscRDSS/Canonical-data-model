@@ -22,7 +22,7 @@ The iterative and important attribution of standards is an essential part of any
 
 Currently, the RDSS data model, although linked to the publication output that might be linked to the dataset, does not have a comprehensive development of this section. This is due to future work that will be dedicated to joining up with the work that has laready been done on tehcnology such as RIOXX and the publications router. Where metadata has been acceissible, I have implemented the fields.
 
-RIOXX
+[RIOXX](http://www.rioxx.net/profiles/v2-0-final/)
 
 (Aligned to OpenAIRE)
 
