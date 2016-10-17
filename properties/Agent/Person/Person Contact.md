@@ -1,14 +1,14 @@
 
-# Agent Contact
+# Person Contact
 
-* [Agent Contact Email](https://github.com/jiscresearch/sharedService/blob/master/metadata/properties/Agent/Agent%20Contact.md#agent-contact-email)
-* [Agent Contact Address](https://github.com/jiscresearch/sharedService/blob/master/metadata/properties/Agent/Agent%20Contact.md#agent-contact-address)
-* [Agent Contact Telephone](https://github.com/jiscresearch/sharedService/blob/master/metadata/properties/Agent/Agent%20Contact.md#agent-contact-telephone)
+* [Person Contact Email](#person-contact-email)
+* [Person Contact Address](https://github.com/jiscresearch/sharedService/blob/master/metadata/properties/Agent/Agent%20Contact.md#agent-contact-address)
+* [Person Contact Telephone](https://github.com/jiscresearch/sharedService/blob/master/metadata/properties/Agent/Agent%20Contact.md#agent-contact-telephone)
 
-##Agent Contact Email
+##Person Contact Email
 
 ### Description
-Email address for the person named as Agent.
+Email address for the person.
 ### Derivation
 Common.
 ### Obligation	
@@ -26,9 +26,9 @@ Term | Schema
 -------------|--------------
 ### Comment
 
-##Agent Contact Address
+##Person Contact Address
 ### Description
-Address for person named as Agent
+Address for person.
 ### Derivation
 Common.
 ### Obligation	
@@ -49,9 +49,9 @@ Term | Schema
 -------------|--------------
 ### Comment
 
-##Agent Contact Telephone
+##Person Contact Telephone
 ### Description
-Telephone number(s) for Agent. 
+Telephone number(s) for person. 
 ### Derivation
 Common.
 ### Obligation
