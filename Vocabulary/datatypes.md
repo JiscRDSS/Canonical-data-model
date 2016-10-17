@@ -3,8 +3,8 @@
 
 Source: ebucore: datatypes
 
-- anyURI
- - boolean
+- http:URI
+- boolean
 - date
 - dateTime
 - double
