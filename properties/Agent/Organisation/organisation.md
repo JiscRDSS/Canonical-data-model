@@ -1,6 +1,10 @@
 #Organisation
 
 ###Organisation Name
+###Organisation identifier
+###Organisation identifier scheme
+###Organisation contact
+###Organisation type
 
 
 ##  
