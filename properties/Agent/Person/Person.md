@@ -1,11 +1,11 @@
 #Person
 
-* [Person Name](#Person-name-1)
-* [Person identifier](#Person-identifier-1)
-* [Person identifier scheme](#Person-identifier-scheme-1)
-* [Person Role](#Person-role-1)
-* [Person affiliation](#Person-affiliation-1)
-* [Person contact](#Person-contact-1)
+* [Person Name](https://github.com/JiscRDSS/Metadata/blob/master/properties/Agent/Person/Person%20Name.md)
+* [Person identifier](https://github.com/JiscRDSS/Metadata/blob/master/properties/Agent/Person/Person%20Identifier.md)
+* [Person identifier scheme](https://github.com/JiscRDSS/Metadata/blob/master/properties/Agent/Person/person%20identifier%20scheme.md)
+* [Person Role](https://github.com/JiscRDSS/Metadata/blob/master/properties/Agent/Person/Person%20role.md)
+* [Person affiliation](https://github.com/JiscRDSS/Metadata/blob/master/properties/Agent/Person/Person%20affiliation.md)
+* [Person contact](https://github.com/JiscRDSS/Metadata/blob/master/properties/Agent/Person/Person%20Contact.md)
 
 ##Description
 
