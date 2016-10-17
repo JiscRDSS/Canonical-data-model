@@ -1,8 +1,8 @@
 
-##Agent affiliation
+##Person affiliation
 
 ###Description
-Group, department, faculty or organisation to which the Agent is attached.
+Group, department, faculty or organisation to which the person is attached.
 ###Derivation
 CRIS (Pure)
 ###Obligation	
