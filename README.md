@@ -1,4 +1,4 @@
 # Metadata documentation store
 
-This is where the *fun* begins.
+This space is being constantly updated.
 
