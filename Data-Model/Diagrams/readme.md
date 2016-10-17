@@ -38,10 +38,11 @@ The managed metadata folder for Preservation will be populated over the coming w
 Currently, the RDSS data model, although linked to the publication output that might be linked to the dataset, does not have a comprehensive development of this section. This is due to future work that will be dedicated to joining up with the work that has laready been done on tehcnology such as RIOXX and the publications router. Where metadata has been accessible, I have implemented the fields.
 
 [RIOXX](http://www.rioxx.net/profiles/v2-0-final/)
-
+A REF compliance checker that relies on relatively few metadata fields to describe a publication. 
 (Aligned to OpenAIRE)
 
-Equipment.data
+[Equipment.data](http://equipment.data.ac.uk/uniquip)
+A rich metadata set that allows pieces of experimental equipment to be identified individually.
 
 
 ##Description
@@ -50,8 +51,9 @@ Equipment.data
 
 **Research objects**
 
-Dataset
-
+- Dataset
+- Publication
+- Software
 
 **Material assets**
 
@@ -63,3 +65,5 @@ Dataset
 
 **Information assets**
 
+- Project
+- 
