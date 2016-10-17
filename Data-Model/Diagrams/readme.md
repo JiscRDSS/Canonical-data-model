@@ -20,7 +20,7 @@ The iterative and important attribution of standards is an essential part of any
 
 The Portland Common Data Model was very important when making desicions about the level to which metadata could be attributed. This was a key discussion area in the Research Data Discovery Service project and the PCDM was critical in resolving issues about the file level to which metadata could sensibly be attributed. The three level model that the PCDM offers, ranging from bitstream and access metadata at file level up to descriptive metadata at a higher complexity level (such as file set and collection, which can both stand in for dataset) sits alongside the the Project and dataset instances in the RDSS model.
 
-**Preservation models** - 
+**Preservation models** 
 
 [PREMIS](http://www.loc.gov/standards/premis/v3/)
 
