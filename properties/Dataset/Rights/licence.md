@@ -4,7 +4,7 @@ Description
 
 Occurence
 
-- [Licence name](#licence-name-1)
+- [Licence name](#licence-name)
 - [licence URI](#licence-uri-1)
 
 
