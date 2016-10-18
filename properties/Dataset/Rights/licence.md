@@ -1,10 +1,11 @@
 #Licence
 
 Description
+The licence assigned to the dataset, fileset or file.
 
 Occurence
 ##[Licence name](#licence-name)
-##[licence URI](#licence-uri)
+##[Licence URI](#licence-uri)
 
 
 ##Licence name 
