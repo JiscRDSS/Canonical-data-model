@@ -71,32 +71,58 @@ In the absence of any other license, the copyright holder reserves all rights au
 
 http://www.rioxx.net/licenses/all-rights-reserved
 http://www.rioxx.net/licenses/under-embargo-all-rights-reserved
-ali:license_ref	
-One or more	
-This is defined in the NISO Open Access Metadata and Indicators. This element MUST take an HTTP URI for its value. This HTTP URI MUST point to a resource which expresses the license terms specifying how the resource may be used.
-
-This element MUST include the attribute:
-
-start_date
-This attribute takes a date value which MUST be encoded using ISO 8601 (post–2004 versions) which follows the following format: YYYY-MM-DD.
-
-This attribute is used to indicate the date upon which this license takes effect. Multiple ali:license_ref elements may be included. Where several such elements are included, the one with the start_date attribute indicating the most recent date takes precedence.
-
-Example:
-
-<ali:license_ref start_date="2015-02-17">http://creativecommons.org/licenses/by/4.0</ali:license_ref>
-This approach allows the expression of 'embargoes', where a particular license takes effect at a date in the subjective future.
-
-In the absence of any other license, the copyright holder reserves all rights automatically. As a convenience, RIOXX provides two URLs which may be used to explicitly convey this state:
-
-http://www.rioxx.net/licenses/all-rights-reserved
-http://www.rioxx.net/licenses/under-embargo-all-rights-reserved
 
 
-dc:coverage	Zero or more	
-The Openaire Guidelines recommend the inclusion of this element.
+## coverage
 
-dc:description	Zero or more	
+###Description
+ 
+
+###Derivation
+Dublin core
+
+###Mapping
+dc:coverage
+
+###Obligation	
+Optional
+
+###Occurence	
+Repeatable
+
+###Content 
+Geographical or temporal information about the publication. (Pull from Geolocation / Temporal in dataset record?)
+###Example
+
+
+
+	Zero or more	
+
+##description 
+
+###Description
+ 
+
+###Derivation
+dc:description
+
+###Mapping
+[datacite:description](https://github.com/JiscRDSS/Metadata/blob/master/properties/Dataset/Description/description.md)
+
+###Obligation	
+Mandatory
+
+###Occurence	
+Non-repeatable
+
+###Content 
+
+String
+###Example
+
+
+D
+
 This field may be indexed and its contents presented to people conducting searches. The goal is to describe the content of the resource using free text. It is RECOMMENDED that an English language abstract be used where available. HTML or other markup tags SHOULD NOT be included in this field.
 
 dc:format	Zero or more	
@@ -146,6 +172,8 @@ fully waived
 not charged
 not required
 unknown
+
+
 rioxxterms:author	One or more	
 The author of the resource may be a person, organisation or service, but is most commonly a person. This element SHOULD take an optional attribute called id, which MUST contain an HTTP URI which uniquely identifies the author. Where there is more than one author, a separate rioxxterms:author element MUST be used for each. As many authors may be entered as required. The ideal use of this element is to include both an HTTP URI in the id attribute, and a text string in the body of the element, thus:
 
