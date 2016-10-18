@@ -1,9 +1,11 @@
 #Licence
 
-Description
+###Description
 The licence assigned to the dataset, fileset or file.
 
-Occurence
+###Occurence
+Non-repeatable
+
 ##[Licence name](#licence-name-1)
 ##[Licence URI](#licence-uri-1)
 
@@ -37,19 +39,19 @@ CC-BY-4.0
 ##licence URI  
 
 ###Description
- 
+Identifier for license named.
 
 ###Derivation
-
+Datacite
 
 ###Mapping
- 
+
 
 ###Obligation	
- 
+Optional
 
 ###Occurence	
-
+Non-repeatable
 
 ###Content 
 http:URI
