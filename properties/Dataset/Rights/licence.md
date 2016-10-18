@@ -3,9 +3,8 @@
 Description
 
 Occurence
-
-- [Licence name](#licence-name)
-- [licence URI](#licence-uri)
+##[Licence name](#licence-name)
+##[licence URI](#licence-uri)
 
 
 ##Licence name 
