@@ -20,3 +20,8 @@ Mandatory
 ##Occurrence
 Repeatable
 
+##Mapping
+
+prov:Person
+
+
