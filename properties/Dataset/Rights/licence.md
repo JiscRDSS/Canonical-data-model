@@ -4,8 +4,8 @@ Description
 
 Occurence
 
-[Licence name](#licence-name-1)
-[licence URI](#licence-uri-1)
+- [Licence name](#licence-name-1)
+- [licence URI](#licence-uri-1)
 
 
 ##Licence name 
