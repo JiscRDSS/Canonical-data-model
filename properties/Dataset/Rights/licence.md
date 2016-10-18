@@ -4,8 +4,8 @@ Description
 The licence assigned to the dataset, fileset or file.
 
 Occurence
-##[Licence name](#licence-name)
-##[Licence URI](#licence-uri)
+##[Licence name](#licence-name-1)
+##[Licence URI](#licence-uri-1)
 
 
 ##Licence name 
