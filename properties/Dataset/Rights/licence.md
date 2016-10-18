@@ -5,7 +5,7 @@ Description
 Occurence
 
 - [Licence name](#licence-name)
-- [licence URI](#licence-uri-1)
+- [licence URI](#licence-uri)
 
 
 ##Licence name 
@@ -52,4 +52,9 @@ CC-BY-4.0
 
 
 ###Content 
+http:URI
+
+###Validation
+Resolvable URI
 ###Example
+https://creativecommons.org/licenses/by/4.0/
