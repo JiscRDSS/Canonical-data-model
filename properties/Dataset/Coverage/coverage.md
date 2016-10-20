@@ -4,8 +4,8 @@
 ##Geospatial coverage
 
 - [geolocationpoint](#geolocation-point)
-- [geolocationbox](#geolocationbox-1)
-- [geolocationplace](#geolocationplace-1)
+- [geolocationbox](#geolocationbox)
+- [geolocationplace](#geolocationplace)
 
 ##Temporal coverage
 ------------------------
@@ -14,8 +14,10 @@
 ###Description
 ###Derivation
 ###Mapping
-###Obligation	
-###Occurence	
+###Obligation
+Optional
+###Occurence
+Non-repeatable
 ###Content 
 ###Example
 
@@ -23,7 +25,8 @@
 ###Description
 ###Derivation
 ###Mapping
-###Obligation	
+###Obligation
+Optional
 ###Occurence	
 ###Content 
 ###Example  
@@ -32,7 +35,8 @@
 ###Description
 ###Derivation
 ###Mapping
-###Obligation	
+###Obligation
+Optional
 ###Occurence	
 ###Content 
 ###Example  
