@@ -3,9 +3,9 @@
 
 ##Geospatial coverage
 
-- [geolocation point](#geolocation-point-1)
-- geolocationbox
-- geolocationplace
+- [geolocationpoint](#geolocationpoint-1)
+- [geolocationbox](#geolocationbox-1)
+- [geolocationplace](#geolocationplace-1)
 
 ##Temporal coverage
 ------------------------
