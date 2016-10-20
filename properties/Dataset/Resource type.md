@@ -32,7 +32,6 @@ Controlled vocabulary terms
 
 Term | Source
 -----|-------
-
 Audiovisual | Datacite
 Collection | Datacite
 Dataset | Datacite
