@@ -23,7 +23,7 @@ Mandatory
 
 
 ###Content 
-Controlled vocabulary
+[Controlled vocabulary](#controlled-vocabulary-terms)
 
 ###Example
 Image
