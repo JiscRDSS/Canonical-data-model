@@ -48,7 +48,7 @@ Text | Datacite
 Workflow | Datacite
 Other | Datacite
 
-
+---------------------------
 
 
 ##Resource type description  
