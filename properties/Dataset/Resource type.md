@@ -28,7 +28,7 @@ Controlled vocabulary
 ###Example
 Image
 
-Controlled vocabulary terms
+###Controlled vocabulary terms
 
 Term | Source
 -----|-------
@@ -46,7 +46,7 @@ Software | Datacite
 Sound | Datacite
 Text | Datacite
 Workflow | Datacite
-[Other](#other-1) | Datacite
+Other | Datacite
 
 
 
