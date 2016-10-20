@@ -1,6 +1,6 @@
 #Project
 
-###Project ID
+###[Project ID](#project-id-1)
 ###Project ID type
 ###Project name
 ###Project description
@@ -14,7 +14,7 @@
 ###Project ethics review
 
 
-##
+##Project ID
 
 ###Description
  
@@ -26,8 +26,4 @@
  
 ###Content 
  
-###Example / CV value
- 
-###Min. Quality threshold	
- 	
-###Rating
+###Example
