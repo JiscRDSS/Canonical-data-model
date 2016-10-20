@@ -10,8 +10,6 @@
 ##Temporal coverage
 ------------------------
 
-#Geospatial coverage
-
 ##geolocation point  
 ###Description
 ###Derivation
