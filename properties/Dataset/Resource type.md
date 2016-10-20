@@ -31,7 +31,7 @@ Image
 Vocabulary terms
 
 Term | Source
------|---------
+-----------------|---------
 
 Audiovisual | Datacite
 Collection | Datacite
