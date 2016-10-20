@@ -28,12 +28,12 @@ Controlled vocabulary
 ###Example
 Image
 
-Vocabulary terms
+Controlled vocabulary terms
 
 Term | Source
 -----------------|---------
 
-Audiovisual | Datacite
+Audiovisual|Datacite
 Collection | Datacite
 Dataset | Datacite
 Event| Datacite
