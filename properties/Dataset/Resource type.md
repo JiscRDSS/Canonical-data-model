@@ -1,5 +1,5 @@
 #Resource type
-This property is repeatable.
+This property is repeatable at the dataset level.
 
 ##[Resource type](#resource-type-1)
 ##[Resource type description](#resource-type-description-1)
