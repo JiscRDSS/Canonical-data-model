@@ -1,6 +1,6 @@
 #File
-###Description
-Properties associated with files
+
+Properties associated with an individual file.
 
 ------------
 
