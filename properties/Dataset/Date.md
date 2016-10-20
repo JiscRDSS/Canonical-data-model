@@ -4,11 +4,12 @@ A repeatable field. Multiple dates of varying type can be attributed.
 ###Date value
 ###Date type
 
+------------------
 
 ##Date value  
 
 ###Description
-The date of a
+The date of a given instance. 
 
 ###Derivation
 
@@ -27,6 +28,8 @@ ISO 8601
 
 ###Example
 
+
+------------------
 
 ##Date type
 
@@ -48,15 +51,16 @@ Non-repeatable
 ###Content 
 [Controlled vocabulary](#controlled-vocabulary-terms)
 ###Example
+Available
 
 ##Controlled vocabulary terms
 
 Term|Source
 ----|------
 Accepted | Datacite
-Available,
-Copyrighted,
-Collected,
-Created,
-Issued,
-Published
+Available | Datacite
+Copyrighted | Datacite
+Collected | Datacite
+Created | Datacite
+Issued | Datacite
+Published | Datacite
