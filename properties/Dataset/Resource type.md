@@ -57,16 +57,18 @@ Other | Datacite
 Description of resourcetype, to satisfy "Other" selection from Controlled Vocabulary 
 
 ###Derivation
-
+Datacite
 
 ###Mapping
  
 
 ###Obligation	
- 
+Optional (Recommended if Resource type = *Other*)
 
 ###Occurence	
-
+Non-repeatable
 
 ###Content 
+String
 ###Example
+digital composite maps
