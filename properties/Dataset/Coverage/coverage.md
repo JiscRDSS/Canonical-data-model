@@ -3,7 +3,7 @@
 
 ##Geospatial coverage
 
-- [geolocation point](geolocation-point-1)
+- [geolocation point](#geolocation-point-1)
 - geolocationbox
 - geolocationplace
 
