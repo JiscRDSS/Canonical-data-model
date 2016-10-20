@@ -1,8 +1,9 @@
 #Resource type
 
-##Resource type (#resource-type-1)
-##Resource type description (#resource-type-description-1)
+##[Resource type](#resource-type-1)
+##[Resource type description](#resource-type-description-1)
 
+-------------------------------
 
 ##Resource type  
 
