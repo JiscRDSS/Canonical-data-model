@@ -73,7 +73,7 @@ http://www.rioxx.net/licenses/all-rights-reserved
 http://www.rioxx.net/licenses/under-embargo-all-rights-reserved
 
 
-## coverage
+##Coverage
 
 ###Description
  
@@ -95,19 +95,16 @@ Geographical or temporal information about the publication. (Pull from Geolocati
 ###Example
 
 
-
-	Zero or more	
-
 ##description 
 
 ###Description
- 
+A description of the content of the resource using free text. It is RECOMMENDED that an English language abstract be used where available. HTML or other markup tags SHOULD NOT be included in this field.
 
 ###Derivation
 dc:description
 
 ###Mapping
-[datacite:description](https://github.com/JiscRDSS/Metadata/blob/master/properties/Dataset/Description/description.md)
+[dataset:description](https://github.com/JiscRDSS/Metadata/blob/master/properties/Dataset/Description/description.md)
 
 ###Obligation	
 Mandatory
@@ -123,7 +120,7 @@ String
 
 D
 
-This field may be indexed and its contents presented to people conducting searches. The goal is to describe the content of the resource using free text. It is RECOMMENDED that an English language abstract be used where available. HTML or other markup tags SHOULD NOT be included in this field.
+This field may be indexed and its contents presented to people conducting searches. The goal is to 
 
 dc:format	Zero or more	
 This refers to the format of the resource. The MIME type of the object pointed to by this RIOXX record’s dc:identifier element MUST be entered here. Note that this element should not be confused with rioxxterms:type
