@@ -1,12 +1,9 @@
 #Organisation
 
-###Organisation Name
-###Organisation identifier
-###Organisation identifier scheme
-Ringgold
-ISNI
-UKPRN
-###Organisation contact
+###[Organisation Name](#organisation-name-1)
+###[Organisation identifier](organisation-identifier-1)
+###[Organisation identifier scheme](organisation-identifier-scheme-1)
+###[Organisation contact](https://github.com/JiscRDSS/Metadata/blob/master/properties/Agent/Person/Person%20Contact.md)
 ###Organisation type
 
 
@@ -40,7 +37,7 @@ ukprn/10007814
 ###Description
 The scheme/domain to which the identifier belongs.
 ###Derivation
-Datacite 3.1
+Ringgold ISNI, UKPRN
 ###Obligation	
 Mandatory if organisation identifier is present.
 ###Occurence	
@@ -49,3 +46,17 @@ Non-repeatable
 Text
 ###Example / CV value
 UKPRN
+
+##Organisation type
+###Description
+###Derivation
+###Mapping
+###Obligation	
+###Occurence	
+###Content 
+Controlled vocabulary
+###Example
+
+##Controlled Vocabulary Terms
+Term | Source
+-----|-------
