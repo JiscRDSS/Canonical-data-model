@@ -54,9 +54,15 @@ Optional
 
 ##Temporal coverage
 ###Description
+The time span to which the dataset is associated.
 ###Derivation
+RIF-CS
 ###Mapping
 ###Obligation	
-###Occurence	
+Optional
+###Occurence
+Repeatable
 ###Content 
+String
 ###Example
+18th Century, from:January 2015 to: June 2015 (data collected)
