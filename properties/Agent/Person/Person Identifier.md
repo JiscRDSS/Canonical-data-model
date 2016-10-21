@@ -1,7 +1,7 @@
 ##Person identifier
 
 ###Description
-Identifier associated with agent.
+Identifier associated with person.
 ###Derivation
 Datacite.
 ###Obligation	
