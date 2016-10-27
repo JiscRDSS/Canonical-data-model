@@ -4,6 +4,6 @@ The class has three sub-classes:
 
 * **[Person](https://github.com/JiscRDSS/Metadata/blob/master/properties/Agent/Person/Person.md)**
 * **[Organisation](https://github.com/JiscRDSS/Metadata/blob/master/properties/Agent/Organisation/organisation.md)**
-* **[Equipment](https://github.com/JiscRDSS/Metadata/blob/master/properties/Agent/Equipment/equipment.md)**
+* **[Software](https://github.com/JiscRDSS/Metadata/blob/master/properties/Agent/Software/software.md)**
 
 
