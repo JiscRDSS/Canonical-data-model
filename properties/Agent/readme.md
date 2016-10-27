@@ -1,4 +1,4 @@
-This folder contains information about the Agent entity and its properties. This high level entity is part of the preservation data model in both PREMIS and PROV-O and has been retained to ensure capability of describing complex preservation metadata components.
+This folder contains information about the Agent entity and its properties. This high level entity is part of the preservation data model in PREMIS (and W3C provenance model PROV-O) and has been retained to ensure capability of describing complex preservation metadata components.
 
 The class has three sub-classes:
 
