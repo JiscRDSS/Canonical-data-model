@@ -8,7 +8,7 @@
 ###[Project funder](https://github.com/jiscresearch/sharedService/blob/master/metadata/properties/Project/project%20funder.md)
 ###Project start date
 ###Project end date
-###Project call reference (i.e. funder code)
+###Project funder code
 ###Bid deadline
 ###Risk assessment
 
@@ -27,3 +27,21 @@
 ###Content 
  
 ###Example
+
+
+
+
+##Project ID type
+
+###Description
+ 
+###Derivation
+ 
+###Obligation	
+ 
+###Occurence	
+ 
+###Content 
+ 
+###Example
+
