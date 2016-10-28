@@ -1,5 +1,13 @@
 #Event
 
+##eventIdentifier
+##eventType
+##eventDateTime
+##eventDetail
+##eventOutcome
+
+##LinkingAgentIdentifier
+
 ##
 ###Description
 ###Derivation
@@ -9,8 +17,7 @@
 ###Content
 ###Example
 
-event	eventIdentifier	eventIdentifierType	UUID	mandatory unit and component
-event	eventIdentifier	eventIdentifierValue	8jb50321-6d7b-4291-89ag-a8b0fhc1f276	mandatory unit and component
+
 event	eventType	none	normalization	mandatory unit and component
 event	eventDateTime	none	2009-12-01T09:09:00-02:00	mandatory unit and component
 event	eventDetail	none	program="convert"; version="Version: ImageMagick 6.5.7-8 2010-12-02 Q16 http://www.imagemagick.org"	This element can be used to record information about software used and eliminates the need to have agent entities for software programs
