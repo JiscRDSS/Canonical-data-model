@@ -98,7 +98,7 @@ University of Sheffield
 ###Description
 The named contact for the equipment
 ###Derivation
-[Contact](https://github.com/JiscRDSS/Metadata/blob/master/properties/Agent/Person/Person%20Contact.md)
+[Person](https://github.com/JiscRDSS/Metadata/blob/master/properties/Agent/Person/Person.md)
 ###Mapping
 Person Contact
 ###Obligation
