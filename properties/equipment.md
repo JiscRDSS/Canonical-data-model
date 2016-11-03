@@ -7,7 +7,7 @@ Equipment
 ###[Equipment type](#equipment-type-1)
 ###[Equipment description](#equipment-description-1)
 ###[Facility](#facility-1)
-###[Contact](https://github.com/jiscresearch/sharedService/blob/master/metadata/properties/Agent/Agent%20Contact.md)
+###[Contact](#contact-1)
 
 
 ------------
