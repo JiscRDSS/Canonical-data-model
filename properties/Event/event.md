@@ -2,9 +2,9 @@
 
 ##eventClass
 
--Preservation
--Metadata
--Reporting / Metrics
+- Preservation
+- Metadata
+- Reporting
 
 ##eventIdentifier
 ##eventType
