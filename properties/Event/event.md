@@ -2,8 +2,8 @@
 
 ##eventClass
 
-- Preservation
 - Metadata
+- Preservation
 - Reporting
 
 ##eventIdentifier
