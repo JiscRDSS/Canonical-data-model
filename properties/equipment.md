@@ -58,7 +58,6 @@ Text (can be become a Controlled Vocabulary if enough standardisation)
 ###Example
 Fluorescence Spectrometer
 
-
 ------------
 
 ##Equipment description  
