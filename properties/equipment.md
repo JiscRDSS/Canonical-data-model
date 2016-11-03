@@ -6,8 +6,8 @@ Equipment
 ###[Equipment identifier](#equipment-identifier-1)
 ###[Equipment type](#equipment-type-1)
 ###[Equipment description](#equipment-description-1)
-###[Facility](#facility-1)
-###[Contact](#contact-1)
+###[Equipment organisation](#equipment-organisation-1)
+###[Equipment contact](#equipment-contact-1)
 
 
 ------------
@@ -77,11 +77,11 @@ Benchtop ultracentrifuge that runs at up to 150,000 RPM (2,500 revolutions per s
 
 ------------
 
-##facility  
+##Equipment organisation  
 ###Description
-An identifier that 
+The organisation to which the equipment is assigned.
 ###Derivation
-Organisation
+[Organisation](https://github.com/JiscRDSS/Metadata/tree/master/properties/Agent/Organisation)
 ###Mapping
 Organisation
 ###Obligation
@@ -94,7 +94,7 @@ University of Sheffield
 
 ------------
 
-##Contact  
+##Equipment contact  
 ###Description
 The named contact for the equipment
 ###Derivation
