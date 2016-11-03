@@ -1,5 +1,11 @@
 #Event
 
+##eventClass
+
+Preservation
+Metadata
+Reporting / Metrics
+
 ##eventIdentifier
 ##eventType
 ##eventDateTime
@@ -16,7 +22,6 @@
 ###Occurence	
 ###Content
 ###Example
-
 
 event	eventType	none	normalization	mandatory unit and component
 event	eventDateTime	none	2009-12-01T09:09:00-02:00	mandatory unit and component
