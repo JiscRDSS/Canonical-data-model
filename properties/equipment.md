@@ -6,46 +6,58 @@ Equipment
 ###[Equipment identifier](#equipment-identifier-1)
 ###[Equipment type](#equipment-type-1)
 ###[Equipment description](#equipment-description-1)
-###[Related facility identifier](#related-facility-identifier-1)
-###[Location](#location-1)
+###[Facility](#facility-1)
 ###[Contact](https://github.com/jiscresearch/sharedService/blob/master/metadata/properties/Agent/Agent%20Contact.md)
-###[Secondary contact](https://github.com/jiscresearch/sharedService/blob/master/metadata/properties/Agent/Agent%20Contact.md)
+
 
 ------------
 
-##Equipment name  
+##Equipment name
 ###Description
+The manufacturer name of the equipment
 ###Derivation
 http://equipment.data.ac.uk/
 ###Mapping
-###Obligation	
-###Occurence	
+###Obligation
+Mandatory
+###Occurence
+Once
 ###Content 
+Text
 ###Example
+Beckman Coulter Optima MAX-XP benchtop ultracentrifuge
 
 ------------
 
 ##Equipment identifier  
 ###Description
 ###Derivation
-http://equipment.data.ac.uk/
+Primary Key
 ###Mapping
 ###Obligation	
 ###Occurence	
 ###Content 
+text
 ###Example
+TBC
 
 ------------
 
 ##Equipment type  
 ###Description
+The type of equipment
 ###Derivation
 http://equipment.data.ac.uk/
 ###Mapping
-###Obligation	
-###Occurence	
-###Content 
+###Obligation
+Recommended
+###Occurence
+Once
+###Content
+Text (can be become a Controlled Vocabulary if enough standardisation)
 ###Example
+Fluorescence Spectrometer
+
 
 ------------
 
@@ -55,30 +67,44 @@ http://equipment.data.ac.uk/
 http://equipment.data.ac.uk/
 ###Mapping
 ###Obligation	
-###Occurence	
+Optional
+###Occurence
+Once
 ###Content 
+Text
+###Example
+Benchtop ultracentrifuge that runs at up to 150,000 RPM (2,500 revolutions per second). With full-color touch screen for monitoring and control. 
+
+------------
+
+##facility  
+###Description
+An identifier that 
+###Derivation
+Organisation
+###Mapping
+Organisation
+###Obligation
+Mandatory
+###Occurence
+Once
+###Content 
+University of Sheffield
 ###Example
 
 ------------
 
-##Related facility identifier  
+##Contact  
 ###Description
+The named contact for the equipment
 ###Derivation
-http://equipment.data.ac.uk/
+[Contact](https://github.com/JiscRDSS/Metadata/blob/master/properties/Agent/Person/Person%20Contact.md)
 ###Mapping
-###Obligation	
-###Occurence	
-###Content 
-###Example
-
-------------
-
-##Location  
-###Description
-###Derivation
-###Mapping
-###Obligation	
-###Occurence	
+Person Contact
+###Obligation
+Optional
+###Occurence
+Once
 ###Content 
 ###Example
 
