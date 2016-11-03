@@ -68,7 +68,7 @@ Text
 ###Description
 The terms of use of the software.
 ###Derivation
-DATS model
+[Licence](https://github.com/JiscRDSS/Metadata/blob/master/properties/Dataset/Rights/licence.md) 
 ###Mapping
 ###Obligation
 Recommended
