@@ -3,7 +3,7 @@
 The licence assigned to the dataset, fileset or file. Depending on the level at which the licence is assigned, this field can be repeatable abover file level which is one occurence only.
 
 ##[Licence name](#licence-name-1)
-##[Licence URI](#licence-uri-1)
+##[Licence URI](#licence-identifier-1)
 
 -------------------------------------
 
@@ -33,7 +33,7 @@ CC-BY-4.0
 
 -------------------
 
-##licence URI  
+##licence indentifier  
 
 ###Description
 Identifier for license named.
