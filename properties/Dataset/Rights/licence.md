@@ -33,7 +33,7 @@ CC-BY-4.0
 
 -------------------
 
-##licence indentifier  
+##Licence identifier  
 
 ###Description
 Identifier for license named.
