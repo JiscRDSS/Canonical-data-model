@@ -1,24 +1,22 @@
 #preservationEventType
 
-##capture
-##compression
-##creation
-##deaccession
-##decompression
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- ##[capture](#capture-1)
+- ##compression
+- ##creation
+- ##deaccession
+- ##decompression
+- ##decryption
+- ##deletion
+- ##digital signature validation
+- ##fixity check
+- ##ingestion
+- ##message digest calculation
+- ##migration
+- ##normalisation
+- ##replication
+- ##validation
+- ##virus check
+--------------------------------------------------
 ##capture
 ###Description
 The process whereby a repository actively obtains an object.
@@ -130,8 +128,9 @@ http://id.loc.gov/vocabulary/preservation/eventType/ing
 ###Content
 ###Example
 ---------------------------------
-##
+##message digest calculation
 ###Description
+The process by which a message digest ("hash") is created.
 ###Derivation
 http://id.loc.gov/vocabulary/preservation/eventType/mes
 ###Mapping
@@ -140,9 +139,9 @@ http://id.loc.gov/vocabulary/preservation/eventType/mes
 ###Content
 ###Example
 ---------------------------------
-##message digest calculation
+##migration
 ###Description
-The process by which a message digest ("hash") is created.
+A transformation of an object creating a version in a more contemporary format.
 ###Derivation
 http://id.loc.gov/vocabulary/preservation/eventType/mig
 ###Mapping
