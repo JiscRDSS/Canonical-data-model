@@ -2,20 +2,20 @@
 
 - [capture](#capture)
 - [compression](#compression)
-- ##creation
-- ##deaccession
-- ##decompression
-- ##decryption
-- ##deletion
-- ##digital signature validation
-- ##fixity check
-- ##ingestion
-- ##message digest calculation
-- ##migration
-- ##normalisation
-- ##replication
-- ##validation
-- ##virus check
+- [creation](#creation)
+- [deaccession](#deaccession)
+- [decompression](#decompression)
+- [decryption](#decryption)
+- [deletion](#deletion)
+- [digital signature validation](digital-signature-validation)
+- [fixity check](#fixity-check)
+- [ingestion](#ingestion)
+- [message digest calculation](#message-digest-calculation)
+- [migration](#migration)
+- [normalisation](#normalisation)
+- [replication](#replication)
+- [validation](#validation)
+- [virus check](#virus-check)
 --------------------------------------------------
 ##capture
 ###Description
