@@ -1,7 +1,7 @@
 #preservationEventType
 
-- ##[capture](#capture)
-- ##compression
+- [capture](#capture)
+- [compression](#compression)
 - ##creation
 - ##deaccession
 - ##decompression
