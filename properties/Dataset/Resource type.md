@@ -31,7 +31,7 @@ Image
 Term | Mapping
 -----|-------
 Art/Design Item|Designs (3); Non-textual form: Design (5); Art/Design item (8); Design (14); Design (15); Visual Artworks (18); Painting (19); Sculpture (19).
-
+Article|Article (1); Journal articles (3); Journal Article (4); Journal Article Abstract (4); Letter (4); Letter to Editor (4); Contribution to journal: Article (5); Contribution to journal: Meeting abstract (5); Contribution to journal: Letter (5); Contribution to journal: Comment/debate (5); Contribution to journal: Editorial (5); Contribution to specialist publication: Article (5); Contribution to specialist publication: Featured article (5); Contribution to specialist publication: Editorial (5); Contribution to specialist publication: Letter (5); Journal Item (6); Journal Article; Submitted (6); Journal Article (6); Journal Article (7); Journal Item (7); Submitted Journal Article (7); Journal articles (9); Articles (10); Article (11); contributionToPeriodical (11); Article (12); contributionToPeriodical (12); Journal Article (13); Journal Article Abstract (13); Letter (13); Letter to Editor (13); Magazine Article (13); Journal Article (14); Journal Article Abstract (14); Letter (14); Letter to Editor (14); Magazine Article (14); Journal article (15); Journal Article/Review (16); AcademicArticle (17); Article (17); Journal Articles (18); Article (19); BlogPosting (19); NewsArticle (19); ScholarlyArticle (19); MedicalScholarlyArticle (19); TechArticle (19); APIReference (19).
 ---------------------------
 
 
@@ -61,8 +61,8 @@ IRUS-UK item types version 2
 Item types recommended in the various guidelines considered (number in brackets refer to the guidelines (list below))
 
 
-Article
-Article (1); Journal articles (3); Journal Article (4); Journal Article Abstract (4); Letter (4); Letter to Editor (4); Contribution to journal: Article (5); Contribution to journal: Meeting abstract (5); Contribution to journal: Letter (5); Contribution to journal: Comment/debate (5); Contribution to journal: Editorial (5); Contribution to specialist publication: Article (5); Contribution to specialist publication: Featured article (5); Contribution to specialist publication: Editorial (5); Contribution to specialist publication: Letter (5); Journal Item (6); Journal Article; Submitted (6); Journal Article (6); Journal Article (7); Journal Item (7); Submitted Journal Article (7); Journal articles (9); Articles (10); Article (11); contributionToPeriodical (11); Article (12); contributionToPeriodical (12); Journal Article (13); Journal Article Abstract (13); Letter (13); Letter to Editor (13); Magazine Article (13); Journal Article (14); Journal Article Abstract (14); Letter (14); Letter to Editor (14); Magazine Article (14); Journal article (15); Journal Article/Review (16); AcademicArticle (17); Article (17); Journal Articles (18); Article (19); BlogPosting (19); NewsArticle (19); ScholarlyArticle (19); MedicalScholarlyArticle (19); TechArticle (19); APIReference (19).
+
+
 Audio
 Audio (1); Sound (2); Audio (10); AudioDocument (17); Audio recording (18); RadioClip (19); RadioEpisode (19); AudioObject (19); RadioSeason (19); RadioSeries (19).
 Book
