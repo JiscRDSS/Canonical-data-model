@@ -43,23 +43,7 @@ Journal|Journal (4); Contribution to journal: Special issue (5); Contribution to
 Learning Object|Teaching resource (1); Content-packaged learning objects (9); Course materials (10); Study skills, support and revision materials (10); lecture (11); lecture (12).
 Moving Image|Video (1); Multimedia and audio-visual materials (9); Video (10); Radio/TV Program (14); Video Recording (14); Visual Artwork (14); AudioVisualDocument (17); Film (17); Video Recordings (18); TVClip (19); TVEpisode (19); VideoObject (19); Movie (19); TVSeason (19); TVSeries (19); Audiovisual (20).
 Music/Musical Composition|Composition (1); Compositions (3); Non-textual form: Composition (5); Composition (10); Composition (14); Musical Composition (14); Composition (15); Musical Compositions (18); Musical Performances (18); MusicVideoObject (19); MusicAlbum (19); MusicRecording (19).
-Other|Other (1); Artefact (1); Experiment (1).
-Collection (2); Event (2); InteractiveResource (2); Service (2).
-Artefacts (3); Other (3).
-Commentary (4); Annotation (4).
-Non-textual form: Digital or Visual Products (5); Non-textual form: Artefact (5); Memorandum/exposition: Memorandum (5); Memorandum/exposition: Question & Answer/hearing (5); Contribution to memorandum/exposition: Memorandum contribution (5); Contribution to memorandum/exposition: Question & Answer/hearing contribution (5); Other contribution: Other contribution (5).
-Other special items (9); Bibliographic references (metadata only) (9).
-Curricula and syllabuses (10); Course validation documents (10); Assessment materials (10); Student-produced work (10); Artefact (10); Experiment (10). annotation (11); other (11). annotation (12); other (12); researchProposal (12); technicalDocumentation (12).
-Supervised Student Publications (13); Annotation (13); Transliteration (13); Translation (13); Standard and Policy (13).
-Supervised Student Publications (14); Annotation (14); Transliteration (14); Translation (14); Artefact (14); Devices and products (14); Other (14); Research Tool (14); Sound Design (14); Set Design (14); Light Design (14); Choreography (14); Intellectual Property (14); License (14); Disclosure (14); Registered Copyright (14); Trademark (14); Standard and Policy (14); Technical Standard (14); Research Techniques (14); Invention (14); Litigation (14).
-Artefact (15); Devices and products (15).
-Technical standard (16); Other (16).
-Bill (17); Brief (17); Chapter (17); Code (17); CollectedDocument (17); Collection (17); CourtReporter (17); Email (17); Event (17); Excerpt (17); Hearing (17); Interview (17); Issue (17); LegalCaseDocument (17); LegalDecision (17); LegalDocument (17); Legislation (17); Note (17); PersonalCommunication (17); PersonalCommunicationDocument (17); Quote (17); ReferenceSource (17); Series (17); Standard (17); Statute (17).
-Translations (18); Supervised Student Publications (18);Dictionary Entries (18); Research Tools (18); Tests (18); Sound design (18); Set Design (18); Light Design (18); Choreography (18); Licenses (18); Disclosures (18); Registered Copyrights (18); Trademarks (18); Standards and Policies (18); Technical Standards (18); Spin Off Companies (18); Research Techniques (18); Inventions (18); Litigation (18).
-Code (19); Comment (19); Diet (19); EmailMessage (19); ExercisePlan (19); ItemList (19); Question (19); Recipe (19).
-Answer (19); Blog (19).
-Other (20); Collection (20); Event (20); PhysicalObject (20); Service (20). 
-Workflow | Datacite
+Other|Other (1); Artefact (1); Experiment (1). Collection (2); Event (2); InteractiveResource (2); Service (2). Artefacts (3); Other (3). Commentary (4); Annotation (4). Non-textual form: Digital or Visual Products (5); Non-textual form: Artefact (5); Memorandum/exposition: Memorandum (5); Memorandum/exposition: Question & Answer/hearing (5); Contribution to memorandum/exposition: Memorandum contribution (5); Contribution to memorandum/exposition: Question & Answer/hearing contribution (5); Other contribution: Other contribution (5). Other special items (9); Bibliographic references (metadata only) (9). Curricula and syllabuses (10); Course validation documents (10); Assessment materials (10); Student-produced work (10); Artefact (10); Experiment (10). annotation (11); other (11). annotation (12); other (12); researchProposal (12); technicalDocumentation (12). Supervised Student Publications (13); Annotation (13); Transliteration (13); Translation (13); Standard and Policy (13). Supervised Student Publications (14); Annotation (14); Transliteration (14); Translation (14); Artefact (14); Devices and products (14); Other (14); Research Tool (14); Sound Design (14); Set Design (14); Light Design (14); Choreography (14); Intellectual Property (14); License (14); Disclosure (14); Registered Copyright (14); Trademark (14); Standard and Policy (14); Technical Standard (14); Research Techniques (14); Invention (14); Litigation (14). Artefact (15); Devices and products (15). Technical standard (16); Other (16). Bill (17); Brief (17); Chapter (17); Code (17); CollectedDocument (17); Collection (17); CourtReporter (17); Email (17); Event (17); Excerpt (17); Hearing (17); Interview (17); Issue (17); LegalCaseDocument (17); LegalDecision (17); LegalDocument (17); Legislation (17); Note (17); PersonalCommunication (17); PersonalCommunicationDocument (17); Quote (17); ReferenceSource (17); Series (17); Standard (17); Statute (17). Translations (18); Supervised Student Publications (18);Dictionary Entries (18); Research Tools (18); Tests (18); Sound design (18); Set Design (18); Light Design (18); Choreography (18); Licenses (18); Disclosures (18); Registered Copyrights (18); Trademarks (18); Standards and Policies (18); Technical Standards (18); Spin Off Companies (18); Research Techniques (18); Inventions (18); Litigation (18). Code (19); Comment (19); Diet (19); EmailMessage (19); ExercisePlan (19); ItemList (19); Question (19); Recipe (19). Answer (19); Blog (19). Other (20); Collection (20); Event (20); PhysicalObject (20); Service (20); workflow (20).
 Patent|Patent (1); Patents (3); Patent: Patent (5); Patent (6); Patent (7); Patents (9); Patents (10); patent (11); patent (12); Patent / published patent application (14); Patent/ published patent application (15); Patent (17); Patents (18).
 Performance|Performance (1); Performances (3); Non-textual form: Performance (5); Performance (8); Performance (10); Performance (14); Musical performance (14); Theatric (14); Performance (15); Performance (17); Radio/TV Programs; Theatric (18); Performance Art (18).
 Preprint|preprint (11); preprint (12).
@@ -75,30 +59,27 @@ Working Paper|Working paper: Working paper (5); Working paper: Discussion paper 
 
 ##Mapping key
 
-1 EPrints
-2 DCMITYPE (recommended by DSpace)
-3 Symplectic
-4 Converis
-5 Pure
-6 SWAP
-7 IRIScotland
-8 Kultur
-9 Jisc InfoKit List 1
-10 Jisc InfoKit: List 2
-11 DRIVER
-12 info:eu-repo/semantics (recommended by OpenAIRE)
-13 OpenAIRE Guidelines for CRIS Managers based upon CERIF-XML
-14 CERIF
-15 REF2014
-16 Researchfish
-17 BIBO
-18 CASRAI
-19 Schema
-20 Datacite
+- 1 EPrints
+- 2 DCMITYPE (recommended by DSpace)
+- 3 Symplectic
+- 4 Converis
+- 5 Pure
+- 6 SWAP
+- 7 IRIScotland
+- 8 Kultur
+- 9 Jisc InfoKit List 1
+- 10 Jisc InfoKit: List 2
+- 11 DRIVER
+- 12 info:eu-repo/semantics (recommended by OpenAIRE)
+- 13 OpenAIRE Guidelines for CRIS Managers based upon CERIF-XML
+- 14 CERIF
+- 15 REF2014
+- 16 Researchfish
+- 17 BIBO
+- 18 CASRAI
+- 19 Schema
+- 20 Datacite
 ---------------------------
-
-
-
 ##Resource type description  
 
 ###Description
