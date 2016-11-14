@@ -166,6 +166,36 @@ http://purl.org/coar/resource_type/c_5ce6
 
 ------------
 
+##File Composition Level  
+
+###Description
+An indication of whether the object is subject to one or more
+processes of decoding or unbundling.
+
+Composition level will generally be supplied by the repository, which
+should attempt to supply this value automatically. If the object was
+created by the repository, the creating routine knows the composition
+level and can supply this metadata. If the object is being ingested by
+the repository, repository programs will have to attempt to identify
+the composition level from the object itself or from externally
+supplied metadata.
+
+###Derivation
+PREMIS
+
+###Mapping
+
+###Obligation	
+Mandatory
+
+###Occurence	
+Non-repeatable
+
+###Content
+Integer
+###Example
+0
+------------
 ##Has Mime Type  
 
 ###Description
