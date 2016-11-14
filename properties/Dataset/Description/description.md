@@ -5,7 +5,7 @@
 ##Description
 
 ###Description
-Text summary explaining the dataset / object.
+Text summary explaining the publication / dataset / object.
 ###Derivation
 Datacite.
 ###Obligation	
