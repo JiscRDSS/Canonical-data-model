@@ -4,7 +4,7 @@
 
 - [identifierType](#identifierType-1) [1]
 
-- [relationType](#relationType-1) [0-1]
+- [relationType](#relationType-1) [0.1]
 
 ------------------------                   
 
