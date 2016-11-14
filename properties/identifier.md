@@ -14,8 +14,6 @@
 ###Derivation
 PREMIS
 ###Mapping
-###Obligation	
-###Occurence	
 ###Content
 String
 ###Example
@@ -27,8 +25,6 @@ The type of identifier
 ###Derivation
 Datacite
 ###Mapping
-###Obligation	
-###Occurence	
 ###Content
 Controlled Vocabulary
 
