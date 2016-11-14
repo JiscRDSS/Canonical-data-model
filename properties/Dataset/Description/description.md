@@ -1,6 +1,6 @@
 
-#[Description](#description) (Rec)
-#[Description type](#description-type) (O)
+#[Description](#description)
+#[Description type](#description-type)
 
 ##Description
 
