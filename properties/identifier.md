@@ -1,10 +1,10 @@
 #Identifier
 
-- [identifierValue][1](#identifierValue-1)
+- [identifierValue](#identifierValue-1) [1]
 
-- [identifierType][1](#identifierType-1)
+- [identifierType](#identifierType-1) [1]
 
-- [relationType][0-1](#relationType-1)
+- [relationType](#relationType-1) [0-1]
 
 ------------------------                   
 
