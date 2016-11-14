@@ -1,10 +1,10 @@
 #Identifier
 
-- [identifierValue](#identifierValue-1)
+- [identifierValue][1](#identifierValue-1)
 
-- [identifierType](#identifierType-1)
+- [identifierType][1](#identifierType-1)
 
-- [relationType](#relationType-1)
+- [relationType][0-1](#relationType-1)
 
 ------------------------                   
 
@@ -12,11 +12,14 @@
 ##identifierValue
 ###Description
 ###Derivation
+PREMIS
 ###Mapping
 ###Obligation	
 ###Occurence	
 ###Content
+String
 ###Example
+0db50321-6d7b-4291-89ec-a8b0adc1ff96
 ------------------------
 ##identifierType
 ###Description
