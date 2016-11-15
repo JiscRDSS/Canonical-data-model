@@ -11,6 +11,7 @@ Properties associated with an individual file.
 ###[File Hash](#file-hash-1)
 ###[MD5 checksum](#md5-cheksum-1)
 ###[File Format Type](#file-format-type-1)
+###[File composition level](#file-composition-level-1)
 ###[Has Mime Type](#has-mime-type-1)  
 ###[Date Modified](#date-modified-1) 
 ###[PUID](#puid-1)
