@@ -1,8 +1,11 @@
 #Publication
 
-###[free to read](#free-to-read-1)
-###[license ref](#license-ref-1)	
-###[publication version](https://github.com/JiscRDSS/Metadata/blob/master/properties/publication/publication%20version.md)
+-[free to read](#free-to-read-1)
+-[license ref](#license-ref-1)	
+-[publication version](https://github.com/JiscRDSS/Metadata/blob/master/properties/publication/publication%20version.md)
+-[publication file](https://github.com/JiscRDSS/Metadata/blob/master/properties/File/file.md)
+-[publication coverage](https://github.com/JiscRDSS/Metadata/blob/master/properties/Dataset/Coverage/coverage.md)
+-[publication description](
 
 
 
