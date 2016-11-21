@@ -1,7 +1,7 @@
 
-#RDSS Data Model
+#RDSS Concept Model
 
-The data model file in this folder can be viewed using [StarUML](http://staruml.io/).
+The file in this folder can be viewed using [StarUML](http://staruml.io/).
 
 Links and additional information are being added to this document over time. 
 
