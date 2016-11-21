@@ -50,7 +50,6 @@ A REF compliance checker that relies on relatively few metadata fields to descri
 [Equipment.data](http://equipment.data.ac.uk/uniquip)
 A rich metadata set that allows pieces of experimental equipment to be identified individually.
 
-
 ##Description
 
 ##Classes, values, properties 
@@ -71,5 +70,11 @@ A rich metadata set that allows pieces of experimental equipment to be identifie
 
 **Information assets**
 
-- [Project](https://github.com/JiscRDSS/Metadata/tree/master/properties/Project) 
-- 
+- Project 
+- Grant
+- DMP
+- Standards
+- Data acquisition
+- Dimensions
+- Rights
+- Access
