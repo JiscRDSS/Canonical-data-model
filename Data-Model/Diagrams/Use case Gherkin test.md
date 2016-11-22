@@ -1,8 +1,6 @@
  1: Feature: Some terse yet descriptive text of what is desired
- 
- 2:   Textual description of the business value of this feature
- 
- 3:   Business rules that govern the scope of the feature
+  2:   Textual description of the business value of this feature
+  3:   Business rules that govern the scope of the feature
  4:   Any additional information that will make the feature easier to understand
  
  5: 
