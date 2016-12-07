@@ -2,4 +2,4 @@
 
 Use case | Source | Issue 
 -------- | -------|
-Content1 | Content2|Content3
+Content1 | Content2 | Content3
