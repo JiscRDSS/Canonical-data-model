@@ -1,4 +1,5 @@
+#Priority use cases
 
-Use case | Source  
--------- | -------
-Content1 | Content2
+Use case | Source | Issue 
+-------- | -------|
+Content1 | Content2|Content3
