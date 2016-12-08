@@ -1,4 +1,4 @@
-#A note on leaving feedback on the data model
+#A note on leaving feedback for the data model
 
 This current draft of the data model has been constructed under the requirements of being interoperable with as many of the products and services that have been indentified in the supplier lots or elsewhere.
 
