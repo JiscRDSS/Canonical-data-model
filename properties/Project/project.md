@@ -1,6 +1,6 @@
 #Project
 
-###[projectUUID](#project-uuid-1)
+###[projectUUID](#project-uuid)
 ###projectIdentifier
 ###projectName
 ###projectDescription
