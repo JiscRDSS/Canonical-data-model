@@ -1,29 +1,25 @@
 #Project
 
-###[Project ID](#project-id-1)
-###Project ID type
-###Project name
-###Project description
-###Project data contact
-###[Project funder](https://github.com/jiscresearch/sharedService/blob/master/metadata/properties/Project/project%20funder.md)
-###Project start date
-###Project end date
-###Project funder code
-###Bid deadline
-###Risk assessment
+###[projectUUID](#project-uuid-1)
+###projectIdentifier
+###projectName
+###projectDescription
+###projectContact
+###projectGrant
+###projectStart
+###projectEnd
+
+--------------------------------------------------------------------------------------
 
 
 
-##Project ID
-
+##Project UUID
 ###Description
- 
 ###Derivation
- 
 ###Obligation	
- 
+Mandatory 
 ###Occurence	
- 
+Once 
 ###Content 
  
 ###Example
@@ -31,7 +27,7 @@
 
 
 
-##Project ID type
+##projectIdentifier
 
 ###Description
  
