@@ -10061,7 +10061,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+transportStatus[1]",
+											"text": "«uploadStatus»+uploadStatus[1]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -10090,7 +10090,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+storageStatus[1]",
+											"text": "«storageStatus»+storageStatus[1]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -34782,7 +34782,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "transportStatus",
+											"text": "uploadStatus",
 											"horizontalAlignment": 2,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -49468,12 +49468,11 @@
 							"_parent": {
 								"$ref": "AAAAAAFYP80Eer+GUL4="
 							},
-							"name": "transportStatus",
+							"name": "uploadStatus[1]",
+							"stereotype": "uploadStatus",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
-							"type": "",
-							"multiplicity": "1",
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -49488,6 +49487,7 @@
 								"$ref": "AAAAAAFYP80Eer+GUL4="
 							},
 							"name": "storageStatus",
+							"stereotype": "storageStatus",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -56635,7 +56635,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "transportStatus",
+					"name": "uploadStatus",
 					"visibility": "public",
 					"isAbstract": false,
 					"isFinalSpecialization": false,
