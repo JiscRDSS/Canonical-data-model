@@ -1,8 +1,8 @@
 
-# Organisation Contact
+#Contact
 
 * [contactName]
-* [contactEmail](#contactemail-1)
+* [contactEmail](#contactEmail-1)
 * [contactAddress](#contactAddress-1)
 * [contactTelephone](#contactTelephone-1)
 ------------------------------------------------------------
