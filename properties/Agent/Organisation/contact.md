@@ -1,12 +1,12 @@
 
 # Organisation Contact
 
-* [Organisation Contact Name]
-* [Organisation Contact Email](#organisation-contact-email)
-* [Organisation Contact Address](#organisation-contact-address)
-* [Organisation Contact Telephone](#organisation-contact-telephone)
-
-##Organisation contact Email
+* [contactName]
+* [contactEmail](#contactemail-1)
+* [contactAddress](#contactAddress-1)
+* [contactTelephone](#contactTelephone-1)
+------------------------------------------------------------
+##contactEmail
 
 ### Description
 Email address for the person.
