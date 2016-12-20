@@ -1,12 +1,12 @@
 
 #Contact
 
-* [contactName]
+* [contactName](contactname)
 * [contactEmail](#contactemail-1)
 * [contactAddress](#contactAddress-1)
 * [contactTelephone](#contactTelephone-1)
-------------------------------------------------------------
-##contactEmail
+-------------------------------------------------
+##contactName
 
 ### Description
 Email address for the person.
@@ -27,6 +27,28 @@ Term | Schema
 -------------|--------------
 ### Comment
 
+-------------------------------------------------
+##contactEmail
+
+### Description
+Email address for the person.
+### Derivation
+Common.
+### Obligation	
+Recommended
+### Occurence
+Non-repeatable
+### Example	
+joanne.smith@institution.ac.uk
+### Minimum Quality threshold	
+Valid email address
+### Rating
+Bronze
+### Mapping
+Term | Schema
+-------------|--------------
+### Comment
+-------------------------------------------------
 ##Organisation contact address
 ### Description
 Address for organisation.
@@ -49,7 +71,7 @@ Bronze
 Term | Schema
 -------------|--------------
 ### Comment
-
+-------------------------------------------------
 ##Organisation Contact Telephone
 ### Description
 Telephone number(s) for organisation. 
