@@ -1,10 +1,11 @@
 
 #Contact
 
-* [contactName](contactname)
+* [contactName](#contactname)
 * [contactEmail](#contactemail-1)
 * [contactAddress](#contactAddress-1)
 * [contactTelephone](#contactTelephone-1)
+
 -------------------------------------------------
 ##contactName
 
