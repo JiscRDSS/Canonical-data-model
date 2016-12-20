@@ -2,7 +2,7 @@
 #Contact
 
 * [contactName]
-* [contactEmail](#contactEmail-1)
+* [contactEmail](#contactEmail)
 * [contactAddress](#contactAddress-1)
 * [contactTelephone](#contactTelephone-1)
 ------------------------------------------------------------
