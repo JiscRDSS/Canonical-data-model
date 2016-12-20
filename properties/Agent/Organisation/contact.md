@@ -22,10 +22,6 @@ Mandatory
 Non-repeatable
 ### Example	
 Smith, Joanne
-### Minimum Quality threshold	
-ln, fn format
-### Rating
-Bronze
 ### Mapping
 Term | Schema
 -------------|--------------
@@ -44,10 +40,6 @@ Recommended
 Non-repeatable
 ### Example	
 joanne.smith@institution.ac.uk
-### Minimum Quality threshold	
-Valid email address
-### Rating
-Bronze
 ### Mapping
 Term | Schema
 -------------|--------------
@@ -67,10 +59,6 @@ Non-repeatable
 Town
 County
 AB1 2CD
-### Minimum Quality threshold	
-Lookup(?) on House number / Postcode?
-### Rating
-Bronze
 ### Mapping
 Term | Schema
 -------------|--------------
@@ -87,10 +75,6 @@ Recommended
 Repeatable
 ### Example	
 01234 567890
-### Minimum Quality threshold
-Number string with dialling code?
-### Rating
-Bronze
 ### Mapping
 Term | Schema
 -------------|--------------
