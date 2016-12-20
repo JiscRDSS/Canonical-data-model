@@ -2,9 +2,9 @@
 #Contact
 
 * [contactName](#contactname)
-* [contactEmail](#contactemail-1)
-* [contactAddress](#contactAddress-1)
-* [contactTelephone](#contactTelephone-1)
+* [contactEmail](#contactemail)
+* [contactAddress](#contactaddress)
+* [contactTelephone](#contacttelephone)
 
 -------------------------------------------------
 ##contactName
@@ -50,7 +50,7 @@ Term | Schema
 -------------|--------------
 ### Comment
 -------------------------------------------------
-##Organisation contact address
+##contactAddress
 ### Description
 Address for organisation.
 ### Derivation
@@ -73,7 +73,7 @@ Term | Schema
 -------------|--------------
 ### Comment
 -------------------------------------------------
-##Organisation Contact Telephone
+##contactTelephone
 ### Description
 Telephone number(s) for organisation. 
 ### Derivation
