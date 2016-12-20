@@ -1,6 +1,9 @@
 
 #Contact
 
+Sub-entity shared by Person, Organisation and Project.
+------------------------------------------------
+
 * [contactName](#contactname)
 * [contactEmail](#contactemail)
 * [contactAddress](#contactaddress)
@@ -10,17 +13,17 @@
 ##contactName
 
 ### Description
-Email address for the person.
+Name of the contact person.
 ### Derivation
 Common.
 ### Obligation	
-Recommended
+Mandatory
 ### Occurence
 Non-repeatable
 ### Example	
-joanne.smith@institution.ac.uk
+Smith, Joanne
 ### Minimum Quality threshold	
-Valid email address
+ln, fn format
 ### Rating
 Bronze
 ### Mapping
