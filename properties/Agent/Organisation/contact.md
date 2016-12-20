@@ -1,7 +1,7 @@
 
 #Contact
 
-Sub-entity shared by Person, Organisation and Project.
+ Child entity related to Person, Organisation and Project.
 ------------------------------------------------
 
 * [contactName](#contactname)
