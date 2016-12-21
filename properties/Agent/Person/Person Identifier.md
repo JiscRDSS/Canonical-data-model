@@ -1,4 +1,4 @@
-##Person identifier
+##personIdentifier
 
 * [personIdentifierValue](#personidentifiervalue)
 * [personIdentifierType](#personidentifiertype)
