@@ -7,7 +7,7 @@
 * [softwareVersion](#softwareversion)
 * [softwareRights](#softwarerights)
 
---------------------
+------------------------------------------------------------------
 ##softwareUUID
 ###Description
 The unique identifier given to the softeware within the system.
@@ -23,7 +23,7 @@ Once
 String
 ###Example
 aadb9dc6-6329-48fd-b668-8bbbb94e3a36
---------------------
+-------------------------------------------------------------------
 ##softwareName 
 ###Description
 The name of the software.
@@ -38,7 +38,7 @@ Once
 Text
 ###Example
 ImageJ
---------------------
+------------------------------------------------------------------
 ##softwareIdentifier 
 ###Description
 Primary identifier for the software.
@@ -52,7 +52,7 @@ Repeatable
 ###Content
 Text
 ###Example
---------------------
+--------------------------------------------------------------------
 ##softwareDescription 
 ###Description
 A textual narrative comprised of one or more statements describing the software.
@@ -65,7 +65,7 @@ Once
 ###Content 
 Text
 ###Example
---------------------
+-------------------------------------------------------------------
 ##softwareVersion  
 ###Description
 A release point for the software.
@@ -79,7 +79,7 @@ Once
 ###Content
 Text
 ###Example
---------------------
+-------------------------------------------------------------------
 ##softwareRights 
 ###Description
 The terms of use of the software.
