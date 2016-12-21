@@ -21,21 +21,31 @@ Resolvable URI
 ###Populated from (Data Model)	
 ###Rating
 ---------------------------------------
+##personIdentifierType
+
 ###Description
-Identifier associated with person.
+The scheme/domain to which the identifier belongs.
 ###Derivation
-Datacite.
+Datacite 3.1
 ###Obligation	
-Recommended
+Mandatory if Person identifier is populated.
 ###Occurence	
-Repeatable
-###Content 
-http:URI 
+Non-repeatable
+###Content	
+Text
 ###Example / CV value
-http://orcid.org/0000-0001-5352-4666
-###Min. Quality threshold	
-Resolvable URI
+ORCID
+###Min. Quality threshold
+CV lookup?
 ###Populated from (Data Model)	
 ###Rating
+
+
+##Identifier Table
+
+Type | Example
+-----| -------
+ISNI
+ORCID
 
 
