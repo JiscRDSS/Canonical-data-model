@@ -1,10 +1,10 @@
 #Group
 
-* ##groupUUID(#groupuuid)
-* ##groupName(#groupname)
-* ##groupIdentifier(#groupidentifier)
-* ##groupType(#grouptype)
-* ##groupAccess(#groupaccess)
+* groupUUID(#groupuuid)
+* groupName(#groupname)
+* groupIdentifier(#groupidentifier)
+* groupType(#grouptype)
+* groupAccess(#groupaccess)
 
 ---------------------
 ##groupUUID 
