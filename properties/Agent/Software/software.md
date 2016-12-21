@@ -1,14 +1,30 @@
 #Software
 
-##[Software name](#software-name-1)
-##[Software identifier](#software-identifier-1)
-##[Software description](#software-description-1)
-##[Software version](#software-version-1)
-##[Software licence](#software-version-1)
+* [softwareUUID](#softwareUUID)
+* [softwareName](#softwarename)
+* [softwareIdentifier](#softwareidentifier)
+* [softwareDescription](#softwaredescription)
+* [softwareVersion](#softwareversion)
+* [softwareRights](#softwarerights)
 
 --------------------
-
-##Software name 
+##softwareUUID
+###Description
+The unique identifier given to the softeware within the system.
+###Derivation
+Internal
+###Mapping
+None
+###Obligation
+Mandatory
+###Occurence	
+Once
+###Content 
+String
+###Example
+aadb9dc6-6329-48fd-b668-8bbbb94e3a36
+--------------------
+##softwareName 
 ###Description
 The name of the software.
 ###Derivation
@@ -23,7 +39,7 @@ Text
 ###Example
 ImageJ
 --------------------
-##Software identifier 
+##softwareIdentifier 
 ###Description
 Primary identifier for the software.
 ###Derivation
@@ -37,7 +53,7 @@ Repeatable
 Text
 ###Example
 --------------------
-##Software description 
+##softwareDescription 
 ###Description
 A textual narrative comprised of one or more statements describing the software.
 ###Derivation
@@ -50,7 +66,7 @@ Once
 Text
 ###Example
 --------------------
-##Software version  
+##softwareVersion  
 ###Description
 A release point for the software.
 ###Derivation
@@ -64,7 +80,7 @@ Once
 Text
 ###Example
 --------------------
-##Software licence  
+##softwareRights 
 ###Description
 The terms of use of the software.
 ###Derivation
