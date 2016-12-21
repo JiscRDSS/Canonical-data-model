@@ -45,7 +45,7 @@ CV lookup?
 
 Type | Example
 -----| -------
-ISNI
-ORCID
+ISNI |
+ORCID |
 
 
