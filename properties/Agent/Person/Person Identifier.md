@@ -1,11 +1,12 @@
 ##Person identifier
 
-* personIdentifierValue
-* personIdentifierType
+* [personIdentifierValue](#personidentifiervalue)
+* [personIdentifierType](#personidentifiertype)
 
 -------------------------------------
+##personIdentifierValue
 ###Description
-Identifier associated with person.
+Identifier value as defined by the type.
 ###Derivation
 Datacite.
 ###Obligation	
