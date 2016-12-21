@@ -1,24 +1,28 @@
 #Organisation
 
-###[organisationUUID](organisationuuid)
-###[Organisation Name](#organisation-name-1)
-###[Organisation identifier](organisation-identifier-1)
-###[Organisation identifier scheme](organisation-identifier-scheme-1)
-###[Organisation contact](https://github.com/JiscRDSS/Metadata/blob/master/properties/Agent/Person/Person%20Contact.md)
-###Organisation type
+###[organisationUUID](#organisationuuid)
+###[organisationName](#organisationname)
+###[organisationIdentifier](organisationidentifier)
+###[organisation contact](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/Agent/Organisation/contact.md)
+###[organisationType](#organisationtype)
+###[organisationRole](#organisationrole)
 ----------------------------------------------
 
 ##organisationUUID
 ###Description
 Unique identifier for the organisation within the data model
 ###Derivation
-Common
+system
 ###Mapping
+None
 ###Obligation	
+Mandatory
 ###Occurence	
+Once
 ###Content 
+String
 ###Example
-
+0e7e9878-aae1-4dad-8ef6-9c74542cd7e1
 ----------------------------------------------
 
 ##Organisation Name 
