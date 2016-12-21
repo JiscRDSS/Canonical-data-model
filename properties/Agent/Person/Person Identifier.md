@@ -2,6 +2,7 @@
 
 * personIdentifierValue
 * personIdentifierType
+
 -------------------------------------
 ###Description
 Identifier associated with person.
