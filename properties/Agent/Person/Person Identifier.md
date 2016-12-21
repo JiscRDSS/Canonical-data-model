@@ -1,5 +1,8 @@
 ##Person identifier
 
+* personIdentifierValue
+* personIdentifierType
+
 ###Description
 Identifier associated with person.
 ###Derivation
