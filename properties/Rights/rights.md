@@ -34,10 +34,11 @@ String
 ##rightsHolder 
 
 ###Description
-Text that specifies restraints on access / reuse (IPR, ethics, copyright)
+A person or organization owning or managing rights over the resource. This field should be used if the rights holder differs from the publisher.
 
 ###Derivation
-UKRDDS profile
+DCMI
+http://purl.org/dc/terms/rightsHolder
 
 ###Mapping
 dc:rights
@@ -50,4 +51,5 @@ Non-repeatable
 
 ###Content 
 String
+
 ###Example
