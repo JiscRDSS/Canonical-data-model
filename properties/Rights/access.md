@@ -35,10 +35,10 @@ Open
 
 Vocabulary terms
 
-Open
-Restricted
-Controlled
-Closed
+* Open
+* Restricted
+* Controlled
+* Closed
 
 
 ##Access statement
