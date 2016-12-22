@@ -5,7 +5,7 @@
 * [rightsHolder]
 * [Licence]
 * [Access]
-
+-----------------------------------------
 
 
 ##Rights Statement  
