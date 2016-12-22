@@ -5,6 +5,7 @@
 * [rightsHolder](#rightsholder)
 * [Licence](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/Rights/licence.md)
 * [Access](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/Rights/access.md)
+
 -----------------------------------------
 
 
