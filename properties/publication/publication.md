@@ -1,18 +1,45 @@
 #Publication
 
-[publicationUUID](#publicationuuid)
--[free to read](#free-to-read-1)
--[license ref](#license-ref-1)	
--[publication version](https://github.com/JiscRDSS/Metadata/blob/master/properties/publication/publication%20version.md)
--[publication file](https://github.com/JiscRDSS/Metadata/blob/master/properties/File/file.md)
--[publication coverage](https://github.com/JiscRDSS/Metadata/blob/master/properties/Dataset/Coverage/coverage.md)
--[publication description](
-
-
+* [publicationUUID](#publicationuuid)
+* [publicationFreeToRead](#publicationfreetoread)
+* [publicationLicenseRef](#publicationlicenseref)	
+* [publicationIdentifier](#publicationidentifier)
+* [publication coverage](https://github.com/JiscRDSS/Metadata/blob/master/properties/Dataset/Coverage/coverage.md)
+* [publication description](
+* [publication file](https://github.com/JiscRDSS/Metadata/blob/master/properties/File/file.md)
+* [publicationLanguage]
+* [publicationResourceType](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/publication/publication%20resource%20type.md)
+* [publicationTitle]
+* [publicationSubject]
+* [publicationDate]
+* [publicationAPC]
+* [publicationRelatedIdentifier]
+* [publication version](https://github.com/JiscRDSS/Metadata/blob/master/properties/publication/publication%20version.md)
+* [publicationPersonLinkage]
+* [publicationOrganisationLinkage]
+* [publicationProjectLinkage]
+* [publicationDatasetLinkage]
 
 -------------------------------
 
-##Free to read  
+##organisationUUID
+###Description
+Unique identifier for the publication within the data model
+###Derivation
+system
+###Mapping
+None
+###Obligation	
+Mandatory
+###Occurence	
+Once
+###Content 
+String
+###Example
+0e7e9878-aae1-4dad-8ef6-9c74542cd7e1
+--------------------------------
+
+##publicationFreeToRead  
 
 ###Description
 This is defined in the NISO Open Access Metadata and Indicators. This element does not take a value - the semantics of ali:free_to_read are conveyed by its presence or absence. This element may be modified by two optional attributes:
