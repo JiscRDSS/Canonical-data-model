@@ -1,14 +1,10 @@
 
 #Rights
 
-####Description
-
-####Occurence
-Reapeatable
-
-###[Rights Statement](#rights-statement-1)
-###[Licence]
-###[Access]
+* [rightsStatement](#rights-statement-1)
+* [rightsHolder]
+* [Licence]
+* [Access]
 
 
 
