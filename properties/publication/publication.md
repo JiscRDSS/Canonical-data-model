@@ -1,5 +1,6 @@
 #Publication
 
+[publicationUUID](#publicationuuid)
 -[free to read](#free-to-read-1)
 -[license ref](#license-ref-1)	
 -[publication version](https://github.com/JiscRDSS/Metadata/blob/master/properties/publication/publication%20version.md)
