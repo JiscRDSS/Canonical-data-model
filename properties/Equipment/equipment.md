@@ -12,7 +12,7 @@ Equipment
 
 ------------
 
-##Equipment name
+##equipmentUUID
 ###Description
 The unique ID given to the equipment 
 ###Derivation
