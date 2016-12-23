@@ -2,14 +2,30 @@
 Equipment
 -------------
 
-###[Equipment name](#equipment-name-1)
-###[Equipment identifier](#equipment-identifier-1)
-###[Equipment type](#equipment-type-1)
-###[Equipment description](#equipment-description-1)
-###[Equipment organisation](#equipment-organisation-1)
-###[Equipment contact](https://github.com/JiscRDSS/rdss-canonical-data-model/tree/master/properties/Contact)
+* [equipmentUUID](#equipmentuuid)
+* [Equipment name](#equipment-name-1)
+* [Equipment identifier](#equipment-identifier-1)
+* [Equipment type](#equipment-type-1)
+* [Equipment description](#equipment-description-1)
+* [Equipment organisation](#equipment-organisation-1)
+* [Equipment contact](https://github.com/JiscRDSS/rdss-canonical-data-model/tree/master/properties/Contact)
 
+------------
 
+##Equipment name
+###Description
+The unique ID given to the equipment 
+###Derivation
+System
+###Mapping
+###Obligation
+Mandatory
+###Occurence
+Once
+###Content 
+String
+###Example
+0459461c-c902-11e6-9d9d-cec0c932ce01
 ------------
 
 ##Equipment name
