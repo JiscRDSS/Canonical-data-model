@@ -7,7 +7,7 @@ Equipment
 ###[Equipment type](#equipment-type-1)
 ###[Equipment description](#equipment-description-1)
 ###[Equipment organisation](#equipment-organisation-1)
-###[Equipment contact](#equipment-contact-1)
+###[Equipment contact](https://github.com/JiscRDSS/rdss-canonical-data-model/tree/master/properties/Contact)
 
 
 ------------
@@ -97,7 +97,7 @@ University of Sheffield
 ###Description
 The named contact for the equipment
 ###Derivation
-[Person](https://github.com/JiscRDSS/Metadata/blob/master/properties/Agent/Person/Person.md)
+[Contact](https://github.com/JiscRDSS/rdss-canonical-data-model/tree/master/properties/Contact)
 ###Mapping
 Person Contact
 ###Obligation
