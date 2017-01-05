@@ -61693,6 +61693,7 @@
 								"$ref": "AAAAAAFZbn/LfwC2WlA="
 							},
 							"name": "channels",
+							"documentation": "May be expressed as a number or as a description such as \"mono\", \"stereo\" or \"surround\" etc.",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -61710,6 +61711,7 @@
 								"$ref": "AAAAAAFZbn/LfwC2WlA="
 							},
 							"name": "channelMapping",
+							"documentation": "For example, in stereo files, a channel number will be linked to either the left or the right (\"channelNum=\"0\" mapLocation=\"LEFT\"/channelNum=\"1\" mapLocation=\"RIGHT\")",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -61727,6 +61729,7 @@
 								"$ref": "AAAAAAFZbn/LfwC2WlA="
 							},
 							"name": "samplingFrequency",
+							"documentation": "This property may not be preserved through transformation to a preservation format, since conversion to WAV entails the use of a sampling frequency that is used by the WAV format (eg 441000 HZ, 48000 HZ, 96000 HZ). However, the sampling frequency of the preservation format should not be lower than that of the original format.",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -61744,6 +61747,7 @@
 								"$ref": "AAAAAAFZbn/LfwC2WlA="
 							},
 							"name": "bitDepth",
+							"documentation": "The bit depth of the preservation format will be 16 bits unless the bit depth of the original format is higher (eg 24 bits).",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -61792,6 +61796,7 @@
 								"$ref": "AAAAAAFZbn/fUgOgklU="
 							},
 							"name": "imageStreams",
+							"documentation": "the number of distinct video channels in the digital object\n\nConstraint unit: channels\n\ndatatype: positive integer",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -61809,6 +61814,7 @@
 								"$ref": "AAAAAAFZbn/fUgOgklU="
 							},
 							"name": "audioStreams",
+							"documentation": "the number of distinct audio channels in the digital object\n\nConstraint unit: channels\n\ndatatype: positive integer",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -61826,6 +61832,7 @@
 								"$ref": "AAAAAAFZbn/fUgOgklU="
 							},
 							"name": "length",
+							"documentation": "the number of frames in the recording\n\ncomponent: video\n\nconstraint: frames\n\ndatatype: positive integer",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -61843,6 +61850,7 @@
 								"$ref": "AAAAAAFZbn/fUgOgklU="
 							},
 							"name": "width",
+							"documentation": "width of the image frame\n\nComponent: frame\n\nconstraint: pixels\n\ndatatype: positive integer\n\n",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -61860,6 +61868,7 @@
 								"$ref": "AAAAAAFZbn/fUgOgklU="
 							},
 							"name": "height",
+							"documentation": "height of the image frame\n\nComponent: frame\n\nconstraint: pixels\n\ndatatype: positive integer\n",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -61877,6 +61886,7 @@
 								"$ref": "AAAAAAFZbn/fUgOgklU="
 							},
 							"name": "bitDepth",
+							"documentation": "the amount of data recorded for each pixel\n\ncomponent: pixel\n\nconstraint: bits\n\ndatatype: positive integer",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -61894,6 +61904,7 @@
 								"$ref": "AAAAAAFZbn/fUgOgklU="
 							},
 							"name": "colourModel",
+							"documentation": "the colour model used when recording the pixel value\n\n(enumerated list)\n",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -61911,6 +61922,7 @@
 								"$ref": "AAAAAAFZbn/fUgOgklU="
 							},
 							"name": "colourSpace",
+							"documentation": "the colour space used when recording the pixel value\n\n(enumerated list)",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -61928,6 +61940,7 @@
 								"$ref": "AAAAAAFZbn/fUgOgklU="
 							},
 							"name": "pixelAspectRatio",
+							"documentation": "aspect ratio of the pixels making up the image\n\nConstraint: ratio\n\ndatatype: ratio",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -61945,6 +61958,7 @@
 								"$ref": "AAAAAAFZbn/fUgOgklU="
 							},
 							"name": "frameRate",
+							"documentation": "the number of frames to be displayed in a given time interval\n\nconstraint: frames per second\n\ndatatype: positive integer\n\n",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -61962,6 +61976,7 @@
 								"$ref": "AAAAAAFZbn/fUgOgklU="
 							},
 							"name": "interlace",
+							"documentation": "whether the source was interlaced video\n\nconstraint: boolean\n\ndatatype: boolean",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -61979,6 +61994,7 @@
 								"$ref": "AAAAAAFZbn/fUgOgklU="
 							},
 							"name": "metadata",
+							"documentation": "the existence of metadata associated with the digital object\n\nconstraint: element(s)",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -62027,6 +62043,7 @@
 								"$ref": "AAAAAAFZbn/rvgaKIBk="
 							},
 							"name": "imageWidth",
+							"documentation": "measured in number of pixels",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -62044,6 +62061,7 @@
 								"$ref": "AAAAAAFZbn/rvgaKIBk="
 							},
 							"name": "imageHeight",
+							"documentation": "measured in number of pixels",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -62061,6 +62079,7 @@
 								"$ref": "AAAAAAFZbn/rvgaKIBk="
 							},
 							"name": "imageSequence",
+							"documentation": "If a TIFF file contains multiple images, the sequence of the images in the TIFF file will be preserved (Florida Digital Archive Action plan, TIFF 6.0)",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -62078,6 +62097,7 @@
 								"$ref": "AAAAAAFZbn/rvgaKIBk="
 							},
 							"name": "xSamplingFrequency",
+							"documentation": "may be expressed as X resolution",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -62095,6 +62115,7 @@
 								"$ref": "AAAAAAFZbn/rvgaKIBk="
 							},
 							"name": "ySamplingFrequency",
+							"documentation": "may be expressed as Y resolution",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -62112,6 +62133,7 @@
 								"$ref": "AAAAAAFZbn/rvgaKIBk="
 							},
 							"name": "samplesPerPixel",
+							"documentation": "Typically 1 for bilevel, grayscale and palette-colour images; typically 3 for RGB images.",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -62146,6 +62168,7 @@
 								"$ref": "AAAAAAFZbn/rvgaKIBk="
 							},
 							"name": "extraSamples",
+							"documentation": "If samples per pixel is higher than 3 the number of extra samples is recorded in this field",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
