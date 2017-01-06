@@ -1,7 +1,7 @@
 
 #Contact
 
-##Child entity related to Person, Organisation and Project.
+##Child entity related to Person, Organisation, Project and Equipment.
 ------------------------------------------------
 
 * [contactName](#contactname)
