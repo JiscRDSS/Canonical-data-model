@@ -54,13 +54,13 @@ A rich metadata set that allows pieces of experimental equipment to be identifie
 
 ##Classes, values, properties 
 
-**Research objects**
+**Research objects** (orange)
 
 - Dataset
 - Publication
 - Software
 
-**Material assets**
+**Material assets** (blue)
 
 - Person
 - Organisation
@@ -68,7 +68,7 @@ A rich metadata set that allows pieces of experimental equipment to be identifie
 - Material
 - Equipment
 
-**Information assets**
+**Information assets** (green)
 
 - Project 
 - Grant
