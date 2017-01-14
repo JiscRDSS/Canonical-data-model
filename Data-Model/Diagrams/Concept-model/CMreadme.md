@@ -42,7 +42,7 @@ The [CERIF](http://www.eurocris.org/ontologies/cerif/1.3/#) ontology was very im
 
 **Jisc metadata standards**
 
-Currently, the RDSS data model, although linked to the publication output that might be linked to the dataset, does not have a comprehensive development of this section. This is due to future work that will be dedicated to joining up with the work that has laready been done on tehcnology such as RIOXX and the publications router. Where metadata has been accessible, I have implemented the fields.
+Currently, the RDSS data model, although linked to the publication output that might be linked to the dataset, does not have a comprehensive development of this section. This is due to future work that will be dedicated to joining up with the work that has already been done on tehcnology such as RIOXX and the publications router. Where metadata has been accessible, I have implemented the fields.
 
 [RIOXX](http://www.rioxx.net/profiles/v2-0-final/)
 A REF compliance checker that relies on relatively few metadata fields to describe a publication. RIOXX is aligned to OpenAIRE and Research Excellence Framework submission metadata)
