@@ -26,7 +26,7 @@ PCDM makes much use of the [EBUcore](https://tech.ebu.ch/MetadataEbuCore) ontolo
 
 [PREMIS](http://www.loc.gov/standards/premis/v3/)
 
-An evaluation of PREMIS metadata fields required was made from the work of [Kirsty Lee](https://twitter.com/thebitgardener), digital archvivst at the University of Edinburgh. The dataset captured for her [blog post](http://libraryblogs.is.ed.ac.uk/bitsandpieces/2016/01/13/archivematica-youre-the-one-that-i-want/) on evaluating Archivematica for PREMIS metadata was used as the base point for creating a [diagram](https://github.com/jiscresearch/sharedService/blob/master/metadata/Preservation%20data%20model%20image.png) for expected preservation metadata. This deals with fields only, not the workflow.
+An evaluation of PREMIS metadata fields required was made from the work of [Kirsty Lee](https://twitter.com/thebitgardener), digital archvivst at the University of Edinburgh. The dataset captured for her [blog post](http://libraryblogs.is.ed.ac.uk/bitsandpieces/2016/01/13/archivematica-youre-the-one-that-i-want/) on evaluating Archivematica for PREMIS metadata was used as the base point for creating a [diagram](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/Data-Model/Diagrams/Concept-model/Preservation%20data%20model%20image.png) for expected preservation metadata. This deals with fields only, not the workflow.
 
 [PROV-O](https://www.w3.org/TR/2013/REC-prov-dm-20130430/)
 
