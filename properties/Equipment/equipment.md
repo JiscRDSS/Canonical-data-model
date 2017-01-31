@@ -61,7 +61,7 @@ TBC
 
 ##Equipment type  
 ###Description
-The type of equipment
+The type of equipment.
 ###Derivation
 http://equipment.data.ac.uk/
 ###Mapping
@@ -78,6 +78,7 @@ Fluorescence Spectrometer
 
 ##Equipment description  
 ###Description
+Decription of the equipment.
 ###Derivation
 http://equipment.data.ac.uk/
 ###Mapping
