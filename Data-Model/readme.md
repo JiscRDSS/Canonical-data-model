@@ -15,9 +15,9 @@ The model provides a template from which software can be created. This blueprint
 
 For more information about how the different models can be used in software development, please take a look at:
 
-[Data modelling levels](http://www.1keydata.com/datawarehousing/data-modeling-levels.html)
-[Conceptual models](https://www.visual-paradigm.com/support/documents/vpuserguide/3563/3564/85378_conceptual,l.html)
-[Conceptual, logical and physical models](http://www.datamodel.com/index.php/articles/what-are-conceptual-logical-and-physical-data-models/)
+* [Data modelling levels](http://www.1keydata.com/datawarehousing/data-modeling-levels.html)
+* [Conceptual models](https://www.visual-paradigm.com/support/documents/vpuserguide/3563/3564/85378_conceptual,l.html)
+* [Conceptual, logical and physical models](http://www.datamodel.com/index.php/articles/what-are-conceptual-logical-and-physical-data-models/)
 
 More information about a [canonical data model](http://www.enterpriseintegrationpatterns.com/patterns/messaging/CanonicalDataModel.html)
 
