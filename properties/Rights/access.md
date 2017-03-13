@@ -31,7 +31,7 @@ Controlled vocabulary
 Term | Source
 -----|-------
 Open | Bristol University
-Safeguarded | Cambridsge University
+Safeguarded | Cambridge University
 Restricted | Bristol University
 Controlled | Bristol University
 Closed | Bristol University
