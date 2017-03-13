@@ -13,8 +13,7 @@ The access restriction level on dataset. Often this requires contextual informat
 The access type assigned to the dataset 
 
 ###Derivation
-Pure / Bristol University 
-NHS Scotland
+Pure / Bristol University / NHS Scotland
 
 ###Mapping
  
