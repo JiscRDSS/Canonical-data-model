@@ -1,5 +1,6 @@
 #Coverage
-
+Geographical and temporal information about the entity.
+Used in `publicationCovderage` and `datasetCoverage`
 
 ##Geospatial coverage
 
