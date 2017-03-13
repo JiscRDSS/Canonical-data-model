@@ -29,32 +29,27 @@ Timestamp ISO 8601
 ####Example
 yyyy-mm-dd
 
-
 ------------------
 
 ##`dateType`
 
-###Description
+####Description
 Defines the type of date. 
 
-###Derivation
+####Derivation
 Datacite
 
-###Mapping
+####Mapping
  
 
-###Obligation	
-Optional 
+####Obligation	
+Mandatory
 
-###Occurence	
+####Occurence	
 Non-repeatable
 
-###Content 
-[Controlled vocabulary](#controlled-vocabulary-terms)
-###Example
-Available
-
-###Controlled vocabulary terms
+####Content 
+Controlled vocabulary
 
 Term|Source
 ----|------
@@ -68,3 +63,5 @@ Issued | Datacite
 Modified |
 Posted |
 Published | Datacite
+
+------------------
