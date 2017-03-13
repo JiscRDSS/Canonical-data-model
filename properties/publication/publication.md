@@ -15,10 +15,11 @@
 * [publicationAPC](#publicationapc-1)
 * [publicationRelatedIdentifier](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/identifier.md)
 * [publication version](https://github.com/JiscRDSS/Metadata/blob/master/properties/publication/publication%20version.md)
-* [publicationPersonLinkage]
-* [publicationOrganisationLinkage]
-* [publicationProjectLinkage]
-* [publicationDatasetLinkage]
+* [publicationRights](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/Rights/rights.md)
+* [publicationPerson]
+* [publicationOrganisation]
+* [publicationProject]
+* [publicationAdditionalMetadata]
 
 -------------------------------
 
@@ -136,4 +137,18 @@ unknown | RIOXX
 
 --------------------------------
 
+##publicationAdditionalMetadata
+###Description
+Additional metadata about the object that is not recorded elsewhere. Can include technical metadata about description and standards.
+###Derivation
+Preservica 
+###Mapping
+None
+###Obligation	
+Recommended
+###Occurence	
+Non-repeatable
+###Content 
+String
+###Example
 
