@@ -8,7 +8,8 @@ Used in `publicationCoverage` and `datasetCoverage`
 - [`geolocationPolygon`](#geolocationbox)
 - [`geolocationPlace`](#geolocationplace)
 
-##[Temporal coverage](#temporal-coverage-1)
+##[`temporalCoverageStart`](#temporalCoverageStart-1)
+##[`temporalCoverageEnd`](#temporalCoverageEnd-1)
 ------------------------
 
 ##geolocation point  
@@ -53,7 +54,7 @@ Optional
 
 ---------------------
 
-##Temporal coverage
+##temporalCoverageStart
 ###Description
 The time span to which the dataset is associated.
 ###Derivation
@@ -67,3 +68,21 @@ Repeatable
 String
 ###Example
 18th Century, from:January 2015 to: June 2015 (data collected)
+
+---------------------
+
+##temporalCoverageEnd
+###Description
+The time span to which the dataset is associated.
+###Derivation
+RIF-CS
+###Mapping
+###Obligation	
+Optional
+###Occurence
+Repeatable
+###Content 
+String
+###Example
+18th Century, from:January 2015 to: June 2015 (data collected)
+
