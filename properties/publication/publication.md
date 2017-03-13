@@ -12,8 +12,8 @@
 * [publicationTitle]
 * [publicationSubject](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/Dataset/Subject/subject.md)
 * [publicationDate](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/Dataset/Date.md)
-* [publicationAPC]
-* [publicationRelatedIdentifier]
+* [publicationAPC](#publicationapc-1)
+* [publicationRelatedIdentifier](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/identifier.md)
 * [publication version](https://github.com/JiscRDSS/Metadata/blob/master/properties/publication/publication%20version.md)
 * [publicationPersonLinkage]
 * [publicationOrganisationLinkage]
@@ -105,38 +105,15 @@ http://www.rioxx.net/licenses/all-rights-reserved
 http://www.rioxx.net/licenses/under-embargo-all-rights-reserved
 --------------------------------
 
-##Coverage
+##publicationAPC
 
 ###Description
-Geographical or temporal information about the publication
+This property expresses whether or not the resource has an associated Article Processing Charge
 
 ###Derivation
-Dublin core
+rioxxterms:apc
 
 ###Mapping
-dc:coverage
-
-###Obligation	
-Optional
-
-###Occurence	
-Repeatable
-
-###Content 
-Geographical or temporal information about the publication. (Pull from Geolocation / Temporal in dataset record?)
-###Example
---------------------------------
-
-##Description 
-
-###Description
-A description of the content of the resource using free text. It is RECOMMENDED that an English language abstract be used where available. HTML or other markup tags SHOULD NOT be included in this field.
-
-###Derivation
-dc:description
-
-###Mapping
-[dataset:description](https://github.com/JiscRDSS/Metadata/blob/master/properties/Dataset/Description/description.md)
 
 ###Obligation	
 Mandatory
@@ -146,8 +123,16 @@ Non-repeatable
 
 ###Content 
 
-String
-###Example
+Controlled Vocabulary
+
+Term | Source
+paid | RIOXX
+partiallyWaived | RIOXX
+fullyWaived | RIOXX
+notCharged | RIOXX
+notRequired | RIOXX
+unknown | RIOXX
+
 --------------------------------
 
 
