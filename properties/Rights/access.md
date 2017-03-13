@@ -2,12 +2,12 @@
 
 The access restriction level on dataset. Often this requires contextual information which can be handled within the access statement field. Used by `rights`.
 
-###[`accessType`](#accesstype-1)
-###[`accessStatement`](#access-statement-1)
+###[`accessType`](#accesstype-1) [1]
+###[`accessStatement`](#access-statement-1) [0..1]
 
 ----------------------------------------------
 
-##Access type 
+##`accessType` 
 
 ####Description
 The access type assigned to the dataset 
@@ -36,24 +36,24 @@ Non-repeatable
 
 ----------------------------------------------
 
-##Access statement
+##`accessStatement`
 
-###Description
+####Description
 An accompanying statement with the access type to give more details about how access can be sought or give clear legal or policy statement about the conditions imposed by the access type (e.g. for NHS restrictions etc.)
 
-###Derivation
+####Derivation
 NHSS Traffic light classification guidance
 
-###Mapping
+####Mapping
 
 
-###Obligation	
+####Obligation	
 Optional
 
-###Occurence	
+####Occurence	
 Non-repeatable
 
-###Content 
+####Content 
 String
-###Example
+####Example
 This data is restricted. Please complete the form to request access.
