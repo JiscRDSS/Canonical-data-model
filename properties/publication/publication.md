@@ -5,13 +5,13 @@
 * [publicationLicenseRef](#publicationlicenseref)	
 * [publicationIdentifier](#publicationidentifier)
 * [publication coverage](https://github.com/JiscRDSS/Metadata/blob/master/properties/Dataset/Coverage/coverage.md)
-* [publication description](
+* [publication description](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/Dataset/Description/description.md)
 * [publication file](https://github.com/JiscRDSS/Metadata/blob/master/properties/File/file.md)
-* [publicationLanguage]
+* [publicationLanguage](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/Dataset/Language.md)
 * [publicationResourceType](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/publication/publication%20resource%20type.md)
 * [publicationTitle]
-* [publicationSubject]
-* [publicationDate]
+* [publicationSubject](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/Dataset/Subject/subject.md)
+* [publicationDate](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/Dataset/Date.md)
 * [publicationAPC]
 * [publicationRelatedIdentifier]
 * [publication version](https://github.com/JiscRDSS/Metadata/blob/master/properties/publication/publication%20version.md)
