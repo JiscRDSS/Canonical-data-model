@@ -27,7 +27,8 @@ Non-repeatable
 
 Controlled vocabulary
 Term | Source
------|-------
+----|------
+
 Open | Bristol University
 Safeguarded | Cambridsge University
 Restricted | Bristol University
