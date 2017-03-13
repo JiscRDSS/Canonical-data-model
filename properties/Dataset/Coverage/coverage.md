@@ -15,76 +15,77 @@ Used in `publicationCoverage` and `datasetCoverage`
 ##`geolocationPoint`  
 ####Description
 Geographical info where applicable.
-###Derivation
+####Derivation
 Datacite / Gemini
-###Mapping
-###Obligation
+####Mapping
+####Obligation
 Optional
-###Occurence
+####Occurence
 Non-repeatable
-###Content 
+####Content 
 coordinates (ISO 6709)
-###Example
+####Example
 51°15′14″N 2°56′46″W
 
 ##`geolocationPolygon`
-###Description
+####Description
 Geographical info where applicable.
-###Derivation
+####Derivation
 INSPIRE
-###Mapping
-###Obligation
+####Mapping
+####Obligation
 Optional
-###Occurence
+####Occurence
 Repeatable
-###Content 
+####Content 
 Geolocation points (ISO 6709)
-###Example 
+####Example 
 $$dW0025813$$eW0025631$$fN0511556$$gN0511425
 
 ##`geolocationplace`
-###Description
+####Description
 Geographical info where applicable.
-###Derivation
+####Derivation
 INSPIRE
-###Mapping
-###Obligation
+####Mapping
+####Obligation
 Optional
-###Occurence	
-###Content 
-###Example  
+####Occurence	
+####Content 
+####Example  
 
 ---------------------
 
 ##`temporalCoverageStart`
-###Description
+####Description
 The time span to which the dataset is associated.
-###Derivation
+####Derivation
 RIF-CS
-###Mapping
-###Obligation	
+####Mapping
+####Obligation	
 Optional
-###Occurence
+####Occurence
 Once
-###Content 
+####Content 
 Timestamp
-###Example
+####Example
 yyyy-mm-dd hh:mm:ss
 
 ---------------------
 
 ##`temporalCoverageEnd`
-###Description
+####Description
 The time span to which the dataset is associated.
-###Derivation
+####Derivation
 RIF-CS
-###Mapping
-###Obligation	
+####Mapping
+####Obligation	
 Optional
-###Occurence
+####Occurence
 Once
-###Content 
+####Content 
 Timestamp
-###Example
+####Example
 yyyy-mm-dd hh:mm:ss
 
+---------------------
