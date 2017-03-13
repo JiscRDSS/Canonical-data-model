@@ -8,8 +8,8 @@ Used in `publicationCoverage` and `datasetCoverage`
 - [`geolocationPolygon`](#geolocationbox)
 - [`geolocationPlace`](#geolocationplace)
 
-###[`temporalCoverageStart`](#temporalCoverageStart)
-###[`temporalCoverageEnd`](#temporalCoverageEnd)
+###[`temporalCoverageStart`](#`temporalCoverageStart`)
+###[`temporalCoverageEnd`](#`temporalCoverageEnd`)
 ------------------------
 
 ##`geolocationPoint`  
