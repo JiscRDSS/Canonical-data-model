@@ -2,7 +2,7 @@
 Geographical and temporal information about the entity.
 Used in `publicationCoverage` and `datasetCoverage`
 
-##Geospatial coverage
+##`geospatialCoverage`
 
 - [geolocationpoint](#geolocation-point)
 - [geolocationbox](#geolocationbox)
