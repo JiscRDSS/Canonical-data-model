@@ -1,5 +1,7 @@
 
-#Rights
+#Rights (1..*)
+Package of information pertaining to the rights of an entity. Used by `publication', `file`, `software`, `dataset`.
+
 
 * [rightsStatement](#rightsstatement)
 * [rightsHolder](#rightsholder)
