@@ -13,7 +13,7 @@ Used in `publicationCoverage` and `datasetCoverage`
 ------------------------
 
 ##`geolocatioPoint`  
-###Description
+####Description
 Geographical info where applicable.
 ###Derivation
 Datacite / Gemini
