@@ -126,6 +126,7 @@ Non-repeatable
 Controlled Vocabulary
 
 Term | Source
+-----|-------
 
 paid | RIOXX
 partiallyWaived | RIOXX
