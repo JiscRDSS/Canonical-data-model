@@ -1,7 +1,7 @@
 #Date
 A repeatable field. Multiple dates of varying type can be attributed.
 
-###[`dateValue`](datevalue-1)
+###[`dateValue`](#datevalue-1)
 ###[`dateType`](#datetype-1)
 
 ------------------
