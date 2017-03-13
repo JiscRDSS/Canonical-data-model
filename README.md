@@ -1,4 +1,6 @@
 # Data model documentation store
 
-If you are looking for the data model that underpins the Alpha RDSS, you can find it ##HERE##
+Quick links
+
+[Alpha Data Model](https://github.com/JiscRDSS/rdss-canonical-data-model/tree/master/Data-Model/Diagrams/alpha-model)(UML)
 
