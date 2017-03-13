@@ -3,10 +3,10 @@
 Package of information pertaining to the rights of an entity. Used by `publicationRights`, `fileRights`, `softwareRights`, `datasetRights`.
 
 
-* [`rightsStatement`](#rightsstatement)
-* [`rightsHolder`](#rightsholder)
-* [`Licence`](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/Rights/licence.md)
-* [`Access`](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/Rights/access.md)
+* [`rightsStatement`](#rightsstatement) (1..*)
+* [`rightsHolder`](#rightsholder) (1..*)
+* [`Licence`](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/Rights/licence.md) (1..*)
+* [`Access`](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/Rights/access.md) (1..*)
 
 -----------------------------------------
 
