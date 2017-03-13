@@ -8,8 +8,8 @@ Used in `publicationCoverage` and `datasetCoverage`
 - [`geolocationPolygon`](#geolocationbox)
 - [`geolocationPlace`](#geolocationplace)
 
-###[`temporalCoverageStart`](#temporalCoverageStart-1)
-###[`temporalCoverageEnd`](#temporalCoverageEnd-1)
+###[`temporalCoverageStart`](#temporalCoverageStart)
+###[`temporalCoverageEnd`](#temporalCoverageEnd)
 ------------------------
 
 ##`geolocationPoint`  
@@ -35,8 +35,10 @@ INSPIRE
 ###Mapping
 ###Obligation
 Optional
-###Occurence	
+###Occurence
+Repeatable
 ###Content 
+Geolocation points (ISO 6709)
 ###Example 
 $$dW0025813$$eW0025631$$fN0511556$$gN0511425
 
