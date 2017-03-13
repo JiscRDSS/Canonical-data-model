@@ -2,7 +2,7 @@
 Geographical and temporal information about the entity.
 Used in `publicationCoverage` and `datasetCoverage`
 
-###`geospatialCoverage`
+###`geospatialCoverage` (0..*)
 
 - [`geolocationPoint`](#geolocation-point)
 - [`geolocationPolygon`](#geolocationbox)
@@ -14,7 +14,7 @@ Used in `publicationCoverage` and `datasetCoverage`
 
 ##`geolocationPoint`  
 ####Description
-Geographical info where applicable.
+Geographical location where applicable expressed as a point.
 ####Derivation
 Datacite / Gemini
 ####Mapping
@@ -29,7 +29,7 @@ coordinates (ISO 6709)
 
 ##`geolocationPolygon`
 ####Description
-Geographical info where applicable.
+Geographical location where applicable expressed as a polygon
 ####Derivation
 INSPIRE
 ####Mapping
@@ -44,7 +44,7 @@ $$dW0025813$$eW0025631$$fN0511556$$gN0511425
 
 ##`geolocationplace`
 ####Description
-Geographical info where applicable.
+Geographical location where applicable expressed as a place name.
 ####Derivation
 INSPIRE
 ####Mapping
