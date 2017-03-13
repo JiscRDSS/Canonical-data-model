@@ -4,9 +4,9 @@ Used in `publicationCoverage` and `datasetCoverage`
 
 ##`geospatialCoverage`
 
-- [geolocationpoint](#geolocation-point)
-- [geolocationbox](#geolocationbox)
-- [geolocationplace](#geolocationplace)
+- [`geolocationPoint`](#geolocation-point)
+- [`geolocationPolygon`](#geolocationbox)
+- [`geolocationPlace`](#geolocationplace)
 
 ##[Temporal coverage](#temporal-coverage-1)
 ------------------------
