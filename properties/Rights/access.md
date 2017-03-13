@@ -25,7 +25,9 @@ Mandatory
 ####Occurence	
 Non-repeatable
 
+Content
 Controlled vocabulary
+
 Term | Source
 -----|-------
 Open | Bristol University
