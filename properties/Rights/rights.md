@@ -1,57 +1,59 @@
 
 #Rights (1..*)
-Package of information pertaining to the rights of an entity. Used by `publication', `file`, `software`, `dataset`.
+Package of information pertaining to the rights of an entity. Used by `publicationRights`, `fileRights`, `softwareRights`, `datasetRights`.
 
 
-* [rightsStatement](#rightsstatement)
-* [rightsHolder](#rightsholder)
-* [Licence](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/Rights/licence.md)
-* [Access](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/Rights/access.md)
+* [`rightsStatement`](#rightsstatement)
+* [`rightsHolder`](#rightsholder)
+* [`Licence`](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/Rights/licence.md)
+* [`Access`](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/Rights/access.md)
 
 -----------------------------------------
 
 
-##rightsStatement  
+##`rightsStatement`  
 
-###Description
+####Description
 Text that specifies restraints on access / reuse (IPR, ethics, copyright)
 
-###Derivation
+####Derivation
 UKRDDS profile
 
-###Mapping
+####Mapping
 dc:rights
+premis:rightsStatement
 
-###Obligation	
-Optional 
+####Obligation	
+Mandatory
 
-###Occurence	
-Non-repeatable
+####Occurence	
+Repeatable
 
-###Content 
+####Content 
 String
-###Example
+
+####Example
 -------------------------------------------
 
-##rightsHolder 
+##`rightsHolder` 
 
-###Description
+####Description
 A person or organization owning or managing rights over the resource. This field should be used if the rights holder differs from the publisher.
 
-###Derivation
+####Derivation
 DCMI
 http://purl.org/dc/terms/rightsHolder
 
-###Mapping
-dc:rights
+####Mapping
+dc:rightsHolder
 
-###Obligation	
-Optional 
+####Obligation	
+Mandatory
 
-###Occurence	
-Non-repeatable
+####Occurence	
+Repeatable
 
-###Content 
+####Content 
 String
 
-###Example
+####Example
