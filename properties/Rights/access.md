@@ -25,7 +25,7 @@ Mandatory
 ####Occurence	
 Non-repeatable
 
-Content
+####Content
 Controlled vocabulary
 
 Term | Source
