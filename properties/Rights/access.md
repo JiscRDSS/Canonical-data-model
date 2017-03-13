@@ -2,8 +2,8 @@
 
 The access restriction level on dataset. Often this requires contextual information which can be handled within the access statement field. 
 
-##[Access type](access-type-1)
-##[Access statement](access-statement-1)
+##[Access type](#access-type-1)
+##[Access statement](#access-statement-1)
 
 ----------------------------------------------
 
