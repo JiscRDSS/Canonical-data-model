@@ -27,13 +27,13 @@ Non-repeatable
 
 Controlled vocabulary
 Term | Source
----- | ------
-Open|Bristol University
-Safeguarded|Cambridsge University
-Restricted|Bristol University
-Controlled|Bristol University
-Closed|Bristol University
-Retired|Imperial College London
+-----|-------
+Open | Bristol University
+Safeguarded | Cambridsge University
+Restricted | Bristol University
+Controlled | Bristol University
+Closed | Bristol University
+Retired | Imperial College London
 
 ----------------------------------------------
 
