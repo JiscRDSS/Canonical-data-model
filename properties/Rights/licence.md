@@ -1,59 +1,61 @@
 #Licence
 
-The licence assigned to the dataset, fileset or file. Depending on the level at which the licence is assigned, this field can be repeatable abover file level which is one occurence only.
+The licence assigned to the dataset, fileset or file. Depending on the level at which the licence is assigned, this field can be repeatable abover file level which is one occurence only. Used by `rights`.
 
-##[Licence name](#licence-name-1)
-##[Licence identifier](#licence-identifier-1)
+##[`licenceName`](#licencename-1)[1]
+##[`licenceIdentifier`](#licenceidentifier-1)[1]
 
 -------------------------------------
 
-##Licence name 
+##`licenceName` 
 
-###Description
+####Description
 Name of allocated licence
 
-###Derivation
+####Derivation
 Datacite
 
-###Mapping
+####Mapping
 dc:rights
 datacite:licence
 
-###Obligation	
-Recommended
+####Obligation	
+Mandatory
 
-###Occurence	
+####Occurence	
 Non-repeatable
 
-###Content 
+####Content 
 String
 
-###Example
+####Example
 CC-BY-4.0
 
 -------------------
 
-##Licence identifier  
+##`licenceIdentifier`  
 
-###Description
+####Description
 Identifier for license named.
 
-###Derivation
+####Derivation
 Datacite
 
-###Mapping
+####Mapping
 
 
-###Obligation	
-Optional
+####Obligation	
+Mandatory
 
-###Occurence	
+####Occurence	
 Non-repeatable
 
-###Content 
+####Content 
 http:URI
 
-###Validation
-Resolvable URI
+####Validation
+
 ###Example
 https://creativecommons.org/licenses/by/4.0/
+
+-------------------
