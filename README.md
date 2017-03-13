@@ -1,4 +1,4 @@
 # Data model documentation store
 
-This space is being constantly updated.
+If you are looking for the data model that underpins the Alpha RDSS, you can find it ##HERE##
 
