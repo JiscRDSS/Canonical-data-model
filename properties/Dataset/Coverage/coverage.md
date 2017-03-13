@@ -8,8 +8,8 @@ Used in `publicationCoverage` and `datasetCoverage`
 - [`geolocationPolygon`](#geolocationbox)
 - [`geolocationPlace`](#geolocationplace)
 
-###[`temporalCoverageStart`](#temporalCoverageStart)
-###[`temporalCoverageEnd`](#temporalCoverageEnd)
+###[`temporalCoverageStart`](#temporalcoveragestart-1)
+###[`temporalCoverageEnd`](#temporalcoverageend-1)
 ------------------------
 
 ##`geolocationPoint`  
@@ -56,7 +56,7 @@ Optional
 
 ---------------------
 
-##temporalCoverageStart
+##`temporalCoverageStart`
 ###Description
 The time span to which the dataset is associated.
 ###Derivation
