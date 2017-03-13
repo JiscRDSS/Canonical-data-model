@@ -22,7 +22,7 @@
 
 -------------------------------
 
-##organisationUUID
+##publicationUUID
 ###Description
 Unique identifier for the publication within the data model
 ###Derivation
@@ -67,7 +67,7 @@ ali:free_to_read start_date="2013-03-28" end_date="2014-04-30"
 ali:free_to_read start_date="2013-03-28"
 ali:free_to_read
 The absence of a start_date attribute implies that the meaning conveyed by the ali:free_to_read element is current and immediate, unless an end_date attribute which is a date in the subjective past, is present in the element.
-
+--------------------------------
 
 ##license ref	
 
@@ -103,12 +103,12 @@ In the absence of any other license, the copyright holder reserves all rights au
 
 http://www.rioxx.net/licenses/all-rights-reserved
 http://www.rioxx.net/licenses/under-embargo-all-rights-reserved
-
+--------------------------------
 
 ##Coverage
 
 ###Description
- 
+Geographical or temporal information about the publication
 
 ###Derivation
 Dublin core
@@ -125,7 +125,7 @@ Repeatable
 ###Content 
 Geographical or temporal information about the publication. (Pull from Geolocation / Temporal in dataset record?)
 ###Example
-
+--------------------------------
 
 ##Description 
 
@@ -148,5 +148,6 @@ Non-repeatable
 
 String
 ###Example
+--------------------------------
 
 
