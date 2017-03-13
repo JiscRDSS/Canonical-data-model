@@ -12,7 +12,7 @@ Used in `publicationCoverage` and `datasetCoverage`
 ##[`temporalCoverageEnd`](#temporalCoverageEnd-1)
 ------------------------
 
-##geolocation point  
+##`geolocatioPoint`  
 ###Description
 Geographical info where applicable.
 ###Derivation
@@ -27,7 +27,7 @@ coordinates (ISO 6709)
 ###Example
 51°15′14″N 2°56′46″W
 
-##geolocationbox
+##`geolocationPolygon`
 ###Description
 Geographical info where applicable.
 ###Derivation
@@ -40,7 +40,7 @@ Optional
 ###Example 
 $$dW0025813$$eW0025631$$fN0511556$$gN0511425
 
-##geolocationplace
+##`geolocationplace`
 ###Description
 Geographical info where applicable.
 ###Derivation
@@ -54,7 +54,7 @@ Optional
 
 ---------------------
 
-##temporalCoverageStart
+##`temporalCoverageStart`
 ###Description
 The time span to which the dataset is associated.
 ###Derivation
@@ -63,15 +63,15 @@ RIF-CS
 ###Obligation	
 Optional
 ###Occurence
-Repeatable
+Once
 ###Content 
-String
+Timestamp
 ###Example
-18th Century, from:January 2015 to: June 2015 (data collected)
+yyyy-mm-dd hh:mm:ss
 
 ---------------------
 
-##temporalCoverageEnd
+##`temporalCoverageEnd`
 ###Description
 The time span to which the dataset is associated.
 ###Derivation
@@ -80,9 +80,9 @@ RIF-CS
 ###Obligation	
 Optional
 ###Occurence
-Repeatable
+Once
 ###Content 
-String
+Timestamp
 ###Example
-18th Century, from:January 2015 to: June 2015 (data collected)
+yyyy-mm-dd hh:mm:ss
 
