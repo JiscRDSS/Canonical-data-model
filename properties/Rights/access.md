@@ -1,44 +1,40 @@
 #Access
 
-The access restriction level on dataset. Often this requires contextual information which can be handled within the access statement field. 
+The access restriction level on dataset. Often this requires contextual information which can be handled within the access statement field. Used by `rights`.
 
-##[Access type](#access-type-1)
-##[Access statement](#access-statement-1)
+###[`accessType`](#accesstype-1)
+###[`accessStatement`](#access-statement-1)
 
 ----------------------------------------------
 
 ##Access type 
 
-###Description
+####Description
 The access type assigned to the dataset 
 
-###Derivation
-Pure / Bristol University / NHS Scotland
+####Derivation
+Pure / Bristol University / NHS Scotland (`Open` / `Restricted` / `Controlled` / `Closed`)
+Additional terms from Cambridge University (`safeguarded`) and Imperial College London (`retired`) .
 
-###Mapping
+####Mapping
  
 
-###Obligation	
-Recommended 
+####Obligation	
+Mandatory 
 
-###Occurence	
+####Occurence	
 Non-repeatable
-
-###Content 
-Open
 
 [Controlled vocabulary](#vocabulary-terms)
 
-###Example
-
-
-Vocabulary terms
-
 * Open
+* Safeguarded
 * Restricted
 * Controlled
 * Closed
+* Retired
 
+----------------------------------------------
 
 ##Access statement
 
