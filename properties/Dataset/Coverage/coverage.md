@@ -2,14 +2,14 @@
 Geographical and temporal information about the entity.
 Used in `publicationCoverage` and `datasetCoverage`
 
-##`geospatialCoverage`
+###`geospatialCoverage`
 
 - [`geolocationPoint`](#geolocation-point)
 - [`geolocationPolygon`](#geolocationbox)
 - [`geolocationPlace`](#geolocationplace)
 
-##[`temporalCoverageStart`](#temporalCoverageStart-1)
-##[`temporalCoverageEnd`](#temporalCoverageEnd-1)
+###[`temporalCoverageStart`](#temporalCoverageStart-1)
+###[`temporalCoverageEnd`](#temporalCoverageEnd-1)
 ------------------------
 
 ##`geolocatioPoint`  
