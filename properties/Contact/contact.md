@@ -1,28 +1,28 @@
 
-#Contact
+# Contact
 
-##Child entity related to Person, Organisation, Project and Equipment.
+Child entity related to Person, Organisation, Project and Equipment.
 ------------------------------------------------
 
-* [contactName](#contactname)
-* [contactEmail](#contactemail)
-* [contactAddress](#contactaddress)
-* [contactTelephone](#contacttelephone)
+* [`contactName`](#contactname)
+* [`contactEmail`](#contactemail)
+* [`contactAddress`](#contactaddress)
+* [`contactTelephone`](#contacttelephone)
 
 -------------------------------------------------
-##contactName
+## `contactName`
 
-### Description
+#### Description
 Name of the contact person.
-### Derivation
+#### Derivation
 Common.
-### Obligation	
+#### Obligation	
 Mandatory
-### Occurence
+#### Occurence
 Non-repeatable
-### Example	
+#### Example	
 Smith, Joanne
-### Mapping
+#### Mapping
 Term | Schema
 -------------|--------------
 ### Comment
