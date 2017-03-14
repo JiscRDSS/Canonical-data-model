@@ -1,8 +1,8 @@
-# Date (1..*)
+# Date
 A repeatable field. Multiple dates of varying type can be attributed. Used by `datasetDate` and `publicationDate`.
 
-### [`dateValue`](#datevalue-1)
-### [`dateType`](#datetype-1)
+### [`dateValue`](#datevalue-1) [1]
+### [`dateType`](#datetype-1) [1]
 
 ------------------
 
