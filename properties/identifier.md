@@ -1,31 +1,33 @@
 # Identifier
 
-- [identifierValue](#identifierValue-1) [1]
+- [`identifierValue`](#identifierValue-1) [1]
 
-- [identifierType](#identifierType-1) [1]
+- [`identifierType`](#identifierType-1) [1]
 
-- [relationType](#relationType-1) [0.1]
+- [`relationType`](#relationType-1) [0.1]
 
 ------------------------                   
 
 
-##identifierValue
-###Description
-###Derivation
+## identifierValue
+#### Description
+Value of identifier.
+#### Derivation
 PREMIS
-###Mapping
-###Content
+#### Mapping
+#### Content
 String
-###Example
+#### Example
 0db50321-6d7b-4291-89ec-a8b0adc1ff96
 ------------------------
-##identifierType
+## identifierType
 ###Description
 The type of identifier 
 ###Derivation
 Datacite
 ###Mapping
 ###Content
+
 Controlled Vocabulary
 
 Term|Origin
