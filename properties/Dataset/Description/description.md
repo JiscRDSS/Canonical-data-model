@@ -1,5 +1,5 @@
 
-# [`Description`]
+# `Description`
 
 #### Description
 Text summary explaining the publication / dataset / object.
