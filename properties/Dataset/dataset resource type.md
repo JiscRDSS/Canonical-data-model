@@ -1,4 +1,4 @@
-#datasetResourceType
+# datasetResourceType
 
 
 ### [`Resource type`](#resource-type-1)
