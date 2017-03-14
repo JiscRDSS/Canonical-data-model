@@ -1,13 +1,5 @@
 # datasetResourceType
 
-
-### [`Resource type`](#resource-type-1)
-### [`Resource type description`](#resource-type-description-1)
-
--------------------------------
-
-## Resource type  
-
 #### Description
 Type of data being described 
 
@@ -77,26 +69,7 @@ Working Paper|Working paper: Working paper (5); Working paper: Discussion paper 
 - 20 Datacite
 
 ---------------------------
-## Resource type description  
 
-#### Description
-Description of resourcetype, to satisfy "Other" selection from Controlled Vocabulary 
-
-#### Derivation
-Datacite
-
-#### Mapping
-
-#### Obligation	
-Optional (Recommended if Resource type = *Other*)
-
-#### Occurence	
-Non-repeatable
-
-#### Content 
-String
-#### Example
-digital composite maps
 
 
 
