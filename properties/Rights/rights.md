@@ -1,5 +1,5 @@
 
-#Rights
+# Rights
 Package of information pertaining to the rights of an entity. Used by `publicationRights`, `fileRights`, `softwareRights`, `datasetRights`.
 
 
