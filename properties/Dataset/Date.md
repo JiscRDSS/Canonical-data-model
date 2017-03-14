@@ -1,54 +1,54 @@
-#Date (1..*)
+# Date (1..*)
 A repeatable field. Multiple dates of varying type can be attributed. Used by `datasetDate` and `publicationDate`.
 
-###[`dateValue`](#datevalue-1)
-###[`dateType`](#datetype-1)
+### [`dateValue`](#datevalue-1)
+### [`dateType`](#datetype-1)
 
 ------------------
 
-##`dateValue`
+## `dateValue`
 
-####Description
+#### Description
 The date of a given instance. 
 
-####Derivation
+#### Derivation
 Datacite
 
-####Mapping
+#### Mapping
 dc:date
 
-####Obligation	
+#### Obligation	
 Mandatory
 
-####Occurence	
+#### Occurence	
 non-repeatable
 
-####Content 
+#### Content 
 Timestamp ISO 8601
 
-####Example
+#### Example
 yyyy-mm-dd
 
 ------------------
 
 ##`dateType`
 
-####Description
+#### Description
 Defines the type of date. 
 
-####Derivation
+#### Derivation
 Datacite
 
-####Mapping
+#### Mapping
  
 
-####Obligation	
+#### Obligation	
 Mandatory
 
-####Occurence	
+#### Occurence	
 Non-repeatable
 
-####Content 
+#### Content 
 Controlled vocabulary
 
 Term|Source
