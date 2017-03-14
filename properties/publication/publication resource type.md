@@ -1,4 +1,4 @@
-# Resource type
+# publicationResourceType
 This property is repeatable at the dataset level.
 
 ### [`Resource type`](#resource-type-1)
@@ -12,21 +12,17 @@ This property is repeatable at the dataset level.
 Type of data being described 
 
 #### Derivation
-IRUS / CounterC
+IRUS (v.2) / CounterC
 
 #### Obligation	
 Mandatory 
 
 #### Occurence	
 
-
-#### Content 
-[Controlled vocabulary](#controlled-vocabulary-terms)
-
-#### Example
-Image
-
 #### Controlled vocabulary terms with mappings
+
+IRUS-UK item types version 2
+Item types recommended in the various guidelines considered (number in brackets refer to the guidelines (list below)
 
 Term | Mapping
 -----|-------
@@ -103,8 +99,7 @@ String
 digital composite maps
 
 
-IRUS-UK item types version 2
-Item types recommended in the various guidelines considered (number in brackets refer to the guidelines (list below))
+
 
 
 
