@@ -1,91 +1,91 @@
-#Coverage
+# Coverage
 Geographical and temporal information about the entity.
 Used in `publicationCoverage` and `datasetCoverage`
 
-###`geospatialCoverage` (0..*)
+### `geospatialCoverage` (0..*)
 
 - [`geolocationPoint`](#geolocation-point)
 - [`geolocationPolygon`](#geolocationbox)
 - [`geolocationPlace`](#geolocationplace)
 
-###[`temporalCoverageStart`](#temporalcoveragestart-1)
-###[`temporalCoverageEnd`](#temporalcoverageend-1)
+### [`temporalCoverageStart`](#temporalcoveragestart-1)
+### [`temporalCoverageEnd`](#temporalcoverageend-1)
 ------------------------
 
-##`geolocationPoint`  
-####Description
+## `geolocationPoint`  
+#### Description
 Geographical location where applicable expressed as a point.
-####Derivation
+#### Derivation
 Datacite / Gemini
-####Mapping
-####Obligation
+#### Mapping
+#### Obligation
 Optional
-####Occurence
+#### Occurence
 Non-repeatable
-####Content 
+#### Content 
 coordinates (ISO 6709)
-####Example
+#### Example
 51°15′14″N 2°56′46″W
 
-##`geolocationPolygon`
-####Description
+## `geolocationPolygon`
+#### Description
 Geographical location where applicable expressed as a polygon
-####Derivation
+#### Derivation
 INSPIRE
-####Mapping
-####Obligation
+#### Mapping
+#### Obligation
 Optional
-####Occurence
+#### Occurence
 Repeatable
-####Content 
+#### Content 
 Geolocation points (ISO 6709)
-####Example 
+#### Example 
 $$dW0025813$$eW0025631$$fN0511556$$gN0511425
 
-##`geolocationplace`
-####Description
+## `geolocationplace`
+#### Description
 Geographical location where applicable expressed as a place name.
-####Derivation
+#### Derivation
 INSPIRE
-####Mapping
-####Obligation
+#### Mapping
+#### Obligation
 Optional
-####Occurence	
-####Content 
-####Example  
+#### Occurence	
+#### Content 
+#### Example  
 
 ---------------------
 
-##`temporalCoverageStart`
-####Description
+## `temporalCoverageStart`
+#### Description
 The time span to which the dataset is associated.
-####Derivation
+#### Derivation
 RIF-CS
-####Mapping
-####Obligation	
+#### Mapping
+#### Obligation	
 Optional
-####Occurence
+#### Occurence
 Once
-####Content 
+#### Content 
 Timestamp
-####Example
+#### Example
 yyyy-mm-dd hh:mm:ss
 
 ---------------------
 
-##`temporalCoverageEnd`
-####Description
+## `temporalCoverageEnd`
+#### Description
 The time span to which the dataset is associated.
-####Derivation
+#### Derivation
 RIF-CS
-####Mapping
-####Obligation	
+#### Mapping
+#### Obligation	
 Optional
-####Occurence
+#### Occurence
 Once
-####Content 
+#### Content 
 Timestamp
-####Example
+#### Example
 yyyy-mm-dd hh:mm:ss
 
 ---------------------
