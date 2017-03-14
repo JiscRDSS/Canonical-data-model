@@ -23,12 +23,12 @@ Non-repeatable
 #### Example	
 Smith, Joanne
 #### Mapping
-Term | Schema
+Term | Source
 -------------|--------------
-### Comment
+
 
 -------------------------------------------------
-##contactEmail
+## `contactEmail`
 
 ### Description
 Email address for the person.
@@ -43,39 +43,39 @@ joanne.smith@institution.ac.uk
 ### Mapping
 Term | Schema
 -------------|--------------
-### Comment
+
 -------------------------------------------------
-##contactAddress
-### Description
+## `contactAddress`
+#### Description
 Address for organisation.
-### Derivation
+#### Derivation
 Common.
-### Obligation	
+#### Obligation	
 Recommended
-### Occurence	
+#### Occurence	
 Non-repeatable
-### Example
+#### Example
 123 Acer Drive
 Town
 County
 AB1 2CD
-### Mapping
+#### Mapping
 Term | Schema
 -------------|--------------
-### Comment
+
 -------------------------------------------------
-##contactTelephone
-### Description
+## `contactTelephone`
+#### Description
 Telephone number(s) for organisation. 
 ### Derivation
 Common.
-### Obligation
+#### Obligation
 Recommended
-### Occurence	
+#### Occurence	
 Repeatable
-### Example	
+#### Example	
 01234 567890
-### Mapping
+#### Mapping
 Term | Schema
 -------------|--------------
-### Comment
+-------------------------------------------------
