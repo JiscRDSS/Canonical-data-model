@@ -1,14 +1,14 @@
-#Title
+# Title
 
-####Description
+#### Description
 First title given to the entity.
-####Derivation
+#### Derivation
 dc:title
-####Obligation	
+#### Obligation	
 Mandatory
-####Occurence	
+#### Occurence	
 Repeatable
-####Content 
+#### Content 
 String
-####Example
+#### Example
 Aerial survey data of Brent Knoll camp
