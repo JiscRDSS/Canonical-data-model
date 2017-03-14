@@ -11,7 +11,7 @@
 * [`publicationResourceType`](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/publication/publication%20resource%20type.md)
 * [`publicationTitle`](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/Dataset/Title/title.md)
 * [`publicationSubject`](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/Dataset/Subject/subject.md)
-* `[publicationDate`](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/Dataset/Date.md)
+* [`publicationDate`](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/Dataset/Date.md)
 * [`publicationAPC`](#publicationapc-1)
 * [`publicationRelatedIdentifier`](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/properties/identifier.md)
 * [`publicationVersion`](https://github.com/JiscRDSS/Metadata/blob/master/properties/publication/publication%20version.md)
