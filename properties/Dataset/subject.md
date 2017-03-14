@@ -1,21 +1,21 @@
-#Subject
+# Subject
 
-####Description
+#### Description
 Term(s) indicating the main subject area of the digital output. Used by `publicationSubject` and `datasetSubject`.
 
-####Derivation
+#### Derivation
 dc:subject
 
-####Obligation	
+#### Obligation	
 Optional
 
-####Occurence	
+#### Occurence	
 Repeatable
 
-####Content 
+#### Content 
 String
 
-####Example
+#### Example
 History
 
 
