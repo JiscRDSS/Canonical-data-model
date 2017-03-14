@@ -1,10 +1,10 @@
 
-# [Description](#description)
+# [`Description`]
 
 #### Description
 Text summary explaining the publication / dataset / object.
 #### Derivation
-Datacite.
+Datacite
 #### Obligation	
 Mandatory
 #### Occurence	
