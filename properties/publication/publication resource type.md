@@ -1,32 +1,32 @@
-#Resource type
+# Resource type
 This property is repeatable at the dataset level.
 
-##[Resource type](#resource-type-1)
-##[Resource type description](#resource-type-description-1)
+### [Resource type](#resource-type-1)
+### [Resource type description](#resource-type-description-1)
 
 -------------------------------
 
-##Resource type  
+## Resource type  
 
-###Description
+#### Description
 Type of data being described 
 
-###Derivation
+#### Derivation
 IRUS / CounterC
 
-###Obligation	
+#### Obligation	
 Mandatory 
 
-###Occurence	
+#### Occurence	
 
 
-###Content 
+#### Content 
 [Controlled vocabulary](#controlled-vocabulary-terms)
 
-###Example
+#### Example
 Image
 
-###Controlled vocabulary terms with mappings
+#### Controlled vocabulary terms with mappings
 
 Term | Mapping
 -----|-------
