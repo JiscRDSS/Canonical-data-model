@@ -1,4 +1,4 @@
-#Publication
+# Publication
 
 * [publicationUUID](#publicationuuid)
 * [publicationFreeToRead](#publicationfreetoread)
@@ -19,60 +19,60 @@
 * [publicationPerson]
 * [publicationOrganisation]
 * [publicationProject]
-* [publicationAdditionalMetadata]
+* [publicationAdditionalMetadata](#publicationadditionalmetadata-1)
 
 -------------------------------
 
-##publicationUUID
-###Description
+## `publicationUUID`
+#### Description
 Unique identifier for the publication within the data model
-###Derivation
+#### Derivation
 system
-###Mapping
+#### Mapping
 None
-###Obligation	
+#### Obligation	
 Mandatory
-###Occurence	
+#### Occurence	
 Once
-###Content 
+#### Content 
 String
-###Example
+#### Example
 0e7e9878-aae1-4dad-8ef6-9c74542cd7e1
 --------------------------------
 
-##publicationFreeToRead  
+## `publicationFreeToRead`  
 
-###Description
+#### Description
 This is defined in the NISO Open Access Metadata and Indicators. This element does not take a value - the semantics of ali:free_to_read are conveyed by its presence or absence. This element may be modified by two optional attributes:
 start_date
 end_date
 Each of these attributes, if present, takes a date value which MUST be encoded using [ISO 8601](http://www.iso.org/iso/home/standards/iso8601.htm  (post–2004 versions) which follows the following format: YYYY-MM-DD. 
 
-###Derivation
+#### Derivation
 RIOXX
 
-###Mapping
+#### Mapping
 ali:free_to_read
 
-###Obligation	
+#### Obligation	
 Optional
 
-###Occurence	
+#### Occurence	
 Non-repeatable
 
-###Content 
+#### Content 
 string
 
-###Example
+#### Example
 ali:free_to_read start_date="2013-03-28" end_date="2014-04-30"
 ali:free_to_read start_date="2013-03-28"
 ali:free_to_read
 The absence of a start_date attribute implies that the meaning conveyed by the ali:free_to_read element is current and immediate, unless an end_date attribute which is a date in the subjective past, is present in the element.
 --------------------------------
 
-##license ref	
+## `license ref`	
 
-###Description
+#### Description
 This is defined in the NISO Open Access Metadata and Indicators. This element MUST take an HTTP URI for its value. This HTTP URI MUST point to a resource which expresses the license terms specifying how the resource may be used.
 
 This element MUST include the attribute:
@@ -80,22 +80,22 @@ This element MUST include the attribute:
 start_date
 This attribute takes a date value which MUST be encoded using ISO 8601 (post–2004 versions) which follows the following format: YYYY-MM-DD.
 
-###Derivation
+#### Derivation
 RIOXX
 
-###Mapping
+#### Mapping
 ali:license_ref	
 
-###Obligation	
+#### Obligation	
 Mandatory
 
-###Occurence	
+#### Occurence	
 Repeatable
 
-###Content 
+#### Content 
 http:URI
 
-###Example
+#### Example
 
 ali:license_ref start_date="2015-02-17">http://creativecommons.org/licenses/by/4.0</ali:license_ref
 This approach allows the expression of 'embargoes', where a particular license takes effect at a date in the subjective future.
@@ -106,23 +106,23 @@ http://www.rioxx.net/licenses/all-rights-reserved
 http://www.rioxx.net/licenses/under-embargo-all-rights-reserved
 --------------------------------
 
-##publicationAPC
+## `publicationAPC`
 
-###Description
+#### Description
 This property expresses whether or not the resource has an associated Article Processing Charge
 
-###Derivation
+##### Derivation
 rioxxterms:apc
 
-###Mapping
+#### Mapping
 
-###Obligation	
+#### Obligation	
 Mandatory
 
-###Occurence	
+#### Occurence	
 Non-repeatable
 
-###Content 
+#### Content 
 
 Controlled Vocabulary
 
@@ -137,18 +137,19 @@ unknown | RIOXX
 
 --------------------------------
 
-##publicationAdditionalMetadata
-###Description
+## `publicationAdditionalMetadata`
+
+#### Description
 Additional metadata about the object that is not recorded elsewhere. Can include technical metadata about description and standards.
-###Derivation
+#### Derivation
 Preservica 
-###Mapping
+#### Mapping
 None
-###Obligation	
+#### Obligation	
 Recommended
-###Occurence	
+#### Occurence	
 Non-repeatable
-###Content 
+#### Content 
 String
-###Example
+#### Example
 
