@@ -22,11 +22,11 @@ The value of this element MUST be one of the following:
 
 These terms are adopted from the [Journal Article Versions](http://www.niso.org/publications/rp/RP-8-2008.pdf)(JAV): Recommendations of the NISO/ALPSP JAV Technical Working Group and have the following meanings:
 
-### AO = Author's Original
-### SMUR = Submitted Manuscript Under Review
-### AM = Accepted Manuscript
-### P = Proof
-### VoR = Version of Record
-### CVoR = Corrected Version of Record
-### EVoR = Enhanced Version of Record
-### NA = Not Applicable (or Unknown)
+#### AO = Author's Original
+#### SMUR = Submitted Manuscript Under Review
+#### AM = Accepted Manuscript
+#### P = Proof
+#### VoR = Version of Record
+#### CVoR = Corrected Version of Record
+#### EVoR = Enhanced Version of Record
+#### NA = Not Applicable (or Unknown)
