@@ -11,49 +11,49 @@ Package of information pertaining to the rights of an entity. Used by `publicati
 -----------------------------------------
 
 
-##`rightsStatement`  
+## `rightsStatement`  
 
-####Description
+#### Description
 Text that specifies restraints on access / reuse (IPR, ethics, copyright)
 
-####Derivation
+#### Derivation
 UKRDDS profile
 
-####Mapping
+#### Mapping
 dc:rights
 premis:rightsStatement
 
-####Obligation	
+#### Obligation	
 Mandatory
 
-####Occurence	
+#### Occurence	
 Repeatable
 
-####Content 
+#### Content 
 String
 
-####Example
+#### Example
 -------------------------------------------
 
-##`rightsHolder` 
+## `rightsHolder` 
 
-####Description
+#### Description
 A person or organization owning or managing rights over the resource. This field should be used if the rights holder differs from the publisher.
 
-####Derivation
+#### Derivation
 DCMI
 http://purl.org/dc/terms/rightsHolder
 
-####Mapping
+#### Mapping
 dc:rightsHolder
 
-####Obligation	
+#### Obligation	
 Mandatory
 
-####Occurence	
+#### Occurence	
 Repeatable
 
-####Content 
+#### Content 
 String
 
-####Example
+#### Example
