@@ -21,12 +21,12 @@ String
 #### 0db50321-6d7b-4291-89ec-a8b0adc1ff96
 ------------------------
 ## identifierType
-###Description
+#### Description
 The type of identifier 
-###Derivation
+#### Derivation
 Datacite
-###Mapping
-###Content
+#### Mapping
+#### Content
 
 Controlled Vocabulary
 
@@ -54,14 +54,14 @@ URN|Datacite
 
 
 -----------------------
-##relationType
-###Description
+## relationType
+#### Description
 Description of the relationship between entities using these identifiers
-###Derivation
-###Mapping
-###Obligation	
-###Occurence	
-###Content
+#### Derivation
+#### Mapping
+#### Obligation	
+#### Occurence	
+#### Content
 Controlled vocabulary
 
 Term|Origin
