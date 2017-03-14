@@ -9,7 +9,7 @@
 ------------------------                   
 
 
-## identifierValue
+## `identifierValue`
 #### Description
 Value of identifier.
 #### Derivation
@@ -20,12 +20,13 @@ String
 #### Example
 #### 0db50321-6d7b-4291-89ec-a8b0adc1ff96
 ------------------------
-## identifierType
+## `identifierType`
 #### Description
 The type of identifier 
 #### Derivation
 Datacite
 #### Mapping
+N/A
 #### Content
 
 Controlled Vocabulary
@@ -51,16 +52,17 @@ PURL|Datacite
 UPC|Datacite
 URL|Datacite
 URN|Datacite
-
-
------------------------
-## relationType
+----------------------
+## `relationType`
 #### Description
 Description of the relationship between entities using these identifiers
 #### Derivation
+Datacite / Crossref
 #### Mapping
 #### Obligation	
+Recommended (where a relationship exists)
 #### Occurence	
+Non-repeatable
 #### Content
 Controlled vocabulary
 
@@ -104,5 +106,5 @@ isRequiredBy|Crossref
 hasParent|Preservica
 isParentOf|Preservica
 
-
+----------------------
 
