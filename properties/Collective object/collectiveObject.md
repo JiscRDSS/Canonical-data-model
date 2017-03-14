@@ -28,12 +28,19 @@ String
 ---------------------
 ## collectiveObjectName  
 #### Description
+The name given to the collection of research objects (a combination of datasets, publications and software)
 #### Derivation
+RDSS data model
 #### Mapping
+None
 #### Obligation	
+Mandatory
 #### Occurence	
+Non-repeatable
 #### Content 
+String
 #### Example
+Project XYZ experiment 4
 ----------------------
 ## collectiveObjectIdentifier  
 #### Description
