@@ -1,8 +1,8 @@
-#Resource type
-This property is repeatable at the dataset level.
+#datasetResourceType
 
-### [Resource type](#resource-type-1)
-### [Resource type description](#resource-type-description-1)
+
+### [`Resource type`](#resource-type-1)
+### [`Resource type description`](#resource-type-description-1)
 
 -------------------------------
 
@@ -11,20 +11,18 @@ This property is repeatable at the dataset level.
 #### Description
 Type of data being described 
 
-###Derivation
-IRUS / CounterC
+#### Derivation
+IRUS (v.2) / CounterC
 
-###Obligation	
+#### Obligation	
 Mandatory 
 
-###Occurence	
+#### Occurence	
 
+#### Controlled vocabulary terms with mappings
 
-###Content 
-[Controlled vocabulary](#controlled-vocabulary-terms)
-
-
-###Controlled vocabulary terms with mappings
+IRUS-UK item types version 2
+Item types recommended in the various guidelines considered (number in brackets refer to the guidelines (list below)
 
 Term | Mapping
 -----|-------
@@ -55,7 +53,7 @@ Unknown|
 Website|Internet publications (3); Non-textual form: Web publication/site (5); Online Resource (13); Website content (14); Online Resource (14); Website content (15); Webpage (17); Website (17); Online Resources (18); Websites (18); AboutPage (19); CheckoutPage (19); ImageGallery (19); VideoGallery(19); ContactPage (19); ItemPage (19); MedicalWebPage (19); ProfilePage(19); QAPage(19); SearchResultsPage(19); WebPageElement (19); SiteNavigationElement (19); Table (19); WPAdBlock (19); WPFooter (19); WPHeader (19); WPSideBar (19); interactive resource (20).
 Working Paper|Working paper: Working paper (5); Working paper: Discussion paper (5); Working or Discussion Paper (6); Working or Discussion Paper (7); Unpublis.hed reports & working papers (9); Working papers & discussion papers (10); workingPaper (11); workingPaper (12); Working Paper (13); Working Paper (14); Working paper (15); Working Paper (16); Working Papers (18).
 
-##Mapping key
+## Mapping key
 
 - 1 EPrints
 - 2 DCMITYPE (recommended by DSpace)
@@ -79,30 +77,29 @@ Working Paper|Working paper: Working paper (5); Working paper: Discussion paper 
 - 20 Datacite
 
 ---------------------------
-##Resource type description  
+## Resource type description  
 
-###Description
+#### Description
 Description of resourcetype, to satisfy "Other" selection from Controlled Vocabulary 
 
-###Derivation
+#### Derivation
 Datacite
 
-###Mapping
+#### Mapping
 
-###Obligation	
+#### Obligation	
 Optional (Recommended if Resource type = *Other*)
 
-###Occurence	
+#### Occurence	
 Non-repeatable
 
-###Content 
+#### Content 
 String
-###Example
+#### Example
 digital composite maps
 
 
-IRUS-UK item types version 2
-Item types recommended in the various guidelines considered (number in brackets refer to the guidelines (list below))
+
 
 
 
