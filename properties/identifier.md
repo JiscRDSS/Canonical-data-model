@@ -1,4 +1,4 @@
-#Identifier
+# Identifier
 
 - [identifierValue](#identifierValue-1) [1]
 
@@ -44,6 +44,7 @@ ISTC|Datacite
 LISSN|Datacite
 LSID|Datacite
 PMID|Datacite
+PUID|PREMIS
 PURL|Datacite
 UPC|Datacite
 URL|Datacite
@@ -63,29 +64,43 @@ Controlled vocabulary
 
 Term|Origin
 ----|------
-IsCitedBy|Datacite
-Cites|Datacite
-IsSupplementTo|Datacite
-IsSupplementedBy|Datacite
-IsContinuedBy|Datacite
-Continues|Datacite
-HasMetadata|Datacite
-IsMetadataFor|Datacite
-IsNewVersionOf|Datacite
-IsPreviousVersionOf|Datacite
-IsPartOf|Datacite
-HasPart|Datacite
-IsReferencedBy|Datacite
-References|Datacite
-IsDocumentedBy|Datacite
-Documents|Datacite
-IsCompiledBy|Datacite
-Compiles|Datacite
-IsVariantFormOf|Datacite
-IsOriginalFormOf|Datacite
-IsIdenticalTo|Datacite
-IsReviewedBy|Datacite
-Reviews|Datacite
-IsDerivedFrom|Datacite
-IsSourceOf|Datacite
+isCitedBy|Datacite
+cites|Datacite
+isSupplementTo|Datacite
+isSupplementedBy|Datacite
+isContinuedBy|Datacite
+continues|Datacite
+hasMetadata|Datacite
+isMetadataFor|Datacite
+isNewVersionOf|Datacite
+isPreviousVersionOf|Datacite
+isPartOf|Datacite
+hasPart|Datacite
+isReferencedBy|Datacite
+references|Datacite
+isDocumentedBy|Datacite
+documents|Datacite
+isCompiledBy|Datacite
+compiles|Datacite
+isVariantFormOf|Datacite
+isOriginalFormOf|Datacite
+isIdenticalTo|Datacite
+isReviewedBy|Datacite
+reviews|Datacite
+isDerivedFrom|Datacite
+isSourceOf|Datacite
+isCommentOn|Crossref
+hasComment|Crossref
+isReplyTo|Crossref
+hasReply|Crossref
+basedOnData|Crossref
+hasRelatedMaterial||Crossref
+isBasedOn|Crossref
+isBasisFor|Crossref
+requires|Crossref
+isRequiredBy|Crossref
+hasParent|Preservica
+isParentOf|Preservica
+
+
 
