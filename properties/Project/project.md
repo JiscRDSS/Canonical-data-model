@@ -1,17 +1,15 @@
-#Project
-
-###[projectUUID](#project-uuid)
-###projectIdentifier
-###projectName
-###projectDescription
-###projectContact
-###projectGrant
-###projectStart
-###projectEnd
+# Project
+--------------------------------------------------------------------------------------
+### [projectUUID](#project-uuid)
+### projectIdentifier
+## #projectName
+### projectDescription
+### projectContact
+### projectGrant
+### projectStart
+### projectEnd
 
 --------------------------------------------------------------------------------------
-
-
 
 ##Project UUID
 ###Description
