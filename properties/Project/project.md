@@ -1,17 +1,17 @@
 # Project
 
-### [projectUUID](#project-uuid)
-### projectIdentifier
-## #projectName
-### projectDescription
-### projectContact
-### projectGrant
-### projectStart
-### projectEnd
+### [`projectUUID`](#project-uuid)
+### `projectIdentifier`
+### `projectName`
+### `projectDescription`
+### `projectContact`
+### `projectGrant`
+### `projectStart`
+### `projectEnd`
 
 --------------------------------------------------------------------------------------
 
-## Project UUID
+## `Project UUID`
 #### Description
 #### Derivation
 #### Obligation	
@@ -25,7 +25,7 @@ Once
 -------------------------------
 
 
-## projectIdentifier
+## `projectIdentifier`
 
 #### Description
  
