@@ -1,5 +1,5 @@
 # Project
---------------------------------------------------------------------------------------
+
 ### [projectUUID](#project-uuid)
 ### projectIdentifier
 ## #projectName
@@ -11,32 +11,32 @@
 
 --------------------------------------------------------------------------------------
 
-##Project UUID
-###Description
-###Derivation
-###Obligation	
+## Project UUID
+#### Description
+#### Derivation
+#### Obligation	
 Mandatory 
-###Occurence	
+#### Occurence	
 Once 
-###Content 
+#### Content 
  
-###Example
+#### Example
 
 -------------------------------
 
 
-##projectIdentifier
+## projectIdentifier
 
-###Description
+#### Description
  
-###Derivation
+#### Derivation
  
-###Obligation	
+#### Obligation	
  
-###Occurence	
+#### Occurence	
  
-###Content 
+#### Content 
  
-###Example
+#### Example
 
 ----------------------------------
