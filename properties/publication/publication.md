@@ -64,10 +64,10 @@ Non-repeatable
 string
 
 #### Example
-ali:free_to_read start_date="2013-03-28" end_date="2014-04-30"
-ali:free_to_read start_date="2013-03-28"
-ali:free_to_read
-The absence of a start_date attribute implies that the meaning conveyed by the ali:free_to_read element is current and immediate, unless an end_date attribute which is a date in the subjective past, is present in the element.
+###ali:free_to_read start_date="2013-03-28" end_date="2014-04-30"
+###ali:free_to_read start_date="2013-03-28"
+###ali:free_to_read
+###The absence of a start_date attribute implies that the meaning conveyed by the ali:free_to_read element is current and immediate, ###unless an end_date attribute which is a date in the subjective past, is present in the element.
 --------------------------------
 
 ## `license ref`	
