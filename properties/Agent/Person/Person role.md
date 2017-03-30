@@ -1,22 +1,22 @@
-##Person Role
+## Person Role
 
-###Description
+### Description
 The role of the person to the related entity.
-###Derivation
+### Derivation
 Datacite.
-###Obligation	
+### Obligation	
 Mandatory
-###Occurence	
+### Occurence	
 Repeatable
-###Content
+### Content
 [Controlled Vocabulary](#controlled-vocabulary-terms)
-###Example / CV value
+### Example / CV value
 ProjectLeader
-###Min. Quality threshold	
+### Min. Quality threshold	
 Validation list (dropdown?)
-###Rating
+### Rating
 
-##Controlled Vocabulary Terms
+## Controlled Vocabulary Terms
 
 Role | Origin
 -----|-------------
