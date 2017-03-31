@@ -3,7 +3,10 @@
 ### Description
 The role of the person to the related entity.
 ### Derivation
-Datacite.
+This vocabulary is going to be derived from various sources and based on roles as required by the eduPersonEntitlement property from the UKAMF schema.
+
+NOTE: These may not align to the strawman vocabulary presented below and derived from Datacite. This should be considered a placeholder until the research, discovery and build of a new vocabulary has been performed.
+
 ### Obligation	
 Mandatory
 ### Occurence	
