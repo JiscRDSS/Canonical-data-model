@@ -1,22 +1,25 @@
-##Person Role
+## Person Role
 
-###Description
+### Description
 The role of the person to the related entity.
-###Derivation
-Datacite.
-###Obligation	
-Mandatory
-###Occurence	
-Repeatable
-###Content
-[Controlled Vocabulary](#controlled-vocabulary-terms)
-###Example / CV value
-ProjectLeader
-###Min. Quality threshold	
-Validation list (dropdown?)
-###Rating
+### Derivation
+This vocabulary is going to be derived from various sources and based on roles as required by the eduPersonEntitlement property from the UKAMF schema.
 
-##Controlled Vocabulary Terms
+NOTE: These may not align to the strawman vocabulary presented below and derived from Datacite. This should be considered a placeholder until the research, discovery and build of a new vocabulary has been performed.
+
+### Obligation	
+Mandatory
+### Occurence	
+Repeatable
+### Content
+[Controlled Vocabulary](#controlled-vocabulary-terms)
+### Example / CV value
+ProjectLeader
+### Min. Quality threshold	
+Validation list (dropdown?)
+### Rating
+
+## Controlled Vocabulary Terms
 
 Role | Origin
 -----|-------------

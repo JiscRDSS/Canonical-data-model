@@ -49,7 +49,7 @@ end_date
 Each of these attributes, if present, takes a date value which MUST be encoded using [ISO 8601](http://www.iso.org/iso/home/standards/iso8601.htm  (post–2004 versions) which follows the following format: YYYY-MM-DD. 
 
 #### Derivation
-RIOXX
+RIOXX ([http://www.rioxx.net/profiles/v2-0-final/](http://www.rioxx.net/profiles/v2-0-final/)
 
 #### Mapping
 ali:free_to_read
