@@ -107,8 +107,8 @@ Non-repeatable
 // if this is changed to allow for repeatable occurence then a new StorageLocation entity should be created in the CDM logical model with LocationValue and LocationType as properties. 
 
 ### Example
-s3://rdss-prod-figshare-0132/bird-sounds.mp3, 
-http://example.com/filestore/a385948a-2c70-11e7-93ae-92361f002671
+* s3://rdss-prod-figshare-0132/bird-sounds.mp3
+* http://example.com/filestore/a385948a-2c70-11e7-93ae-92361f002671
 
 
 ------------
@@ -130,7 +130,8 @@ Non-repeatable
 ### Content
 Controlled vocabulary
 ####Example
-S3, HTTP
+* S3
+* HTTP
 
 ------------
 
