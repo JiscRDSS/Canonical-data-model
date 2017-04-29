@@ -90,6 +90,50 @@ ISO8601 dateTime
 
 ------------
 
+## File Storage Location
+
+### Description
+The location or address of a File on a storage system.
+
+### Derivation
+http://www.loc.gov/standards/premis/premis.xsd/v3/file/storage/contentLocation/contentLocationValue
+
+### Obligation
+Mandatory
+
+### Occurence
+Non-repeatable
+
+// if this is changed to allow for repeatable occurence then a new StorageLocation entity should be created in the CDM logical model with LocationValue and LocationType as properties. 
+
+### Example
+s3://rdss-prod-figshare-0132/bird-sounds.mp3, 
+http://example.com/filestore/a385948a-2c70-11e7-93ae-92361f002671
+
+
+------------
+
+## File Storage Type
+
+### Description
+Information about the protocol or scheme used in conjunction with the File Storage Location value. Required to make valid references and read requests to the File's storage location.
+
+### Derivation
+http://www.loc.gov/standards/premis/premis.xsd/v3/file/storage/contentLocation/contentLocationType
+
+### Obligation
+Mandatory
+
+### Occurence
+Non-repeatable
+
+### Content
+Controlled vocabulary
+####Example
+S3, HTTP
+
+------------
+
 ##File Hash  
 
 ###Description
