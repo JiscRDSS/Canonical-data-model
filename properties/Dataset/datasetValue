@@ -1,0 +1,19 @@
+# datasetValue
+
+#### Description
+A judgement made via a controlled vocabulary by the administator of the value of a dataset within the repository. This is to align to a tiered storage solution which can make use of escrow storage for datasets judged to be of very high value.
+
+#### Derivation
+Created for the data model
+
+#### Obligation	
+Mandatory 
+
+#### Occurence	
+Non-repeatable
+
+#### Controlled vocabulary terms
+
+normal (default)
+high
+veryHigh
