@@ -1,0 +1,6 @@
+<% element.getChildren().forEach(function (elem) {%>
+## Missing Class - <%= elem.name %> 
+<% elem.getChildren().forEach(function (e) {%>
+## Missing Children <%= e.name %>
+<% }) %>
+<% }) %>
