@@ -1,8 +1,0 @@
-var mdjson = require("metadat-json");
-
-mdjson.loadFromFile("Data-Model/Diagrams/alpha-model/logical-model.mdj");
-var diagrams = mdjson.Repository.getInstancesOf("Diagram");
-
-diagrams.forEach(function (d) {
-    mdjson.exportDiagramAsPNG(d, d.name + ".png");
-});
