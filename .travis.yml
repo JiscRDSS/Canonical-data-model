@@ -1,0 +1,11 @@
+language: node_js
+
+before_script:
+  - npm install canvas
+  - npm install mdgen
+
+script:
+  - mdgen render -m Data-Model/Diagrams/alpha-model/logical-model.mdj -t main-template.ejs -o "markdown/logical-model/<%=element.name%>.md" -s @UMLClass
+  - mdgen pdf -m Data-Model/Diagrams/alpha-model/logical-model.mdj -o export_pdf/logical-model.pdf -s @Diagram -z A4 -l landscape -n yes
+  - mdgen render -m Data-Model/Diagrams/Concept-model/concept-model.mdj -t main-template.ejs -o "markdown/concept-model/<%=element.name%>.md" -s @UMLClass
+  - mdgen pdf -m Data-Model/Diagrams/Concept-model/concept-model.mdj -o export_pdf/concept-model.pdf -s @Diagram -z A4 -l landscape -n yes
