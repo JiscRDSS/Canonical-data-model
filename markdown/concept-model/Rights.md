@@ -1,0 +1,9 @@
+# Rights
+
+
+## has rights 
+
+
+
+
+
