@@ -4,8 +4,8 @@ before_script:
   - git clone https://github.com/JiscRDSS/rdss-canonical-data-model
   - cd rdss-canonical-data-model
   - sudo apt-get install libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev build-essential g++
-  - sudo npm install -g canvas
-  - sudo npm install -g mdgen
+  - npm install -g canvas
+  - npm install -g mdgen
 
 script:
   - cd ~/build/JiscRDSS/rdss-canonical-data-model && bash ./deploy.sh
