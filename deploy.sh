@@ -13,8 +13,8 @@ git checkout $TRAVIS_BRANCH || git checkout --orphan $TRAVIS_BRANCH
 
 
 # Clean out existing produced Markdown
-rm -r markdown
-rm -r export_pdf
+rm -rf markdown
+rm -rf export_pdf
 mkdir markdown
 mkdir export_pdf
 
