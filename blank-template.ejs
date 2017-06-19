@@ -1,0 +1,5 @@
+<% element.getChildren().forEach(function (elem) { if (elem.name) {%>## Class - <%= elem.name %><% if (elem.documentation) {%> Has Documentation
+<% } else { %> #### Missing Documentation <% }} %>
+<% elem.getChildren().forEach(function (e) { if (e.name) {%>    ### Property - <%= e.name %><% if (e.documentation) {%> Has Documentation
+<% } else { %> #### Missing Documentation
+<% }}})}) %>
