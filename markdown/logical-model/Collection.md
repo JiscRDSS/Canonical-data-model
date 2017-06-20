@@ -24,6 +24,12 @@
 ## collection 0..* 
 
 
+## collectionKeywords 0..* 
+
+
+## collectionCategory 0..* 
+
+
 ## collectionDescription 1..* 
 
 
