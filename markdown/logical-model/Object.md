@@ -50,6 +50,12 @@
 ## objectDate 1..* 
 
 
+## objectKeywords 0..* 
+
+
+## objectCategory 0..* 
+
+
 ## objectResourceType 1 
 
 
