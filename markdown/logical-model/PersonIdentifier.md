@@ -3,10 +3,46 @@
 
 
 ## personIdentifierValue 1 
+# personIdentifierValue
 
+### Description
+Identifier value as defined by the type.
+
+#### Derivation
+Datacite.
+
+#### Obligation	
+Recommended
+
+### Occurence	
+Repeatable
+
+#### Content 
+http:URI 
+
+#### Example / CV value
+http://orcid.org/0000-0001-5352-4666
 
 ## personIdentifierType 1 
+# personIdentifierType
 
+#### Description
+The scheme/domain to which the identifier belongs.
+
+#### Derivation
+Datacite 3.1
+
+#### Obligation	
+Mandatory if Person identifier is populated.
+
+#### Occurence	
+Non-repeatable
+
+#### Content	
+Text
+
+#### Example / CV value
+ORCID
 
 
 
