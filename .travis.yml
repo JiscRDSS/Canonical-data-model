@@ -6,9 +6,9 @@ before_script:
   - sudo apt-get install libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev build-essential g++
   - npm install -g canvas
   - npm install -g mdgen
+  - npm run test
 
 script:
-  - npm run test
   - cd ~/build/JiscRDSS/rdss-canonical-data-model && bash ./deploy.sh
 
 env:
