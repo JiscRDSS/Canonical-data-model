@@ -1,6 +1,6 @@
 {
   "name": "jshint-travis-test",
-  "description": "Simple Travis-CI check for JSHint (Code Linting)",
+  "description": "Travis-CI JSHint (Code Linting) check for NodeJs",
   "keywords": [
     "lint",
     "jslint",

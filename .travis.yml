@@ -8,8 +8,8 @@ before_script:
   - npm install -g mdgen
 
 script:
-  - cd ~/build/JiscRDSS/rdss-canonical-data-model && bash ./deploy.sh
   - npm run test
+  - cd ~/build/JiscRDSS/rdss-canonical-data-model && bash ./deploy.sh
 
 env:
   global:
