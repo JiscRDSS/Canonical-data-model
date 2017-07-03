@@ -9,6 +9,7 @@ before_script:
 
 script:
   - cd ~/build/JiscRDSS/rdss-canonical-data-model && bash ./deploy.sh
+  - npm run test
 
 env:
   global:
