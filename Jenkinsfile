@@ -19,8 +19,10 @@ pipeline {
 			}
 		}
 		stage('run') {
-			dir('~/build/JiscRDSS/rdss-canonical-data-model') {
-			    sh './checkForMissingDoc.sh'
+		    steps {
+                dir('~/build/JiscRDSS/rdss-canonical-data-model') {
+                    sh './checkForMissingDoc.sh'
+                }
 			}
 		}
 	}
