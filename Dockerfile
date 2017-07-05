@@ -16,5 +16,5 @@ RUN apt-get install -y g++
 
 USER root
 
-RUN npm install -g canvas
-RUN npm install -g mdgen
+RUN npm install -g --unsafe-perm canvas
+RUN npm install -g --unsafe-perm mdgen
