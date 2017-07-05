@@ -1,7 +1,9 @@
 pipeline {
 
 	agent {
-	    docker 'node:8.1'
+	    dockerfile {
+	        filename 'Dockerfile' args '-v /.cache/ -v /.bower/ -v /.config/configstore/'
+        }
     }
 	triggers {
 	    cron('59 23 * * *')
