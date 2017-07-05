@@ -14,5 +14,7 @@ RUN apt-get install -y libgif-dev
 RUN apt-get install -y build-essential
 RUN apt-get install -y g++
 
+USER root
+
 RUN npm install -g canvas
 RUN npm install -g mdgen
