@@ -1,0 +1,21 @@
+{
+  "name": "jshint-travis-test",
+  "description": "Travis-CI JSHint (Code Linting) check for NodeJs",
+  "keywords": [
+    "lint",
+    "jslint",
+    "code-quality",
+    "static-analysis",
+    "jshint",
+    "eslint"
+  ],
+  "version": "0.0.1",
+  "author": "Femi Ajayi",
+  "devDependencies": {
+    "jshint": "^2.9.5"
+  },
+  "scripts": {
+    "test-nodejs": "jshint scripts",
+    "test": "npm run test-nodejs"
+  }
+}
