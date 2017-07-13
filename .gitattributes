@@ -1,2 +1,2 @@
-export_pdf/concept-model.pdf merge=theirs
-export_pdf/logical-model.pdf merge=theirs
+export_pdf/concept-model.pdf merge=ours
+export_pdf/logical-model.pdf merge=ours
