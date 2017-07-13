@@ -6,6 +6,7 @@ before_script:
   - sudo apt-get install libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev build-essential g++
   - npm install -g canvas
   - npm install -g mdgen
+  - npm install -g jshint
   - npm run test
 
 script:

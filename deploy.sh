@@ -18,13 +18,14 @@ rm -rf export_pdf
 mkdir markdown
 mkdir export_pdf
 
-# Run our compile script
+# Run the generation of documentation and diagrams
 mdgen render -m Data-Model/Diagrams/alpha-model/logical-model.mdj -t main-template.ejs -o "markdown/logical-model/<%=element.name%>.md" -s @UMLClass
+mdgen render -m Data-Model/Diagrams/alpha-model/logical-model.mdj -t blank-template.ejs -o "missing/logical-model/<%=element.name%>.txt" -s @UMLModel
 mdgen pdf -m Data-Model/Diagrams/alpha-model/logical-model.mdj -o export_pdf/logical-model.pdf -s @Diagram -z A4 -l landscape -n yes
 mdgen render -m Data-Model/Diagrams/Concept-model/concept-model.mdj -t main-template.ejs -o "markdown/concept-model/<%=element.name%>.md" -s @UMLClass
 mdgen pdf -m Data-Model/Diagrams/Concept-model/concept-model.mdj -o export_pdf/concept-model.pdf -s @Diagram -z A4 -l landscape -n yes
 
-# Now let's go have some fun with the cloned repo
+# Set the details for the user to be added to the commit audit.
 git config user.name "Travis CI"
 git config user.email "$COMMIT_AUTHOR_EMAIL"
 
