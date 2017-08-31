@@ -168,7 +168,6 @@
     ### Property - investigator #### Missing Documentation
     ### Property - producer #### Missing Documentation
     ### Property - projectLeader #### Missing Documentation
-    ### Property - publicationAuthor #### Missing Documentation
     ### Property - publisher #### Missing Documentation
     ### Property - projectMember #### Missing Documentation
     ### Property - relatedPerson #### Missing Documentation
@@ -179,6 +178,7 @@
     ### Property - supervisor #### Missing Documentation
     ### Property - other #### Missing Documentation
     ### Property - author #### Missing Documentation
+    ### Property - depositingUser #### Missing Documentation
 ## Class - OrganisationRole #### Missing Documentation 
     ### Property - funder #### Missing Documentation
     ### Property - hostingInstitution #### Missing Documentation
