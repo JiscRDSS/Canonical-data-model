@@ -5,8 +5,12 @@ set -e # Exit with nonzero exit code if anything fails
 REPO=`git config remote.origin.url`
 SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
 SHA=`git rev-parse --verify HEAD`
+BRANCH=$(git symbolic-ref HEAD | sed -e 's,.*/\(.*\),\1,')
 
+# Run the script only if on master
 # Create a new empty branch if gh-pages doesn't exist yet (should only happen on first deply)
+if [ "$BRANCH" = "master" ]
+then
 git clone $REPO out
 cd out
 git checkout $TRAVIS_BRANCH || git checkout --orphan $TRAVIS_BRANCH
@@ -46,3 +50,7 @@ ssh-add ../github_deploy_key
 
 # Now that we're all set up, we can push.
 git push $SSH_REPO $TRAVIS_BRANCH
+
+else
+echo "We are not on master"
+fi
