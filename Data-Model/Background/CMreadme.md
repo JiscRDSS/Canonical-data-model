@@ -3,7 +3,7 @@
 
 The file in this folder can be viewed using [StarUML](http://staruml.io/).
 
-Links and additional information are being added to this document over time. 
+Links and additional information are being added to this document over time.
 
 ##Background
 
@@ -11,10 +11,26 @@ As part of the the Research Data Shared Service, I was asked to devise a data mo
 
 The original metadata framework arose from the work I did on the Jisc UK Research Data Discovery Service. Although the main focus of the fields described in this work covered Findability, there were other elements considered such as licencing and access. The FAIR principles were important aspirational beacons during the development work, although it generally understood that some elements of the principles are currently more developed than others. The [UKRDDS profile (v1.1)](https://docs.google.com/document/d/1lGQoj8ji8xSGZlTWU1VzK8XyIczu5MDVnwxfJATIbd8/edit?usp=sharing) is mapped to Dublin Core, MODS, Datacite (3.1 & 4), ADS, GEMINI2.2, DDI2.5, CERIF and schema.org. More mappings are underway.
 
+##Distinction between the Logical model & Concept model
+
+The concept model work was undertaken to work out a combination of entities that are common to research data management models and to connect them in a way that made sense within a researcher workflow. The concept model is high level and designed to show the basic building blocks of what a research data management service might look like. This was a guide in order to promote debate and direction about the direction of the data model for the service. It was not complete or exhaustive but a reflection of the frameworks studied to inform thinking.
+
+The alpha logical model is the data model that underpins the Research Data Shared Service alpha version. This is a more worked through, coirrectly annoted model of the entities and relationships that describe the service and its functions. This data model gives a more complete picture of the metadata involved by going into more explicit detail about properties, their relationships and cardinalities. The development of the alpha model is informed by the MVP (what is expected to be delivered by the alpha service), use cases, and feedback from pilot institutions and vendors.
+
+The model provides a template from which software can be created. This blueprint informs the decision making behind the code and informs the messages that pass from software to adaptors and vice versa.
+
+For more information about how the different models can be used in software development, please take a look at:
+
+* [Data modelling levels](http://www.1keydata.com/datawarehousing/data-modeling-levels.html)
+* [Conceptual models](https://www.visual-paradigm.com/support/documents/vpuserguide/3563/3564/85378_conceptual,l.html)
+* [Conceptual, logical and physical models](http://www.datamodel.com/index.php/articles/what-are-conceptual-logical-and-physical-data-models/)
+
+More information about a [canonical data model](http://www.enterpriseintegrationpatterns.com/patterns/messaging/CanonicalDataModel.html)
+
 ###Schemas and models consulted
 
 This data model was heavily influenced by the DataMED [DATS](https://docs.google.com/document/d/1hVcYRleE6-dFfn7qbF9Bv1Ohs1kTF6a8OwWUvoZlDto/edit#) (work of the [BD2K](https://datascience.nih.gov/bd2k) project in the USA.
-The iterative and important attribution of standards is an essential part of any life sciences data model. Although the RDSS seeks a more generic route, I considered it important to use standards where possible and for the allocation of those to be captured and reultiised for future dataset publication. The DATS work seeks to find a data equivalent for the [JATS](http://www.niso.org/apps/group_public/download.php/15933/z39_96-2015.pdf) (Journal Article Tag Suite) standard of markup. It is also mapped to [schema.org](http://schema.org/) 
+The iterative and important attribution of standards is an essential part of any life sciences data model. Although the RDSS seeks a more generic route, I considered it important to use standards where possible and for the allocation of those to be captured and reultiised for future dataset publication. The DATS work seeks to find a data equivalent for the [JATS](http://www.niso.org/apps/group_public/download.php/15933/z39_96-2015.pdf) (Journal Article Tag Suite) standard of markup. It is also mapped to [schema.org](http://schema.org/)
 
 **[PCDM](https://github.com/duraspace/pcdm/wiki)**
 
@@ -22,7 +38,7 @@ The Portland Common Data Model was very important when making desicions about th
 
 PCDM makes much use of the [EBUcore](https://tech.ebu.ch/MetadataEbuCore) ontology, which has been included as the source for many file level [attributes](https://github.com/JiscRDSS/Metadata/blob/master/properties/File/file.md).
 
-**Preservation models** 
+**Preservation models**
 
 [PREMIS](http://www.loc.gov/standards/premis/v3/)
 
@@ -34,7 +50,7 @@ PROV-O was consulted as an alternative to PREMIS and was found to be compatible 
 
 One of the appealing aspects of PROV-O was the pre-exisiting [mapping](https://www.w3.org/TR/2013/NOTE-prov-dc-20130430/#list_of_direct_terms_props) to Dublin Core, offering a simple (although structured) approach to the metadata.
 
-The managed metadata folder for Preservation will be populated over the coming weeks. 
+The managed metadata folder for Preservation will be populated over the coming weeks.
 
 **CRIS**
 
@@ -52,7 +68,7 @@ A rich metadata set that allows pieces of experimental equipment to be identifie
 
 ##Description
 
-##Classes, values, properties 
+##Classes, values, properties
 
 **Research objects** (orange)
 
@@ -70,7 +86,7 @@ A rich metadata set that allows pieces of experimental equipment to be identifie
 
 **Information assets** (green)
 
-- Project 
+- Project
 - Grant
 - DMP
 - Standards
