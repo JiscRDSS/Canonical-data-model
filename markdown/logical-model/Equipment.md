@@ -29,7 +29,3 @@
 
 
 ## equipmentPerson 1..* 
-
-
-
-

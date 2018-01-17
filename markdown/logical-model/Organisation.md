@@ -118,7 +118,3 @@ String
 
 #### Example
 University of St Andrews
-
-
-
-
