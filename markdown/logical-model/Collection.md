@@ -163,6 +163,3 @@ Collection of aerial photography taken using drones in June 2014.
 #### Persons and the role(s) they performed on the production of the collection.
 
 #### Further information about this property is available in the OrganisationRole entity.
-
-
-
