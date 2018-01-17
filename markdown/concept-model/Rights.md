@@ -2,8 +2,3 @@
 
 
 ## has rights 
-
-
-
-
-

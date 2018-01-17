@@ -43,6 +43,3 @@ Text
 
 #### Example / CV value
 ORCID
-
-
-
