@@ -7,6 +7,5 @@
     -   id: check-merge-conflict
     -   id: check-yaml
     -   id: detect-private-key
-    -   id: double-quote-string-fixer
     -   id: end-of-file-fixer
     -   id: requirements-txt-fixer

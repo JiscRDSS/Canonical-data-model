@@ -17,6 +17,3 @@ String
 
 #### Example
 History
-
-
-
