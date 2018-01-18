@@ -54,6 +54,3 @@ String
 
 #### Example
 This data is restricted. Please complete the form to request access.
-
-
-

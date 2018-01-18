@@ -1,17 +1,13 @@
-language: node_js
+language: python
 
-before_script:
-  - git clone https://github.com/JiscRDSS/rdss-canonical-data-model
-  - cd rdss-canonical-data-model
-  - sudo apt-get install libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev build-essential g++
-  - npm install -g canvas
-  - npm install -g mdgen
-  - npm install -g jshint
-  - npm run test
+python:
+  - "3.6"
+
+before_install:
+  - sudo apt-get update -yqq
+
+install:
+  - pip install -r requirements.txt
 
 script:
-  - cd ~/build/JiscRDSS/rdss-canonical-data-model && bash ./deploy.sh
-
-env:
-  global:
-    - ENCRYPTION_LABEL: "82dc70be18ec"
+  - pre-commit run --all-files --verbose

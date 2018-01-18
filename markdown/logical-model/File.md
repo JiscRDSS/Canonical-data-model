@@ -492,6 +492,3 @@ Controlled vocabulary
 ####Example
 * S3
 * HTTP
-
-
-
