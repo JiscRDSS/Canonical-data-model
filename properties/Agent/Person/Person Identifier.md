@@ -48,5 +48,3 @@ Type | Example
 -----| -------
 ISNI |
 ORCID |
-
-

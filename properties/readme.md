@@ -12,7 +12,3 @@ Repeatability of the field.
 A representative value for the field.
 #### *Controlled Vocabulary Terms*
 List of agreed terms for the field value.
-
-
-
-

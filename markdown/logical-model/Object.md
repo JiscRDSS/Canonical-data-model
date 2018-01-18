@@ -240,6 +240,3 @@ veryHigh
 # objectFile
 
 #### Further information about this property is available in the File entity.
-
-
-

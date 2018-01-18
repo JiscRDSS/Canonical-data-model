@@ -144,6 +144,3 @@ Timestamp
 
 #### Example
 yyyy-mm-dd hh:mm:ss
-
-
-

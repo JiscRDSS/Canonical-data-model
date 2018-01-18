@@ -8,7 +8,3 @@
 
 
 ## temportalCoverageEnd 0..1 
-
-
-
-

@@ -23,5 +23,3 @@ Repeatable
 ##Mapping
 
 prov:Person
-
-

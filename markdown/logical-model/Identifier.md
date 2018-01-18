@@ -116,6 +116,3 @@ requires|Crossref
 isRequiredBy|Crossref
 hasParent|Preservica
 isParentOf|Preservica
-
-
-
