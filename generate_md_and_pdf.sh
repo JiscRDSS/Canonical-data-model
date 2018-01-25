@@ -28,3 +28,33 @@ echo "Running pre-commit to make sure any extra lines are removed"
 set +e
 pre-commit run --all-files --verbose
 set -e
+
+echo "Decrypting GitHub deploy key"
+ENCRYPTED_KEY="${encrypted_82dc70be18ec_key}"
+ENCRYPTED_IV="${encrypted_82dc70be18ec_iv}"
+openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV -in github_deploy_key.enc -out /tmp/github_deploy_key -d
+chmod 600 /tmp/github_deploy_key
+echo "Decrypted"
+
+echo "Telling git to use the GitHub deploy key"
+export GIT_SSH_COMMAND="ssh -i /tmp/github_deploy_key"
+git remote set-url origin git@github.com:$TRAVIS_REPO_SLUG.git
+echo "GIT_SSH_COMMAND: $GIT_SSH_COMMAND"
+echo "Remote URL: $(git config remote.origin.url)"
+
+echo "TRAVIS_BRANCH: $TRAVIS_BRANCH"
+echo "TRAVIS_PULL_REQUEST: $TRAVIS_PULL_REQUEST"
+echo "TRAVIS_COMMIT_MESSAGE: $TRAVIS_COMMIT_MESSAGE"
+if [ "$TRAVIS_BRANCH" = "master" ] && [ "$TRAVIS_PULL_REQUEST" = "false" ] && [[ "$TRAVIS_COMMIT_MESSAGE" != *"[skip generated files push]"* ]]
+then
+  echo "On master and docs out of date: will push to GitHub (will not be using --dry-run)"
+  DRY_RUN_IF_NOT_MASTER=""
+else
+  echo "Not on master or docs in date: will not push to GitHub (will be using --dry-run)"
+  DRY_RUN_IF_NOT_MASTER="--dry-run"
+fi
+
+git add -A .
+git status
+git commit -m "Generation of Markdown and Diagram pdf files upon update. [skip generated files push]"
+git push $DRY_RUN_IF_NOT_MASTER origin HEAD:master
