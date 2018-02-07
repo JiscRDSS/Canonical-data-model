@@ -1,0 +1,6 @@
+# <%= element.name %>
+<%= element.documentation %>
+<% element.getChildren().forEach(function (elem) {%>
+<% if (elem.name) {%>## <%= elem.name %> <%if (elem.multiplicity) { %><%= elem.multiplicity %> <% } %>
+<%= elem.documentation %>
+<% }}) %>
