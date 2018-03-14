@@ -8,4 +8,5 @@
     -   id: check-yaml
     -   id: detect-private-key
     -   id: end-of-file-fixer
+        exclude: ^.+\.mdj$
     -   id: requirements-txt-fixer
