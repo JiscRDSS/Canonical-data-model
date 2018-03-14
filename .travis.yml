@@ -5,9 +5,13 @@ python:
 
 before_install:
   - sudo apt-get update -yqq
+  - sudo apt-get install libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev build-essential g++
+  - nvm install --lts
 
 install:
   - pip install -r requirements.txt
+  - npm install -g mdgen@0.9
 
 script:
   - pre-commit run --all-files --verbose
+  - ./generate_md_and_pdf.sh
