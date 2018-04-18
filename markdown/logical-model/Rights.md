@@ -3,7 +3,7 @@
 
 
 
-## rightsStatement 1..* 
+## rightsStatement 0..* 
 ## `rightsStatement`  
 
 #### Description
@@ -27,7 +27,7 @@ String
 
 #### Example
 
-## rightsHolder 1..* 
+## rightsHolder 0..* 
 # rightsHolder 
 
 #### Description
