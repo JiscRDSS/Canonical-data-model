@@ -90,4 +90,3 @@ xsd:string
 
 #### Example
 0.17
-

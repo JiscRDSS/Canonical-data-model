@@ -47,4 +47,3 @@ Department of electrical engineering
 
 ## Organisation 1 
 Please see Organisation entity for detail.
-

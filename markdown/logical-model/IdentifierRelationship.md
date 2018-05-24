@@ -32,4 +32,3 @@ String
 
 #### Example
 isCitedBy
-
