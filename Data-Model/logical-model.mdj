@@ -2762,24 +2762,6 @@
 										},
 										{
 											"_type": "UMLAttributeView",
-											"_id": "AAAAAAFYUw0qwftRyUo=",
-											"_parent": {
-												"$ref": "AAAAAAFYP80Efb+O6ks="
-											},
-											"model": {
-												"$ref": "AAAAAAFYUw0qd/swwVM="
-											},
-											"fillColor": "#a3ffa3",
-											"font": "Arial;13;0",
-											"left": 2381,
-											"top": 2205,
-											"width": 270.61328125,
-											"height": 13,
-											"text": "+fileIdentifier: String[1]",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
 											"_id": "AAAAAAFYQD9btbiSVEI=",
 											"_parent": {
 												"$ref": "AAAAAAFYP80Efb+O6ks="
@@ -2790,7 +2772,7 @@
 											"fillColor": "#a3ffa3",
 											"font": "Arial;13;0",
 											"left": 2381,
-											"top": 2220,
+											"top": 2205,
 											"width": 270.61328125,
 											"height": 13,
 											"text": "+fileName: String[1]",
@@ -2808,28 +2790,10 @@
 											"fillColor": "#a3ffa3",
 											"font": "Arial;13;0",
 											"left": 2381,
-											"top": 2235,
+											"top": 2220,
 											"width": 270.61328125,
 											"height": 13,
 											"text": "+fileSize: Long[1]",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
-											"_id": "AAAAAAFYQD9+YLomYCA=",
-											"_parent": {
-												"$ref": "AAAAAAFYP80Efb+O6ks="
-											},
-											"model": {
-												"$ref": "AAAAAAFYQD9+GLn/eTc="
-											},
-											"fillColor": "#a3ffa3",
-											"font": "Arial;13;0",
-											"left": 2381,
-											"top": 2250,
-											"width": 270.61328125,
-											"height": 13,
-											"text": "+fileLabel: String[0..1]",
 											"horizontalAlignment": 0
 										},
 										{
@@ -2844,7 +2808,7 @@
 											"fillColor": "#a3ffa3",
 											"font": "Arial;13;0",
 											"left": 2381,
-											"top": 2265,
+											"top": 2235,
 											"width": 270.61328125,
 											"height": 13,
 											"text": "+fileDateCreated: Timestamp[0..1]",
@@ -2862,7 +2826,7 @@
 											"fillColor": "#a3ffa3",
 											"font": "Arial;13;0",
 											"left": 2381,
-											"top": 2280,
+											"top": 2250,
 											"width": 270.61328125,
 											"height": 13,
 											"text": "+fileRights: Rights[0..1]",
@@ -2880,7 +2844,7 @@
 											"fillColor": "#a3ffa3",
 											"font": "Arial;13;0",
 											"left": 2381,
-											"top": 2295,
+											"top": 2265,
 											"width": 270.61328125,
 											"height": 13,
 											"text": "+fileChecksum: Checksum[1..*]",
@@ -2898,7 +2862,7 @@
 											"fillColor": "#a3ffa3",
 											"font": "Arial;13;0",
 											"left": 2381,
-											"top": 2310,
+											"top": 2280,
 											"width": 270.61328125,
 											"height": 13,
 											"text": "+fileFormatType: String[0..1]",
@@ -2916,7 +2880,7 @@
 											"fillColor": "#a3ffa3",
 											"font": "Arial;13;0",
 											"left": 2381,
-											"top": 2325,
+											"top": 2295,
 											"width": 270.61328125,
 											"height": 13,
 											"text": "+fileCompositionLevel: String[0..1]",
@@ -2934,7 +2898,7 @@
 											"fillColor": "#a3ffa3",
 											"font": "Arial;13;0",
 											"left": 2381,
-											"top": 2340,
+											"top": 2310,
 											"width": 270.61328125,
 											"height": 13,
 											"text": "+filehasMimeType: Boolean[0..1]",
@@ -2952,7 +2916,7 @@
 											"fillColor": "#a3ffa3",
 											"font": "Arial;13;0",
 											"left": 2381,
-											"top": 2355,
+											"top": 2325,
 											"width": 270.61328125,
 											"height": 13,
 											"text": "+fileDateModified: Timestamp[1..*]",
@@ -2970,7 +2934,7 @@
 											"fillColor": "#a3ffa3",
 											"font": "Arial;13;0",
 											"left": 2381,
-											"top": 2370,
+											"top": 2340,
 											"width": 270.61328125,
 											"height": 13,
 											"text": "+filePUID: String[0..*]",
@@ -2988,7 +2952,7 @@
 											"fillColor": "#a3ffa3",
 											"font": "Arial;13;0",
 											"left": 2381,
-											"top": 2385,
+											"top": 2355,
 											"width": 270.61328125,
 											"height": 13,
 											"text": "+fileUse: FileUse[1]",
@@ -3006,7 +2970,7 @@
 											"fillColor": "#a3ffa3",
 											"font": "Arial;13;0",
 											"left": 2381,
-											"top": 2400,
+											"top": 2370,
 											"width": 270.61328125,
 											"height": 13,
 											"text": "+filePreservationEvent: PreservationEvent[0..*]",
@@ -3024,7 +2988,7 @@
 											"fillColor": "#a3ffa3",
 											"font": "Arial;13;0",
 											"left": 2381,
-											"top": 2415,
+											"top": 2385,
 											"width": 270.61328125,
 											"height": 13,
 											"text": "+fileUploadStatus: UploadStatus[1]",
@@ -3042,7 +3006,7 @@
 											"fillColor": "#a3ffa3",
 											"font": "Arial;13;0",
 											"left": 2381,
-											"top": 2430,
+											"top": 2400,
 											"width": 270.61328125,
 											"height": 13,
 											"text": "+fileStorageStatus: StorageStatus[1]",
@@ -3060,7 +3024,7 @@
 											"fillColor": "#a3ffa3",
 											"font": "Arial;13;0",
 											"left": 2381,
-											"top": 2445,
+											"top": 2415,
 											"width": 270.61328125,
 											"height": 13,
 											"text": "+fileLastDownloaded: Timestamp[0..1]",
@@ -3078,7 +3042,7 @@
 											"fillColor": "#a3ffa3",
 											"font": "Arial;13;0",
 											"left": 2381,
-											"top": 2460,
+											"top": 2430,
 											"width": 270.61328125,
 											"height": 13,
 											"text": "+fileTechnicalAttributes: String[0..*]",
@@ -3096,7 +3060,7 @@
 											"fillColor": "#a3ffa3",
 											"font": "Arial;13;0",
 											"left": 2381,
-											"top": 2475,
+											"top": 2445,
 											"width": 270.61328125,
 											"height": 13,
 											"text": "+fileStorageLocation: String[1]",
@@ -3114,7 +3078,7 @@
 											"fillColor": "#a3ffa3",
 											"font": "Arial;13;0",
 											"left": 2381,
-											"top": 2490,
+											"top": 2460,
 											"width": 270.61328125,
 											"height": 13,
 											"text": "+fileStoragePlatform: StoragePlatform[1]",
@@ -3126,7 +3090,7 @@
 									"left": 2376,
 									"top": 2185,
 									"width": 280.61328125,
-									"height": 323
+									"height": 293
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -3140,7 +3104,7 @@
 									"fillColor": "#a3ffa3",
 									"font": "Arial;13;0",
 									"left": 2376,
-									"top": 2508,
+									"top": 2478,
 									"width": 280.61328125,
 									"height": 10
 								},
@@ -3185,7 +3149,7 @@
 							"left": 2376,
 							"top": 2160,
 							"width": 280.61328125,
-							"height": 358,
+							"height": 328,
 							"autoResize": true,
 							"nameCompartment": {
 								"$ref": "AAAAAAFYP80EfL+Jn4Q="
@@ -12631,7 +12595,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 2524,
-									"top": 2536,
+									"top": 2506,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -12652,7 +12616,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 2537,
-									"top": 2539,
+									"top": 2509,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -12673,7 +12637,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 2496,
-									"top": 2532,
+									"top": 2502,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -12786,7 +12750,7 @@
 							"tail": {
 								"$ref": "AAAAAAFYP80EfL+IQkY="
 							},
-							"points": "2509:2517;2509:2709;2624:2709",
+							"points": "2509:2487;2509:2709;2624:2709",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFZ2iWXGlh+X0E="
@@ -13735,7 +13699,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 2524,
-									"top": 2536,
+									"top": 2506,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -13756,7 +13720,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 2537,
-									"top": 2539,
+									"top": 2509,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -13777,7 +13741,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 2496,
-									"top": 2532,
+									"top": 2502,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -13890,7 +13854,7 @@
 							"tail": {
 								"$ref": "AAAAAAFYP80EfL+IQkY="
 							},
-							"points": "2509:2517;2509:2739;2477:2739",
+							"points": "2509:2487;2509:2739;2477:2739",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFZ2ikHLZK2jJQ="
@@ -28265,17 +28229,6 @@
 						},
 						{
 							"_type": "UMLAttribute",
-							"_id": "AAAAAAFYUw0qd/swwVM=",
-							"_parent": {
-								"$ref": "AAAAAAFYP80Eer+GUL4="
-							},
-							"name": "fileIdentifier",
-							"stereotype": "",
-							"type": "String",
-							"multiplicity": "1"
-						},
-						{
-							"_type": "UMLAttribute",
 							"_id": "AAAAAAFYQD9bdrhrzMc=",
 							"_parent": {
 								"$ref": "AAAAAAFYP80Eer+GUL4="
@@ -28295,17 +28248,6 @@
 							"documentation": "# fileSize \n\n#### Description\nto provide the size of a MediaResource in bytes \n\n#### Derivation\nhttp://www.ebu.ch/metadata/ontologies/ebucore/ebucore#fileSize\n\n#### Mapping \nnfo:fileSize, dct:extent, premis:hasSize\n\n#### Obligation\t\nMandatory\n\n#### Occurence\t\nNon-repeatable\n\n#### Content \nxsd:integer \n\n#### Example\n709162",
 							"type": "Long",
 							"multiplicity": "1"
-						},
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAFYQD9+GLn/eTc=",
-							"_parent": {
-								"$ref": "AAAAAAFYP80Eer+GUL4="
-							},
-							"name": "fileLabel",
-							"documentation": "# fileLabel \n\n#### Description\nDescriptive label \n\n#### Derivation\nhttp://www.w3.org/2000/01/rdf-schema#label\n\n#### Mapping\n\n#### Obligation\t\nOptional\n\n#### Occurence\t\nNon-repeatable\n\n#### Content \nxsd:string\n\n#### Example\nUnmodified original\n",
-							"type": "String",
-							"multiplicity": "0..1"
 						},
 						{
 							"_type": "UMLAttribute",
