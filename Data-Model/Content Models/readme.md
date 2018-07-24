@@ -7,4 +7,4 @@
 
 
 
-![alt text](http://url/to/img.png)
+![image placeholder](http://url/to/img.png)
