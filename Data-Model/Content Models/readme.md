@@ -16,8 +16,12 @@ The content models themselves are bound by strict UML rules around showing inher
 
 ## Example: Article
 
-![Article content model](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/RDSS-2142/Data-Model/Content%20Models/images/Article%20concept%20model%20v2.png)
+![Article concept model](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/RDSS-2142/Data-Model/Content%20Models/images/Article%20concept%20model%20v2.png)
 
-![image placeholder](http://url/to/img.png)
+In this UML diagram, the purpose is to show both compliance with and alignment to the RIOXX profile and the minimal metadata schema for an article which can be pulled from the Crossref API.
 
+
+![Article content model](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/RDSS-2142/Data-Model/Content%20Models/images/Article%20content%20model%20v.1.0.0.png)
+
+This UML diagram is the formal expression of the inheritance process by which the article content model is related to the CDM. 
 
