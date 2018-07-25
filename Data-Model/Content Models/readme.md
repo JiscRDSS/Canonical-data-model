@@ -16,7 +16,7 @@ The content models themselves are bound by strict UML rules around showing inher
 
 ## Example: Article
 
-![image placeholder](http://url/to/img.png)
+![Article content model](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/RDSS-2142/Data-Model/Content%20Models/images/Article%20concept%20model%20v2.png)
 
 ![image placeholder](http://url/to/img.png)
 
