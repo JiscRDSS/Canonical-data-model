@@ -23,5 +23,5 @@ In this UML diagram, the purpose is to show both compliance with and alignment t
 
 ![Article content model](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/RDSS-2142/Data-Model/Content%20Models/images/Article%20content%20model%20v.1.0.0.png)
 
-This UML diagram is the formal expression of the inheritance process by which the article content model is related to the CDM. 
+This UML diagram is the formal expression of the inheritance process by which the article content model is related to the CDM. Present in the model are all the fields that are unique to the specific resource type plus fields that the resource inherits from the CDM object class.
 
