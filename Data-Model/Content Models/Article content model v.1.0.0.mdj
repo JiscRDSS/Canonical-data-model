@@ -63,7 +63,7 @@
 											"font": "Arial;13;1",
 											"left": 445,
 											"top": 343,
-											"width": 294.78515625,
+											"width": 298.416015625,
 											"height": 13,
 											"text": "Article"
 										},
@@ -101,7 +101,7 @@
 									"font": "Arial;13;0",
 									"left": 440,
 									"top": 336,
-									"width": 304.78515625,
+									"width": 308.416015625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFXwnEqAh3dmT8="
@@ -139,7 +139,7 @@
 											"font": "Arial;13;0",
 											"left": 445,
 											"top": 366,
-											"width": 294.78515625,
+											"width": 298.416015625,
 											"height": 13,
 											"text": "+FreeToRead: alifreetoread[0..1]",
 											"horizontalAlignment": 0
@@ -157,7 +157,7 @@
 											"font": "Arial;13;0",
 											"left": 445,
 											"top": 381,
-											"width": 294.78515625,
+											"width": 298.416015625,
 											"height": 13,
 											"text": "+licence: license_ref[1..*]",
 											"horizontalAlignment": 0
@@ -175,7 +175,7 @@
 											"font": "Arial;13;0",
 											"left": 445,
 											"top": 396,
-											"width": 294.78515625,
+											"width": 298.416015625,
 											"height": 13,
 											"text": "+Coverage: Coverage[0..1]",
 											"horizontalAlignment": 0
@@ -193,7 +193,7 @@
 											"font": "Arial;13;0",
 											"left": 445,
 											"top": 411,
-											"width": 294.78515625,
+											"width": 298.416015625,
 											"height": 13,
 											"text": "+Language: String[1..*] = eng",
 											"horizontalAlignment": 0
@@ -211,7 +211,7 @@
 											"font": "Arial;13;0",
 											"left": 445,
 											"top": 426,
-											"width": 294.78515625,
+											"width": 298.416015625,
 											"height": 13,
 											"text": "«APC»+APC: APC[0..1]",
 											"horizontalAlignment": 0
@@ -229,7 +229,7 @@
 											"font": "Arial;13;0",
 											"left": 445,
 											"top": 441,
-											"width": 294.78515625,
+											"width": 298.416015625,
 											"height": 13,
 											"text": "«publicationVersion»+publicationVersion[1]",
 											"horizontalAlignment": 0
@@ -247,7 +247,7 @@
 											"font": "Arial;13;0",
 											"left": 445,
 											"top": 456,
-											"width": 294.78515625,
+											"width": 298.416015625,
 											"height": 13,
 											"text": "+journal: Journal[0..1]",
 											"horizontalAlignment": 0
@@ -265,7 +265,7 @@
 											"font": "Arial;13;0",
 											"left": 445,
 											"top": 471,
-											"width": 294.78515625,
+											"width": 298.416015625,
 											"height": 13,
 											"text": "+articleProject: RioxxProject[0..*]",
 											"horizontalAlignment": 0
@@ -283,7 +283,7 @@
 											"font": "Arial;13;0",
 											"left": 445,
 											"top": 486,
-											"width": 294.78515625,
+											"width": 298.416015625,
 											"height": 13,
 											"text": "+^objectResourceType: enumeration[1] = article",
 											"horizontalAlignment": 0
@@ -301,7 +301,7 @@
 											"font": "Arial;13;0",
 											"left": 445,
 											"top": 501,
-											"width": 294.78515625,
+											"width": 298.416015625,
 											"height": 13,
 											"text": "+^objectUUID: String[1] {id, unique}",
 											"horizontalAlignment": 0
@@ -319,7 +319,7 @@
 											"font": "Arial;13;0",
 											"left": 445,
 											"top": 516,
-											"width": 294.78515625,
+											"width": 298.416015625,
 											"height": 13,
 											"text": "+^objectTitle: String[1]",
 											"horizontalAlignment": 0
@@ -337,7 +337,7 @@
 											"font": "Arial;13;0",
 											"left": 445,
 											"top": 531,
-											"width": 294.78515625,
+											"width": 298.416015625,
 											"height": 13,
 											"text": "+^objectPersonRole: PersonRole[1..*]",
 											"horizontalAlignment": 0
@@ -355,7 +355,7 @@
 											"font": "Arial;13;0",
 											"left": 445,
 											"top": 546,
-											"width": 294.78515625,
+											"width": 298.416015625,
 											"height": 13,
 											"text": "+^objectDescription: Description[0..*]",
 											"horizontalAlignment": 0
@@ -373,7 +373,7 @@
 											"font": "Arial;13;0",
 											"left": 445,
 											"top": 561,
-											"width": 294.78515625,
+											"width": 298.416015625,
 											"height": 13,
 											"text": "+^objectRights[1]",
 											"horizontalAlignment": 0
@@ -391,7 +391,7 @@
 											"font": "Arial;13;0",
 											"left": 445,
 											"top": 576,
-											"width": 294.78515625,
+											"width": 298.416015625,
 											"height": 13,
 											"text": "+^objectDate[1..*]",
 											"horizontalAlignment": 0
@@ -409,7 +409,7 @@
 											"font": "Arial;13;0",
 											"left": 445,
 											"top": 591,
-											"width": 294.78515625,
+											"width": 298.416015625,
 											"height": 13,
 											"text": "+^objectKeywords: String[0..*]",
 											"horizontalAlignment": 0
@@ -427,7 +427,7 @@
 											"font": "Arial;13;0",
 											"left": 445,
 											"top": 606,
-											"width": 294.78515625,
+											"width": 298.416015625,
 											"height": 13,
 											"text": "+^objectCategory: String[0..*]",
 											"horizontalAlignment": 0
@@ -445,7 +445,7 @@
 											"font": "Arial;13;0",
 											"left": 445,
 											"top": 621,
-											"width": 294.78515625,
+											"width": 298.416015625,
 											"height": 13,
 											"text": "+^objectValue: objectValue[0..1] = normal",
 											"horizontalAlignment": 0
@@ -463,7 +463,7 @@
 											"font": "Arial;13;0",
 											"left": 445,
 											"top": 636,
-											"width": 294.78515625,
+											"width": 298.416015625,
 											"height": 13,
 											"text": "+^objectIdentifier: Identifier[1..*]",
 											"horizontalAlignment": 0
@@ -481,9 +481,9 @@
 											"font": "Arial;13;0",
 											"left": 445,
 											"top": 651,
-											"width": 294.78515625,
+											"width": 298.416015625,
 											"height": 13,
-											"text": "+objectRelatedIdentifier: IdentifierRelationship[0..*]",
+											"text": "+^objectRelatedIdentifier: IdentifierRelationship[0..*]",
 											"horizontalAlignment": 0
 										},
 										{
@@ -499,7 +499,7 @@
 											"font": "Arial;13;0",
 											"left": 445,
 											"top": 666,
-											"width": 294.78515625,
+											"width": 298.416015625,
 											"height": 13,
 											"text": "+^objectOrganisationRole: OrganisationRole[1..*]",
 											"horizontalAlignment": 0
@@ -517,7 +517,7 @@
 											"font": "Arial;13;0",
 											"left": 445,
 											"top": 681,
-											"width": 294.78515625,
+											"width": 298.416015625,
 											"height": 13,
 											"text": "+^objectPreservationEvent: PreservationEvent[0..*]",
 											"horizontalAlignment": 0
@@ -535,7 +535,7 @@
 											"font": "Arial;13;0",
 											"left": 445,
 											"top": 696,
-											"width": 294.78515625,
+											"width": 298.416015625,
 											"height": 13,
 											"text": "+^objectFile: File[0..*]",
 											"horizontalAlignment": 0
@@ -545,7 +545,7 @@
 									"font": "Arial;13;0",
 									"left": 440,
 									"top": 361,
-									"width": 304.78515625,
+									"width": 308.416015625,
 									"height": 353
 								},
 								{
@@ -561,7 +561,7 @@
 									"font": "Arial;13;0",
 									"left": 440,
 									"top": 714,
-									"width": 304.78515625,
+									"width": 308.416015625,
 									"height": 10
 								},
 								{
@@ -604,7 +604,7 @@
 							"containerChangeable": true,
 							"left": 440,
 							"top": 336,
-							"width": 304.78515625,
+							"width": 308.416015625,
 							"height": 388,
 							"autoResize": true,
 							"nameCompartment": {
@@ -2644,7 +2644,7 @@
 										"$ref": "AAAAAAFcWej6/+ZsCQw="
 									},
 									"font": "Arial;13;0",
-									"left": 768,
+									"left": 769,
 									"top": 475,
 									"width": 49,
 									"height": 13,
@@ -2667,7 +2667,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 792,
+									"left": 793,
 									"top": 460,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -2688,7 +2688,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 792,
+									"left": 793,
 									"top": 505,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -2709,7 +2709,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 769,
+									"left": 772,
 									"top": 475,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -2730,7 +2730,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 772,
+									"left": 775,
 									"top": 461,
 									"height": 13,
 									"alpha": 0.7853981633974483,
@@ -2751,7 +2751,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 765,
+									"left": 768,
 									"top": 502,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -2861,7 +2861,7 @@
 							"tail": {
 								"$ref": "AAAAAAFXwnEqAR3bRXY="
 							},
-							"points": "744:496;840:496",
+							"points": "747:496;840:496",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFcWej7AOZxcjo="
@@ -4528,7 +4528,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 769,
+									"left": 772,
 									"top": 508,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -4549,7 +4549,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 772,
+									"left": 775,
 									"top": 494,
 									"height": 13,
 									"alpha": 0.7853981633974483,
@@ -4570,7 +4570,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 765,
+									"left": 768,
 									"top": 535,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -4680,7 +4680,7 @@
 							"tail": {
 								"$ref": "AAAAAAFXwnEqAR3bRXY="
 							},
-							"points": "744:529;950:529;950:640",
+							"points": "747:529;950:529;950:640",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFhUTy2ROIvrTs="
@@ -5532,7 +5532,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFXwnEqAR3ZbfY="
 							},
-							"name": "objectRelatedIdentifier",
+							"name": "^objectRelatedIdentifier",
 							"type": "IdentifierRelationship",
 							"multiplicity": "0..*"
 						},
