@@ -39,6 +39,9 @@ ISO8601 dateTime
 ## fileStorageType 
 
 
+## storagePlatform 
+
+
 ## fileUUID 1 
 # fileUUID
 
@@ -470,7 +473,7 @@ Non-repeatable
  
 
 
-## fileStorageType 1 
+## fileStoragePlatform 1 
 
 ## File Storage Type
 

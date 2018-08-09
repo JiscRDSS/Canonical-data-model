@@ -13,49 +13,121 @@
 
 
 
+## personOrganisationUnit 
+
+
 ## personUUID 1 
 
 
 ## personIdentifier 1..* 
+See PersonIdentifier entity for detail.
 
+## personHonorificPrefix 0..1 
+# personHonorificPrefix
 
-## personEntitlement 1..* 
+#### Description
+Prefix given to a person&#39;s name
 
+#### Derivation
+Schema.org
 
-## personOrganisation 1..* 
+#### Obligation	
+Optional
 
+#### Occurrence	
+Non-repeatable
 
-## personAffiliation 1..* 
+#### Content 
+String
 
+#### Example
+Dr.
 
-## personGivenName 1 
-Used to share a user&#39;s firstname.
+## personGivenNames 1 
+# personGivenNames
 
-Derived from UKAMF X.520 attributes.
+#### Description
+Person&#39;s given name.
 
-## personCn 1 
-Person common name
+#### Derivation
+Schema.org
 
-Derived from UKAMF X.520 attributes
+#### Obligation	
+Mandatory
 
-## personSn 1 
-Used to share a user&#39;s lastname / surname.
+#### Occurrence	
+Non-repeatable
 
-Derived from UKAMF X.520 attributes.
+#### Content 
+String
 
-## personTelephoneNumber 1 
-Used to share telephoneNumber.
+#### Example
+Jo
 
-Derived from UKAMF X.520 attributes.
+## personFamilyNames 1 
+# personFamilyNames
 
+#### Description
+Person&#39;s family name.
 
-## personMail 1 
-Used to share email address.
+#### Derivation
+Schema.org
 
-Derived from UKAMF X.520 attributes.
+#### Obligation	
+Mandatory
 
+#### Occurrence	
+Non-repeatable
 
-## personOu 1 
+#### Content 
+String
+
+#### Example
+Bloggs
+
+## personHonorificSuffix 0..1 
+# personHonorificSuffix
+
+#### Description
+Suffix given to a person&#39;s name
+
+#### Derivation
+Schema.org
+
+#### Obligation	
+Optional
+
+#### Occurrence	
+Non-repeatable
+
+#### Content 
+String
+
+#### Example
+MSc.
+
+## personMail 0..1 
+# personMail
+
+#### Description
+Person&#39;s email address
+
+#### Derivation
+vcard
+
+#### Obligation	
+Optional
+
+#### Occurrence	
+Non-repeatable
+
+#### Content 
+String
+
+#### Example
+jo.bloggs@uni.ac.uk
+
+## personOrganisationUnit 1 
 Organisation unit, e.g. a department
 
-Derived from UKAMF X.520 attributes.
+See entity for detail.

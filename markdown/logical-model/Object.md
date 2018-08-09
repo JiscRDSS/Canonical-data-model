@@ -33,6 +33,9 @@
 
 
 
+## objectPersonRole 
+
+
 ## objectUUID 1 
 # objectUUID
 
@@ -102,7 +105,7 @@ String
 #### Example
 DJI Phantom 3 Standard with 2.7K Camera and 3-Axis Gimbal
 
-## objectRights 1..* 
+## objectRights 1 
 # objectRights
 
 #### Information about this property is available in the rights entity.
@@ -222,7 +225,7 @@ veryHigh
 ## objectRelatedIdentifier 0..* 
 # objectRelatedIdentifier
 
-#### Information about this property is available in the Identifier entity.
+#### Information about this property is available in the IdentifierRelationship entity.
 
 ## objectOrganisationRole 1..* 
 # objectOrganisationRole
