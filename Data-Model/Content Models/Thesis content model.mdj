@@ -644,7 +644,7 @@
 											"font": "Arial;13;1",
 											"left": 469,
 											"top": 495,
-											"width": 241.92822265625,
+											"width": 275.7041015625,
 											"height": 13,
 											"text": "Coverage"
 										},
@@ -682,7 +682,7 @@
 									"font": "Arial;13;0",
 									"left": 464,
 									"top": 488,
-									"width": 251.92822265625,
+									"width": 285.7041015625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFhUR5P+5QEiRU="
@@ -720,9 +720,9 @@
 											"font": "Arial;13;0",
 											"left": 469,
 											"top": 518,
-											"width": 241.92822265625,
+											"width": 275.7041015625,
 											"height": 13,
-											"text": "+geospatialCoverage[0..*]",
+											"text": "+geospatialCoverage: GeospatialCoverage[0..*]",
 											"horizontalAlignment": 0
 										},
 										{
@@ -738,7 +738,7 @@
 											"font": "Arial;13;0",
 											"left": 469,
 											"top": 533,
-											"width": 241.92822265625,
+											"width": 275.7041015625,
 											"height": 13,
 											"text": "+temporalCoverageStart: Timestamp[0..1]",
 											"horizontalAlignment": 0
@@ -756,7 +756,7 @@
 											"font": "Arial;13;0",
 											"left": 469,
 											"top": 548,
-											"width": 241.92822265625,
+											"width": 275.7041015625,
 											"height": 13,
 											"text": "+temportalCoverageEnd: Timestamp[0..1]",
 											"horizontalAlignment": 0
@@ -766,7 +766,7 @@
 									"font": "Arial;13;0",
 									"left": 464,
 									"top": 513,
-									"width": 251.92822265625,
+									"width": 285.7041015625,
 									"height": 53
 								},
 								{
@@ -782,7 +782,7 @@
 									"font": "Arial;13;0",
 									"left": 464,
 									"top": 566,
-									"width": 251.92822265625,
+									"width": 285.7041015625,
 									"height": 10
 								},
 								{
@@ -825,7 +825,7 @@
 							"containerChangeable": true,
 							"left": 464,
 							"top": 488,
-							"width": 251.92822265625,
+							"width": 285.7041015625,
 							"height": 88,
 							"autoResize": true,
 							"nameCompartment": {
@@ -3623,7 +3623,9 @@
 								"$ref": "AAAAAAFYVCzZHqf1B4U="
 							},
 							"name": "geospatialCoverage",
-							"type": "",
+							"type": {
+								"$ref": "AAAAAAFhUSQJjsb0oVE="
+							},
 							"multiplicity": "0..*"
 						},
 						{
