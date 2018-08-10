@@ -2977,7 +2977,7 @@
 											"top": 127,
 											"width": 343,
 											"height": 13,
-											"text": "Object"
+											"text": "ResearchObject"
 										},
 										{
 											"_type": "LabelView",
@@ -3900,7 +3900,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Object"
+					"name": "ResearchObject"
 				}
 			]
 		},
