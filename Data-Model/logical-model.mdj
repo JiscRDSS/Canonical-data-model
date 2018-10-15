@@ -1166,7 +1166,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+objectRights: Rights[1]",
+											"text": "+objectRight: Rights[1]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -1224,7 +1224,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+objectKeywords: String[0..*]",
+											"text": "+objectKeyword: String[0..*]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -2326,7 +2326,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+personGivenNames: String[1]",
+											"text": "+personGivenName: String[1]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -2355,7 +2355,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+personFamilyNames: String[1]",
+											"text": "+personFamilyName: String[1]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -3805,7 +3805,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+collectionKeywords: String[0..*]",
+											"text": "+collectionKeyword: String[0..*]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -3892,7 +3892,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+collectionRights: Rights[1..*]",
+											"text": "+collectionRight: Rights[1..*]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -4443,7 +4443,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+fileRights: Rights[0..1]",
+											"text": "+fileRight: Rights[0..1]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -4791,7 +4791,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+fileTechnicalAttributes: String[0..*]",
+											"text": "+fileTechnicalAttribute: String[0..*]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -43004,7 +43004,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFXwnERoh2vVDY="
 							},
-							"name": "objectRights",
+							"name": "objectRight",
 							"documentation": "# objectRights\n\n#### Information about this property is available in the rights entity.",
 							"visibility": "public",
 							"isStatic": false,
@@ -43048,7 +43048,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFXwnERoh2vVDY="
 							},
-							"name": "objectKeywords",
+							"name": "objectKeyword",
 							"documentation": "# objectKeywords\n\n#### Description\nWords and terms associated with the object.\n\n#### Derivation\nGeneral\n\n#### Mapping\nDatacite 3.1  \n\n#### Obligation\t\nRecommended\n\n#### Occurence\t\nRepeatable\n\n#### Content \nString\n\n#### Example\ndrone, 3D map",
 							"visibility": "public",
 							"isStatic": false,
@@ -43979,7 +43979,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFXwnIOVB4upAg="
 							},
-							"name": "personGivenNames",
+							"name": "personGivenName",
 							"documentation": "# personGivenNames\n\n#### Description\nPerson's given name.\n\n#### Derivation\nSchema.org\n\n#### Obligation\t\nMandatory\n\n#### Occurrence\t\nNon-repeatable\n\n#### Content \nString\n\n#### Example\nJo",
 							"visibility": "public",
 							"isStatic": false,
@@ -43999,7 +43999,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFXwnIOVB4upAg="
 							},
-							"name": "personFamilyNames",
+							"name": "personFamilyName",
 							"documentation": "# personFamilyNames\n\n#### Description\nPerson's family name.\n\n#### Derivation\nSchema.org\n\n#### Obligation\t\nMandatory\n\n#### Occurrence\t\nNon-repeatable\n\n#### Content \nString\n\n#### Example\nBloggs",
 							"visibility": "public",
 							"isStatic": false,
@@ -45583,7 +45583,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFXwo2pJX+0FSE="
 							},
-							"name": "collectionKeywords",
+							"name": "collectionKeyword",
 							"documentation": "# collectionKeywords\n\n#### Description\nWords and terms associated with the dataset\n\n#### Derivation\nGeneral\n\n#### Mapping\nDatacite 3.1  \n\n#### Obligation\t\nRecommended\n\n#### Occurence\t\nRepeatable\n\n#### Content \nString\n\n#### Example\ndrone, 3D map",
 							"visibility": "public",
 							"isStatic": false,
@@ -45643,7 +45643,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFXwo2pJX+0FSE="
 							},
-							"name": "collectionRights",
+							"name": "collectionRight",
 							"documentation": "# collectionRights\n\n#### Information about this property is available in the rights entity.",
 							"visibility": "public",
 							"isStatic": false,
@@ -46412,9 +46412,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFYP80Eer+GUL4="
 							},
-							"name": "fileRights",
+							"name": "fileRight",
 							"documentation": "# fileRights\n\n#### Information about this property is available in the rights entity.",
-							"stereotype": "",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -46667,7 +46666,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFYP80Eer+GUL4="
 							},
-							"name": "fileTechnicalAttributes",
+							"name": "fileTechnicalAttribute",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
