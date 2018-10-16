@@ -1166,7 +1166,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+objectRight: Rights[1]",
+											"text": "+objectRights: Rights[1]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -2326,7 +2326,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+personGivenName: String[1]",
+											"text": "+personGivenNames: String[1]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -2355,7 +2355,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+personFamilyName: String[1]",
+											"text": "+personFamilyNames: String[1]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -3892,7 +3892,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+collectionRight: Rights[1..*]",
+											"text": "+collectionRights: Rights[1..*]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -4443,7 +4443,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+fileRight: Rights[0..1]",
+											"text": "+fileRights: Rights[0..1]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -43004,7 +43004,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFXwnERoh2vVDY="
 							},
-							"name": "objectRight",
+							"name": "objectRights",
 							"documentation": "# objectRights\n\n#### Information about this property is available in the rights entity.",
 							"visibility": "public",
 							"isStatic": false,
@@ -43979,7 +43979,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFXwnIOVB4upAg="
 							},
-							"name": "personGivenName",
+							"name": "personGivenNames",
 							"documentation": "# personGivenNames\n\n#### Description\nPerson's given name.\n\n#### Derivation\nSchema.org\n\n#### Obligation\t\nMandatory\n\n#### Occurrence\t\nNon-repeatable\n\n#### Content \nString\n\n#### Example\nJo",
 							"visibility": "public",
 							"isStatic": false,
@@ -43999,7 +43999,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFXwnIOVB4upAg="
 							},
-							"name": "personFamilyName",
+							"name": "personFamilyNames",
 							"documentation": "# personFamilyNames\n\n#### Description\nPerson's family name.\n\n#### Derivation\nSchema.org\n\n#### Obligation\t\nMandatory\n\n#### Occurrence\t\nNon-repeatable\n\n#### Content \nString\n\n#### Example\nBloggs",
 							"visibility": "public",
 							"isStatic": false,
@@ -45643,7 +45643,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFXwo2pJX+0FSE="
 							},
-							"name": "collectionRight",
+							"name": "collectionRights",
 							"documentation": "# collectionRights\n\n#### Information about this property is available in the rights entity.",
 							"visibility": "public",
 							"isStatic": false,
@@ -46412,7 +46412,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFYP80Eer+GUL4="
 							},
-							"name": "fileRight",
+							"name": "fileRights",
 							"documentation": "# fileRights\n\n#### Information about this property is available in the rights entity.",
 							"visibility": "public",
 							"isStatic": false,
