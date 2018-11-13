@@ -16,7 +16,7 @@ The content models themselves are bound by strict UML rules around showing inher
 
 ## Example: Article
 
-![Article concept model](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/hotfix/4.0.0_issues/Data-Model/Content%20Models/images/Article%20concept%20model%20v2.png)
+![Article concept model](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/hotfix/4.0.0_issues/Data-Model/Content%20Models/images/article%20concept%20model.png)
 
 In this UML diagram, the purpose is to show both compliance with and alignment to the RIOXX profile and the minimal metadata schema for an article which can be pulled from the Crossref API.
 
