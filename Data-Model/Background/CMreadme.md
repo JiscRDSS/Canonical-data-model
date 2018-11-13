@@ -1,17 +1,17 @@
 
-#RDSS Concept Model
+# RDSS Concept Model
 
 The file in this folder can be viewed using [StarUML](http://staruml.io/).
 
 Links and additional information are being added to this document over time.
 
-##Background
+## Background
 
 As part of the the Research Data Shared Service, I was asked to devise a data model which could be understood to underpin the processes for which the Shared Service project seeks to provide an infrastructure. Metadata requirements from across this landscape were considered - current Research Information Systems, repositories etc. The idea was to simplify these processes into activities that a researcher performs with the desire to capture metadata around these processes. Capture at the point of creation and the use of persistent identifiers were both strong drivers in this model and are reflected in the architecture. Key requirements such as integration of research objects (publications, datasets and software) and the avoidance of re-keying information (details pulled through PiDs, automatic creation and transit of metadata from DMPs and equipment) are central to the design. To this end, the Project entity is also an important part of the model. This is an intellectual asset that centralises many of the material and non-material processes across the time frame of the project (generating collection level data and metadata).
 
 The original metadata framework arose from the work I did on the Jisc UK Research Data Discovery Service. Although the main focus of the fields described in this work covered Findability, there were other elements considered such as licencing and access. The FAIR principles were important aspirational beacons during the development work, although it generally understood that some elements of the principles are currently more developed than others. The [UKRDDS profile (v1.1)](https://docs.google.com/document/d/1lGQoj8ji8xSGZlTWU1VzK8XyIczu5MDVnwxfJATIbd8/edit?usp=sharing) is mapped to Dublin Core, MODS, Datacite (3.1 & 4), ADS, GEMINI2.2, DDI2.5, CERIF and schema.org. More mappings are underway.
 
-##Distinction between the Logical model & Concept model
+## Distinction between the Logical model & Concept model
 
 The concept model work was undertaken to work out a combination of entities that are common to research data management models and to connect them in a way that made sense within a researcher workflow. The concept model is high level and designed to show the basic building blocks of what a research data management service might look like. This was a guide in order to promote debate and direction about the direction of the data model for the service. It was not complete or exhaustive but a reflection of the frameworks studied to inform thinking.
 
@@ -27,7 +27,7 @@ For more information about how the different models can be used in software deve
 
 More information about a [canonical data model](http://www.enterpriseintegrationpatterns.com/patterns/messaging/CanonicalDataModel.html)
 
-###Schemas and models consulted
+### Schemas and models consulted
 
 This data model was heavily influenced by the DataMED [DATS](https://docs.google.com/document/d/1hVcYRleE6-dFfn7qbF9Bv1Ohs1kTF6a8OwWUvoZlDto/edit#) (work of the [BD2K](https://datascience.nih.gov/bd2k) project in the USA.
 The iterative and important attribution of standards is an essential part of any life sciences data model. Although the RDSS seeks a more generic route, I considered it important to use standards where possible and for the allocation of those to be captured and reultiised for future dataset publication. The DATS work seeks to find a data equivalent for the [JATS](http://www.niso.org/apps/group_public/download.php/15933/z39_96-2015.pdf) (Journal Article Tag Suite) standard of markup. It is also mapped to [schema.org](http://schema.org/)
@@ -66,9 +66,9 @@ A REF compliance checker that relies on relatively few metadata fields to descri
 [Equipment.data](http://equipment.data.ac.uk/uniquip)
 A rich metadata set that allows pieces of experimental equipment to be identified individually.
 
-##Description
+## Description
 
-##Classes, values, properties
+## Classes, values, properties
 
 **Research objects** (orange)
 
