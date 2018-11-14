@@ -3,11 +3,11 @@
 
 The file in this folder can be viewed using [StarUML](http://staruml.io/).
 
-Links and additional information are being added to this document over time.
+Please note that this document was prepared in 2017 during the early development of the canoncial data model and serves as background only. The [latest version](https://github.com/JiscRDSS/rdss-canonical-data-model/tree/master/Data-Model) (and all previous semantically versioned iterations) are available in the main folder.
 
 ## Background
 
-As part of the the Research Data Shared Service, [I](https://github.com/DomFripp) was asked to devise a data model which could be understood to underpin the processes for which the Shared Service project seeks to provide an infrastructure. Metadata requirements from across this landscape were considered - current Research Information Systems, repositories etc. The idea was to simplify these processes into activities that a researcher performs with the desire to capture metadata around these processes. Capture at the point of creation and the use of persistent identifiers were both strong drivers in this model and are reflected in the architecture. Key requirements such as integration of research objects (publications, datasets and software) and the avoidance of re-keying information (details pulled through persistent identifiers, automatic creation and transit of metadata from DMPs and equipment) are central to the design. To this end, the Project entity is also an important part of the model. This is an intellectual asset that centralises many of the material and non-material processes across the time frame of the project (generating collection level data and metadata).
+As part of the the Research Data Shared Service, [I](https://github.com/DomFripp) was asked to devise a data model which could be understood to underpin the processes for which the Shared Service project seeks to provide an infrastructure. Metadata requirements from across this landscape were considered - current Research Information Systems, repositories etc. The idea was to simplify these processes into activities that a researcher performs with the desire to capture metadata around these processes. Capture at the point of creation and the use of persistent identifiers were both strong drivers in this model and are reflected in the architecture. Key requirements such as integration of research objects (publications, datasets and software) and the avoidance of re-keying information (details pulled through persistent identifiers, automatic creation and transit of metadata from DMPs and equipment) are central to the design. To this end, the `Project` entity is also an important part of the model. This is an intellectual asset that centralises many of the material and non-material processes across the time frame of the project (generating collection level data and metadata).
 
 The original metadata framework arose from the work I did on the Jisc UK Research Data Discovery Service. Although the main focus of the fields described in this work covered Findability, there were other elements considered such as licencing and access. The FAIR principles were important aspirational beacons during the development work, although it generally understood that some elements of the principles are currently more developed than others. The [UKRDDS profile (v1.1)](https://docs.google.com/document/d/1lGQoj8ji8xSGZlTWU1VzK8XyIczu5MDVnwxfJATIbd8/edit?usp=sharing) is mapped to Dublin Core, MODS, Datacite (3.1 & 4), ADS, GEMINI2.2, DDI2.5, CERIF and schema.org. More mappings are underway.
 
@@ -34,7 +34,7 @@ The iterative and important attribution of standards is an essential part of any
 
 **[PCDM](https://github.com/duraspace/pcdm/wiki)**
 
-The Portland Common Data Model was very important when making decisions about the level to which metadata could be attributed. This was a key discussion area in the Research Data Discovery Service project and the PCDM was critical in resolving issues about the file level to which metadata could sensibly be attributed. The three level model that the PCDM offers, ranging from bitstream and access metadata at file level up to descriptive metadata at a higher complexity level (such as file set and collection, which can both stand in for dataset) sits alongside the Project and dataset instances in the RDSS model.
+The Portland Common Data Model was very important when making decisions about the level to which metadata could be attributed. This was a key discussion area in the Research Data Discovery Service project and the PCDM was critical in resolving issues about the file level to which metadata could sensibly be attributed. The three level model that the PCDM offers, ranging from bitstream and access metadata at file level up to descriptive metadata at a higher complexity level (such as file set and collection, which can both stand in for dataset) sits alongside the `Project` and `Dataset` instances in the RDSS model.
 
 PCDM makes much use of the [EBUcore](https://tech.ebu.ch/MetadataEbuCore) ontology, which has been included as the source for many file level [attributes](https://github.com/JiscRDSS/Metadata/blob/master/properties/File/file.md).
 
@@ -46,7 +46,7 @@ An evaluation of PREMIS metadata fields required was made from the work of [Kirs
 
 [PROV-O](https://www.w3.org/TR/2013/REC-prov-dm-20130430/)
 
-PROV-O was consulted as an alternative to PREMIS and was found to be compatible with the entities in the Data Model as it is. The main point of reference was the [Agents and Responsibility Overview](https://www.w3.org/TR/2013/REC-prov-dm-20130430/#figure-component3) which identifies Person, Organisation and Software as the primary agents. As with PREMIS, the relevant set of activity metadata will have to built up from the implementation case. This can be expanded upon as user requirements demand.
+PROV-O was consulted as an alternative to PREMIS and was found to be compatible with the entities in the Data Model as it is. The main point of reference was the [Agents and Responsibility Overview](https://www.w3.org/TR/2013/REC-prov-dm-20130430/#figure-component3) which identifies `Person`, `Organisation` and `Software` as the primary agents. As with PREMIS, the relevant set of activity metadata will have to built up from the implementation case. This can be expanded upon as user requirements demand.
 
 One of the appealing aspects of PROV-O was the pre-existing [mapping](https://www.w3.org/TR/2013/NOTE-prov-dc-20130430/#list_of_direct_terms_props) to Dublin Core, offering a simple (although structured) approach to the metadata.
 
@@ -54,7 +54,7 @@ The managed metadata folder for Preservation will be populated over the coming w
 
 **CRIS**
 
-The [CERIF](http://www.eurocris.org/ontologies/cerif/1.3/#) ontology was very important in understanding the central role of the project within the data model and influenced the inclusion of FOAF relational attributes for Person and Organisation. The Project entity in the data model should resemble / map to CERIF. The presence of provenance in CERIF was also a useful guide.  
+The [CERIF](http://www.eurocris.org/ontologies/cerif/1.3/#) ontology was very important in understanding the central role of the project within the data model and influenced the inclusion of FOAF relational attributes for Person and Organisation. The `Project` entity in the data model should resemble / map to CERIF. The presence of provenance in CERIF was also a useful guide.  
 
 **Jisc metadata standards**
 
@@ -72,25 +72,25 @@ A rich metadata set that allows pieces of experimental equipment to be identifie
 
 **Research objects** (orange)
 
-- Dataset
-- Publication
-- Software
+- `Dataset`
+- `Publication`
+- `Software`
 
 **Material assets** (blue)
 
-- Person
-- Organisation
-- Storage
-- Material
-- Equipment
+- `Person`
+- `Organisation`
+- `Storage`
+- `Material`
+- `Equipment`
 
 **Information assets** (green)
 
-- Project
-- Grant
-- DMP
-- Standards
-- Data acquisition
-- Dimensions
-- Rights
-- Access
+- `Project`
+- `Grant`
+- `DMP`
+- `Standards`
+- `Data acquisition`
+- `Dimensions`
+- `Rights`
+- `Access`
