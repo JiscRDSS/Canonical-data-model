@@ -1,111 +1,105 @@
-#File
+# File
 
 Properties associated with an individual file.
 
 ------------
 
-###[File Name](#file-name-1)
-###[File size](#file-size-1)
-###[Label](#label-1)
-###[Date Created](#date-created-1)
-###[File Hash](#file-hash-1)
-###[MD5 checksum](#md5-cheksum-1)
-###[File Format Type](#file-format-type-1)
-###[File composition level](#file-composition-level-1)
-###[Has Mime Type](#has-mime-type-1)  
-###[Date Modified](#date-modified-1) 
-###[PUID](#puid-1)
-###[File Use](#file-use-1)
+### [File Name](#file-name-1)
+### [File size](#file-size-1)
+### [Label](#label-1)
+### [Date Created](#date-created-1)
+### [File Hash](#file-hash-1)
+### [MD5 checksum](#md5-cheksum-1)
+### [File Format Type](#file-format-type-1)
+### [File composition level](#file-composition-level-1)
+### [Has Mime Type](#has-mime-type-1)  
+### [Date Modified](#date-modified-1) 
+### [PUID](#puid-1)
+### [File Use](#file-use-1)
 
 ------------
 
-##File Name
-###Description
+## File Name
+### Description
 The name of the file containing the resource.
-###Derivation
+### Derivation
 http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#filename
-###Mapping
+### Mapping
 nfo:fileName, premis:hasOriginalName
-###Obligation	
+### Obligation	
 Mandatory
-###Occurence	
+### Occurence	
 Non-repeatable 
-###Content 
+### Content 
 xsd:string 
-###Example
+### Example
 yul-269695.OBJ.pdf
 
 ------------
 
-##File size 
-###Description
+## File size 
+### Description
 to provide the size of a MediaResource in bytes 
-###Derivation
+### Derivation
 http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#fileSize
-###Mapping 
+### Mapping 
 nfo:fileSize, dct:extent, premis:hasSize
-###Obligation	
+### Obligation	
 Mandatory
-###Occurence	
+### Occurence	
 Non-repeatable
-###Content 
+### Content 
 xsd:integer 
-###Example
+### Example
 709162
 
 ------------
 
-##Label 
-###Description
+## Label 
+### Description
 Descriptive label 
-###Derivation
+### Derivation
 http://www.w3.org/2000/01/rdf-schema#label
-###Mapping
-###Obligation	
+### Mapping
+### Obligation	
 Optional
-###Occurence	
+### Occurence	
 Non-repeatable
-###Content 
+### Content 
 xsd:string
-###Example
+### Example
 Unmodified original
 
 ------------
 
-##Date Created  
-###Description
+## Date Created  
+### Description
 Creation date of the resource. 
-###Derivation
+### Derivation
 http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#dateCreated
-###Mapping
+### Mapping
 nfo:fileCreated, dct:created 
-###Obligation	
+### Obligation	
 Optional
-###Occurence	
+### Occurence	
 Non-repeatable
-###Content 
+### Content 
 ISO8601 dateTime
-###Example
+### Example
 2013-11-29T13:56:46-04:00
 
 ------------
 
 ## File Storage Location
-
 ### Description
 The location or address of a File on a storage system.
-
 ### Derivation
 http://www.loc.gov/standards/premis/premis.xsd/v3/file/storage/contentLocation/contentLocationValue
-
 ### Obligation
 Mandatory
-
 ### Occurence
 Non-repeatable
-
 // if this is changed to allow for repeatable occurence then a new StorageLocation entity should be created in the CDM logical model with LocationValue and LocationType as properties. 
-
 ### Example
 * s3://rdss-prod-figshare-0132/bird-sounds.mp3
 * http://example.com/filestore/a385948a-2c70-11e7-93ae-92361f002671
@@ -114,19 +108,14 @@ Non-repeatable
 ------------
 
 ## File Storage Type
-
 ### Description
 Information about the protocol or scheme used in conjunction with the File Storage Location value. Required to make valid references and read requests to the File's storage location.
-
 ### Derivation
 http://www.loc.gov/standards/premis/premis.xsd/v3/file/storage/contentLocation/contentLocationType
-
 ### Obligation
 Mandatory
-
 ### Occurence
 Non-repeatable
-
 ### Content
 Controlled vocabulary
 ####Example
@@ -135,86 +124,67 @@ Controlled vocabulary
 
 ------------
 
-##File Hash  
-
-###Description
+## File Hash  
+### Description
 The output of the message digest algorithm. 
-
-###Derivation
+### Derivation
 http://www.loc.gov/premis/rdf/v1#hasMessageDigest
-
-###Mapping
+### Mapping
 ebucore:hash, nfo:hasHash
-
-###Obligation	
+### Obligation	
 Recommended 
-
-###Occurence	
+### Occurence	
 Repeatable
-
-###Content
+### Content
 xsd:string
-###Example
+### Example
 7c9b35da4f2ebd436f1cf88e5a39b3a257edf4a22be3c955ac49da2e2107b67a1924419563
 
 ------------
 
-##MD5 checksum  
-
-###Description
+## MD5 checksum  
+### Description
 The MD5 checksum of the file content
-
-###Derivation
+### Derivation
 http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/md5
+### Mapping
 
-###Mapping
- 
-
-###Obligation	
+### Obligation	
 Optional 
-
-###Occurence	
+### Occurence	
 Non-repeatable
+### Content
 
-###Content 
-###Example
+### Example
 d3b07384d113edec49eaa6238ad5ff00
 
 ------------
 
-##File Format Type  
-
-###Description
+## File Format Type  
+### Description
 Category or Genre of the File
-
-###Derivation
+### Derivation
 http://www.w3.org/1999/02/22-rdf-syntax-ns#type
 http://purl.org/coar/resource_type/ 
 datacite:resourceTypeGeneral 
-
-
-###Mapping
+### Mapping
 datacite:resourceTypeGeneral
 rdf:Resource
 pcdm:Document
-
-###Obligation	
+### Obligation	
 Recommended
-
-###Occurence	
+### Occurence	
 Non-repeatable
-
-###Content
+### Content
 Controlled Vocabulary
-###Example
+### Example
 software
 http://purl.org/coar/resource_type/c_5ce6
 
 ------------
 
-##File Composition Level  
-
-###Description
+## File Composition Level  
+### Description
 An indication of whether the object is subject to one or more
 processes of decoding or unbundling.
 
@@ -225,123 +195,95 @@ level and can supply this metadata. If the object is being ingested by
 the repository, repository programs will have to attempt to identify
 the composition level from the object itself or from externally
 supplied metadata.
-
-###Derivation
+### Derivation
 PREMIS
+### Mapping
 
-###Mapping
-
-###Obligation	
+### Obligation	
 Mandatory
-
-###Occurence	
+### Occurence	
 Non-repeatable
-
-###Content
+### Content
 Integer
-###Example
+### Example
 0
 ------------
-##Has Mime Type  
+## Has Mime Type  
 
-###Description
- 
+### Description
 
-###Derivation
+### Derivation
 http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasMimeType
-
-###Mapping
+### Mapping
 dct:format, pronom:internetMediaType
-
-###Obligation	
+### Obligation	
 Recommended 
-
-###Occurence	
+### Occurence	
 Non-repeatable
-
-###Content 
+### Content 
 xsd:string
-###Example
+### Example
 application/pdf
 
 ------------
 
-##Date Modified 
+## Date Modified 
 
-###Description
+### Description
 Indicate the date at which the media resource has been modified.
-
-###Derivation
+### Derivation
 ebucore:dateModified
 http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#dateModified
-
-
-###Mapping
+### Mapping
 nfo:fileLastModified, dct:modified
-
-###Obligation	
+### Obligation	
 Optional 
-
-###Occurence	
+### Occurence	
 Non-repeatable
-
-###Content 
+### Content 
 ISO8601 dateTime
-###Example
+### Example
 2013-11-29T13:56:46-04:00
 
 ------------
 
-##PUID 
+## PUID 
 
-###Description
+### Description
 Pronom ID to uniquely identify file format
-
-###Derivation
+### Derivation
 PRONOM
-
-###Mapping
+### Mapping
 premis:hasFormatName + premis:hasFormatVersion
 premis:hasFormatRegistryKey (?)
-
-
-###Obligation	
+### Obligation	
 Optional
-
-###Occurence	
+### Occurence	
 Non-repeatable
-
-###Content 
-###Example
+### Content 
+### Example
 fmt/20
 
 ------------
 
-##File Use
+## File Use
 
-###Description
+### Description
 relational value between file and object in PCDM heircharchy 
-
-###Derivation
+### Derivation
 PCDM
-
-###Mapping
+### Mapping
  
-
-###Obligation	
+### Obligation	
 Optional
 Recommended for preservation
-
-###Occurence	
+### Occurence	
 Non-repeatable
-
-###Content 
+### Content 
 [Controlled Vocabulary](#controlled-vocabulary-terms)
-###Example
+### Example
 Service file
-
-##Controlled Vocabulary Terms
-
+## Controlled Vocabulary Terms
 Value | Description 
 ------|------------
 Original File | the original file uploaded by the user
