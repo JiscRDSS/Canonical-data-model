@@ -50,8 +50,6 @@ PROV-O was consulted as an alternative to PREMIS and was found to be compatible 
 
 One of the appealing aspects of PROV-O was the pre-existing [mapping](https://www.w3.org/TR/2013/NOTE-prov-dc-20130430/#list_of_direct_terms_props) to Dublin Core, offering a simple (although structured) approach to the metadata.
 
-The managed metadata folder for Preservation will be populated over the coming weeks.
-
 **CRIS**
 
 The [CERIF](https://www.eurocris.org/ontologies/cerif/1.3/index.html) ontology was very important in understanding the central role of the project within the data model and influenced the inclusion of FOAF relational attributes for Person and Organisation. The `Project` entity in the data model should resemble / map to CERIF. The presence of provenance in CERIF was also a useful guide.  
