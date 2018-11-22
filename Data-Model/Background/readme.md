@@ -54,7 +54,7 @@ The managed metadata folder for Preservation will be populated over the coming w
 
 **CRIS**
 
-The [CERIF](http://www.eurocris.org/ontologies/cerif/1.3/#) ontology was very important in understanding the central role of the project within the data model and influenced the inclusion of FOAF relational attributes for Person and Organisation. The `Project` entity in the data model should resemble / map to CERIF. The presence of provenance in CERIF was also a useful guide.  
+The [CERIF](https://www.eurocris.org/ontologies/cerif/1.3/index.html) ontology was very important in understanding the central role of the project within the data model and influenced the inclusion of FOAF relational attributes for Person and Organisation. The `Project` entity in the data model should resemble / map to CERIF. The presence of provenance in CERIF was also a useful guide.  
 
 **Jisc metadata standards**
 
