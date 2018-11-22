@@ -36,13 +36,13 @@ The iterative and important attribution of standards is an essential part of any
 
 The Portland Common Data Model was very important when making decisions about the level to which metadata could be attributed. This was a key discussion area in the Research Data Discovery Service project and the PCDM was critical in resolving issues about the file level to which metadata could sensibly be attributed. The three level model that the PCDM offers, ranging from bitstream and access metadata at file level up to descriptive metadata at a higher complexity level (such as file set and collection, which can both stand in for dataset) sits alongside the `Project` and `Dataset` instances in the RDSS model.
 
-PCDM makes much use of the [EBUcore](https://tech.ebu.ch/MetadataEbuCore) ontology, which has been included as the source for many file level [attributes](https://github.com/JiscRDSS/Metadata/blob/master/properties/File/file.md).
+PCDM makes much use of the [EBUcore](https://tech.ebu.ch/MetadataEbuCore) ontology, which has been included as the source for many file level attributes.
 
 **Preservation models**
 
 [PREMIS](http://www.loc.gov/standards/premis/v3/)
 
-An evaluation of PREMIS metadata fields required was made from the work of [Kirsty Lee](https://twitter.com/thebitgardener), digital archivivst at the University of Edinburgh. The dataset captured for her [blog post](http://libraryblogs.is.ed.ac.uk/bitsandpieces/2016/01/13/archivematica-youre-the-one-that-i-want/) on evaluating Archivematica for PREMIS metadata was used as the base point for creating a [diagram](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/master/Data-Model/Diagrams/Concept-model/Preservation%20data%20model%20image.png) for expected preservation metadata. This deals with fields only, not the workflow.
+An evaluation of PREMIS metadata fields required was made from the work of [Kirsty Lee](https://twitter.com/thebitgardener), digital archivivst at the University of Edinburgh. The dataset captured for her [blog post](http://libraryblogs.is.ed.ac.uk/bitsandpieces/2016/01/13/archivematica-youre-the-one-that-i-want/) on evaluating Archivematica for PREMIS metadata was used as the base point for creating a [diagram](https://github.com/JiscRDSS/rdss-canonical-data-model/blob/4.0.0/Data-Model/Background/Preservation%20data%20model%20image.png) for expected preservation metadata. This deals with fields only, not the workflow.
 
 [PROV-O](https://www.w3.org/TR/2013/REC-prov-dm-20130430/)
 
