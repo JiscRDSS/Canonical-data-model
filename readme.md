@@ -1,12 +1,12 @@
 # Data model documentation store
 
-The folder contains the latest version for the canonical data model that supports the Research Data Shared Service. This folder also contains the [concept model](https://github.com/JiscRDSS/rdss-canonical-data-model/tree/master/Data-Model/Background). The concept model is for **background information only**.
+Information about the latest version of the canonical data model supporting the Research Data Shared Service can be found in the [Data-Model](https://github.com/JiscRDSS/rdss-canonical-data-model/tree/master/Data-Model) folder. The [Background](https://github.com/JiscRDSS/rdss-canonical-data-model/tree/master/Data-Model/Background) folder contains the concept model is, which is provided for **background information only**.
 
-The [properties](https://github.com/JiscRDSS/rdss-canonical-data-model/tree/master/properties) folder contains information about the metadata properties present in the data model - including cardinality, derivation and description. This documentation is **work in progress** and is being updated regularly as the data model develops.
+UML diagrams in this repository are in the metadata-json format with an `.mdj` extension, and can be viewed using [StarUML](http://staruml.io/).
 
 ## Versioning
 
-Current version:&nbsp;&nbsp;&nbsp;&nbsp;`3.0.0`.
+Current version:&nbsp;&nbsp;&nbsp;&nbsp;`4.0.0`.
 
 Releases of this data model can be found under [Releases](https://github.com/JiscRDSS/rdss-message-api-docs/releases). Vendors **MUST** implement against a release - all other branches are considered in a constant state of flux and **MAY** change at any time.
 

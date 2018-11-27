@@ -1,7 +1,4 @@
-
 # RDSS Concept Model
-
-The file in this folder can be viewed using [StarUML](http://staruml.io/).
 
 Please note that this document was prepared in 2017 during the early development of the canonical data model and serves as background only. The [latest version](https://github.com/JiscRDSS/rdss-canonical-data-model/tree/master/Data-Model) (and all previous semantically versioned iterations) are available in the main folder.
 

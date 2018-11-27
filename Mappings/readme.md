@@ -1,4 +1,3 @@
-
 ### CDM mappings
 
 This folder contains mapping spreadsheets between source domains and the RDSS canonical data model. 
