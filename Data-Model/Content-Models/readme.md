@@ -2,7 +2,7 @@
 
 ## Background
 
-As part of the development of the canonical data model (CDM), certain practical decisions were made about the amount of content that could be shown at the Object level. It was important for the CDM to remain unopinionated about an object, and sought to identify a minimum metadata set that would apply to all objects. 
+As part of the development of the Canonical data model (CDM), certain practical decisions were made about the amount of content that could be shown at the Object level. It was important for the CDM to remain unopinionated about an object, and sought to identify a minimum metadata set that would apply to all objects. 
 
 However, following from schemas such as Datacite (research data focused) and IRUS UK (research publications focused), the CDM contained a resourceType field, where a more specific class of object could be expressed.
 
