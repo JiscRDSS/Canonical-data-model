@@ -1,6 +1,6 @@
 # Data model documentation store
 
-Information about the latest version of the canonical data model supporting the Research Data Shared Service can be found in the [Data-Model](https://github.com/JiscRDSS/rdss-canonical-data-model/tree/master/Data-Model) folder. The [Background](https://github.com/JiscRDSS/rdss-canonical-data-model/tree/master/Data-Model/Background) folder contains the concept model is, which is provided for **background information only**.
+Information about the latest version of the canonical data model supporting the Jisc Open Research Hub can be found in the [Data-Model](https://github.com/JiscRDSS/rdss-canonical-data-model/tree/master/Data-Model) folder. The [Background](https://github.com/JiscRDSS/rdss-canonical-data-model/tree/master/Data-Model/Background) folder contains the concept model is, which is provided for **background information only**.
 
 UML diagrams in this repository are in the metadata-json format with an `.mdj` extension, and can be viewed using [StarUML](http://staruml.io/).
 
