@@ -21,6 +21,9 @@
 ## collectionPersonRole 
 
 
+## collectionIdentifier 
+
+
 ## collectionUUID 1 
 # collectionUUID
 
@@ -148,7 +151,7 @@ Collection of aerial photography taken using drones in June 2014.
 ## collectionRelatedIdentifier 0..* 
 # collectionRelatedIdentifier
 
-#### Information about this property is available in the Identifier entity.
+#### Information about this property is available in the IdentifierRelationship entity.
 
 ## collectionPersonRole 0..* 
 # collectionPersonRole

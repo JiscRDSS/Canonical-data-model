@@ -85,13 +85,6 @@ Full digital photography mapping of Brent Knoll using UAVs.
 
 #### Further information about this property is available in the Collection entity.
 
-## projectGroup 1..* 
-# projectGroup
-
-#### Groups associated with the project.
-
-#### Further information about this property is available in the Group entity.
-
 ## projectGrant 0..* 
 # projectGrant
 
